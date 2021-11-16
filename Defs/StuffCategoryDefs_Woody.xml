@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <!-- Timbers categorys-->
+    <StuffCategoryDef>
+        <defName>Hardwoods</defName>
+        <label>Hardwood Timbers</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>Softwoods</defName>
+        <label>Softwood Timbers</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>Ultrahardwoods</defName>
+        <label>Ultra-hardwood Timbers</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>Bambooish</defName>
+        <label>Raw Bamboo</label>
+    </StuffCategoryDef>
+
+    <!-- Lumber categorys-->
+    <StuffCategoryDef>
+        <defName>HardwoodLumber</defName>
+        <label>Hardwood Lumber</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>SoftwoodLumber</defName>
+        <label>Softwood Lumber</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>UltrahardwoodLumber</defName>
+        <label>Ultra-hardwood Lumber</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>EngineeredLumber</defName>
+        <label>Engineered Lumber</label>
+    </StuffCategoryDef>
+
+</Defs>

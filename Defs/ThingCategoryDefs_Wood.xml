@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Raw Timber -->
+    <!-- Parent -->
+    <ThingCategoryDef>
+        <defName>RawTimber</defName>
+        <label>Raw Timber</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>ResourcesRaw</parent>
+    </ThingCategoryDef>
+
+    <!-- Childs -->
+    <ThingCategoryDef>
+        <defName>HardwoodsTimbers</defName>
+        <label>Hardwood Timbers</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>RawTimber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>SoftwoodsTimbers</defName>
+        <label>Softwood Timbers</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>RawTimber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>UltrahardwoodsTimbers</defName>
+        <label>Ultra-hardwood Timbers</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>RawTimber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>BambooTimbers</defName>
+        <label>Unrefined Bamboo</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>RawTimber</parent>
+    </ThingCategoryDef>
+
+    <!-- WoodPlanks -->
+    <!-- Parent -->
+    <ThingCategoryDef>
+        <defName>Lumber</defName>
+        <label>Lumber Planks</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Manufactured</parent>
+    </ThingCategoryDef>
+
+    <!-- Childs -->
+    <ThingCategoryDef>
+        <defName>HardwoodLumberPlanks</defName>
+        <label>Hardwood Lumber Planks</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Lumber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>SoftwoodLumberPlanks</defName>
+        <label>Softwood Lumber Planks</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Lumber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>UltrahardwoodLumberPlanks</defName>
+        <label>Ultra-hardwood Lumber Planks</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Lumber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>EngineeredLumberPlanks</defName>
+        <label>Engineered Lumber Planks</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Lumber</parent>
+    </ThingCategoryDef>
+
+</Defs>

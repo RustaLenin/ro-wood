@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\testmod\Assemblies\RimWorldTestMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\testmod\Source\RimWorldTestMod\obj\Debug\RimWorldTestMod.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\testmod\Source\RimWorldTestMod\obj\Debug\RimWorldTestMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\testmod\Source\RimWorldTestMod\obj\Debug\RimWorldTestMod.dll

@@ -50,29 +50,36 @@
 
     <!-- Childs -->
     <ThingCategoryDef>
-        <defName>HardwoodLumberPlanks</defName>
-        <label>Hardwood Lumber Planks</label>
+        <defName>WoodSlabs</defName>
+        <label>WoodSlabs</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>SoftwoodLumberPlanks</defName>
-        <label>Softwood Lumber Planks</label>
+        <defName>HardwoodLumber</defName>
+        <label>Hardwood Lumber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>UltrahardwoodLumberPlanks</defName>
-        <label>Ultra-hardwood Lumber Planks</label>
+        <defName>SoftwoodLumber</defName>
+        <label>Softwood Lumber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>EngineeredLumberPlanks</defName>
-        <label>Engineered Lumber Planks</label>
+        <defName>UltrahardwoodLumber</defName>
+        <label>Ultra-hardwood Lumber</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Lumber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>EngineeredLumber</defName>
+        <label>Engineered Lumber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>Lumber</parent>
     </ThingCategoryDef>

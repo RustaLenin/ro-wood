@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <!-- WoodSlab Planks-->
+    <ThingDef Name="SlabPlank" ParentName="TimberBase">
+        <defName>SlabPlank</defName>
+        <label>slabplank</label>
+        <description>Cheap and low quality wood plank with tree bark on from one of the sides</description>
+        <graphicData>
+            <texPath>LumberSlab</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>30</MaxHitPoints>
+            <Beauty>-1</Beauty>
+            <MarketValue>0.3</MarketValue>
+            <Mass>0.5</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets>
+                <Beauty>-1</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Slabplank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>WoodSlabs</li>
+            </categories>
+            <statFactors>
+                <MaxHitPoints>0.3</MaxHitPoints>
+                <Flammability>1.5</Flammability>
+                <Beauty>0.3</Beauty>
+                <WorkToMake>0.30</WorkToMake>
+                <WorkToBuild>0.30</WorkToBuild>
+                <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+                <MoveSpeed>0.8</MoveSpeed>
+                <DoorOpenSpeed>0.8</DoorOpenSpeed>
+                <MarketValue>0.2</MarketValue>
+                <BedRestEffectiveness>0.5</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
+                <WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
+                <Mass>2</Mass>
+            </statFactors>
+        </stuffProps>
+        <tools>
+            <li>
+                <label>log</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>1</cooldownTime>
+            </li>
+        </tools>
+        <thingCategories Inherit="False">
+            <li>WoodSlabs</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- SoftWood Planks-->
+    <ThingDef Name="CecropiaPlank" ParentName="CecropiaLog">
+        <defName>CecropiaPlank</defName>
+        <label>cecropia plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>0.8</MarketValue>
+            <Mass>0.25</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>1</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Cecropia plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>SoftwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>SoftwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="WillowPlank" ParentName="WillowLog">
+        <defName>WillowPlank</defName>
+        <label>willow plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>0.8</MarketValue>
+            <Mass>0.275</Mass>
+        </statBases>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>1</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Willow plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>SoftwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>SoftwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="PinePlank" ParentName="PineLog">
+        <defName>PinePlank</defName>
+        <label>pine plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>0.8</MarketValue>
+            <Mass>0.3</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>2</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Pine plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>SoftwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>SoftwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="CypressPlank" ParentName="CypressLog">
+        <defName>CypressPlank</defName>
+        <label>cypress plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>0.8</MarketValue>
+            <Mass>0.32</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>1</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Cypress plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>SoftwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>SoftwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="PoplarPlank" ParentName="PoplarLog">
+        <defName>PoplarPlank</defName>
+        <label>poplar plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.35</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>0</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Poplar plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>SoftwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>SoftwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- HardWood Planks-->
+
+    <ThingDef Name="MaplePlank" ParentName="MapleLog">
+        <defName>MaplePlank</defName>
+        <label>maple plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>1</MarketValue>
+            <Mass>0.37</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>3</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Maple plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>HardwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>HardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="SequoiaPlank" ParentName="SequoiaLog">
+        <defName>SequoiaPlank</defName>
+        <label>sequoia plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>3.3</MarketValue>
+            <Mass>0.37</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>3</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Sequoia plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>HardwoodLumber</li>
+                <li>Woody</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>HardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="BirchPlank" ParentName="BirchLog">
+        <defName>BirchPlank</defName>
+        <label>birch plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+            <color>(217,176,167)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>1</MarketValue>
+            <Mass>0.45</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>0</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Birch plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>HardwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>HardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="TeakPlank" ParentName="TeakLog">
+        <defName>TeakPlank</defName>
+        <label>teak plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>1.5</MarketValue>
+            <Mass>0.55</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>4</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Teak plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>HardwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>HardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="OakPlank" ParentName="OakLog">
+        <defName>OakPlank</defName>
+        <label>oak plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>1.8</MarketValue>
+            <Mass>0.65</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>2</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Oak plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>HardwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>HardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- UltraHardWood Planks-->
+
+    <ThingDef Name="DragonwoodPlank" ParentName="DragonwoodLog">
+        <defName>DragonwoodPlank</defName>
+        <label>dragonwood plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+            <color>(196,56,27)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>2</MarketValue>
+            <Mass>0.45</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>3</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Dragonwood plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>UltrahardwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>UltrahardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="MangrovePlank" ParentName="MangroveLog">
+        <defName>MangrovePlank</defName>
+        <label>mangrove plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+            <color>(128,106,121)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>2</MarketValue>
+            <Mass>0.45</Mass>
+        </statBases>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>2</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Mangrove plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>UltrahardwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>UltrahardwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="UnfinishedBase">
+        <defName>UnfinishedWoodWork</defName>
+        <label>unfinished woodwork</label>
+        <description>An unfinished woodwork.</description>
+        <graphicData>
+            <texPath>UnfinishedLog</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <stuffCategories Inherit="false">
+            <li>Woody</li>
+        </stuffCategories>
+        <comps>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

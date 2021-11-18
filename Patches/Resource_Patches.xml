@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>
+		<value>
+			<label>firewood</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/description</xpath>
+		<value>
+			<description>Logs split into large chunks which can be used as fuel.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>NewFirewood</texPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps/statFactors</xpath>
+		<value>
+			<statFactors>
+				<MaxHitPoints>0.5</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>-2</Beauty>
+				<WorkToMake>0.4</WorkToMake>
+				<WorkToBuild>0.4</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.75</MoveSpeed>
+				<MarketValue>0.3</MarketValue>
+				<BedRestEffectiveness>0.6</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.6</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
+				<DoorOpenSpeed>0.8</DoorOpenSpeed>
+				<Mass>2</Mass>
+			</statFactors>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>	
+		<value>
+			<stackLimit>500</stackLimit>
+		</value>
+	</Operation>
+
+</Patch>

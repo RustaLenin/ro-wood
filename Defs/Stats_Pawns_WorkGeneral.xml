@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <StatDef>
+        <defName>ROWood_TreeChopWorkSpeed</defName>
+        <label>tree chopping speed</label>
+        <description>The speed at which this person chops down trees.</description>
+        <category>PawnWork</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0.1</minValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <neverDisabled>true</neverDisabled>
+        <statFactors>
+            <li>WorkSpeedGlobal</li>
+        </statFactors>
+        <skillNeedFactors>
+            <li Class="SkillNeed_Direct">
+                <skill>Plants</skill>
+                <valuesPerLevel>
+                    <li>0.1</li>
+                    <li>0.3</li>
+                    <li>0.5</li>
+                    <li>0.6</li>
+                    <li>0.7</li>
+                    <li>0.8</li>
+                    <li>0.9</li>
+                    <li>1</li>
+                    <li>1.08</li>
+                    <li>1.15</li>
+                    <li>1.20</li>
+                    <li>1.25</li>
+                    <li>1.28</li>
+                    <li>1.31</li>
+                    <li>1.34</li>
+                    <li>1.37</li>
+                    <li>1.40</li>
+                    <li>1.43</li>
+                    <li>1.46</li>
+                    <li>1.48</li>
+                    <li>1.50</li>
+                </valuesPerLevel>
+            </li>
+            <li Class="SkillNeed_Direct">
+                <skill>Crafting</skill>
+                <valuesPerLevel>
+                    <li>0.7</li>
+                    <li>0.75</li>
+                    <li>0.8</li>
+                    <li>0.85</li>
+                    <li>0.9</li>
+                    <li>0.95</li>
+                    <li>0.975</li>
+                    <li>1</li>
+                    <li>1.03</li>
+                    <li>1.06</li>
+                    <li>1.09</li>
+                    <li>1.12</li>
+                    <li>1.15</li>
+                    <li>1.18</li>
+                    <li>1.20</li>
+                    <li>1.21</li>
+                    <li>1.22</li>
+                    <li>1.23</li>
+                    <li>1.24</li>
+                    <li>1.25</li>
+                    <li>1.25</li>
+                </valuesPerLevel>
+            </li>
+        </skillNeedFactors>
+        <capacityFactors>
+            <li>
+                <capacity>Manipulation</capacity>
+                <weight>1</weight>
+            </li>
+            <li>
+                <capacity>Sight</capacity>
+                <weight>0.2</weight>
+                <max>1</max>
+            </li>
+        </capacityFactors>
+        <displayPriorityInCategory>4550</displayPriorityInCategory>
+    </StatDef>
+
+    <StatDef>
+        <defName>ROWood_WoodWorkingSpeed</defName>
+        <label>wood working speed</label>
+        <description>The speed at which this person chop logs into firewood, saw timber into lumber and make other work with wood.</description>
+        <category>PawnWork</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0.1</minValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <neverDisabled>true</neverDisabled>
+        <statFactors>
+            <li>WorkSpeedGlobal</li>
+        </statFactors>
+        <skillNeedFactors>
+            <li Class="SkillNeed_Direct">
+                <skill>Plants</skill>
+                <valuesPerLevel>
+                    <li>0.7</li>
+                    <li>0.75</li>
+                    <li>0.8</li>
+                    <li>0.85</li>
+                    <li>0.9</li>
+                    <li>0.95</li>
+                    <li>0.975</li>
+                    <li>1</li>
+                    <li>1.03</li>
+                    <li>1.06</li>
+                    <li>1.09</li>
+                    <li>1.12</li>
+                    <li>1.15</li>
+                    <li>1.18</li>
+                    <li>1.20</li>
+                    <li>1.21</li>
+                    <li>1.22</li>
+                    <li>1.23</li>
+                    <li>1.24</li>
+                    <li>1.25</li>
+                    <li>1.25</li>
+                </valuesPerLevel>
+            </li>
+            <li Class="SkillNeed_Direct">
+                <skill>Crafting</skill>
+                <valuesPerLevel>
+                    <li>0.1</li>
+                    <li>0.3</li>
+                    <li>0.5</li>
+                    <li>0.6</li>
+                    <li>0.7</li>
+                    <li>0.8</li>
+                    <li>0.9</li>
+                    <li>1</li>
+                    <li>1.08</li>
+                    <li>1.15</li>
+                    <li>1.20</li>
+                    <li>1.25</li>
+                    <li>1.28</li>
+                    <li>1.31</li>
+                    <li>1.34</li>
+                    <li>1.37</li>
+                    <li>1.40</li>
+                    <li>1.43</li>
+                    <li>1.46</li>
+                    <li>1.48</li>
+                    <li>1.50</li>
+                </valuesPerLevel>
+            </li>
+        </skillNeedFactors>
+        <capacityFactors>
+            <li>
+                <capacity>Manipulation</capacity>
+                <weight>1</weight>
+            </li>
+            <li>
+                <capacity>Sight</capacity>
+                <weight>0.2</weight>
+                <max>1</max>
+            </li>
+        </capacityFactors>
+        <displayPriorityInCategory>4550</displayPriorityInCategory>
+    </StatDef>
+
+</Defs>

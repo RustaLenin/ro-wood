@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef name="ChopLogsIntoFireWood_Hand">
+        <defName>ChopLogsIntoFireWood_Hand</defName>
+        <label>Chop logs into firewood (x20)</label>
+        <description>Chop timber logs into firewood.</description>
+        <jobString>Chopping logs into firewood.</jobString>
+        <workAmount>300</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>LogChopping</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>RawTimber</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <WoodLog>20</WoodLog>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>SawLogsIntoFireWood_Electric_Singly</defName>
+        <label>Saw logs into firewood (x20)</label>
+        <description>Saw logs into firewood on this electric sawmill.</description>
+        <jobString>Sawing logs into firewood.</jobString>
+        <workAmount>300</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>RawTimber</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <WoodLog>20</WoodLog>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>SawLogsIntoFireWood_Electric_Batch</defName>
+        <label>Saw logs into firewood (x100)</label>
+        <description>Saw logs into firewood on this electric sawmill.</description>
+        <jobString>Batch sawing logs into firewood.</jobString>
+        <workAmount>1500</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>RawTimber</li>
+                    </categories>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <WoodLog>100</WoodLog>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+</Defs>

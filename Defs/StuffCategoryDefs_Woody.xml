@@ -44,4 +44,9 @@
         <label>Engineered Lumber</label>
     </StuffCategoryDef>
 
+    <StuffCategoryDef>
+        <defName>WoodSlabs</defName>
+        <label>Wood Slabs</label>
+    </StuffCategoryDef>
+
 </Defs>

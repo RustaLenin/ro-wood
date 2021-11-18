@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WorkTypeDef>
+        <defName>TreeChopping</defName>
+        <labelShort>Tree chop</labelShort>
+        <pawnLabel>Tree chopper</pawnLabel>
+        <gerundLabel>chopping trees</gerundLabel>
+        <description>Chop down trees as designated</description>
+        <verb>Chop</verb>
+        <naturalPriority>550</naturalPriority>
+        <requireCapableColonist>true</requireCapableColonist>
+        <relevantSkills>
+            <li>Plants</li>
+            <li>Crafting</li>
+        </relevantSkills>
+        <workTags>
+            <li>ManualSkilled</li>
+            <li>PlantWork</li>
+            <li>Commoner</li>
+            <li>AllWork</li>
+        </workTags>
+    </WorkTypeDef>
+
+    <WorkTypeDef>
+        <defName>WoodWorking</defName>
+        <labelShort>Wood work</labelShort>
+        <pawnLabel>Wood worker</pawnLabel>
+        <gerundLabel>Wood working</gerundLabel>
+        <description>Make something with wood</description>
+        <verb>Crafting</verb>
+        <naturalPriority>601</naturalPriority>
+        <requireCapableColonist>true</requireCapableColonist>
+        <relevantSkills>
+            <li>Crafting</li>
+            <li>Plants</li>
+        </relevantSkills>
+        <workTags>
+            <li>ManualSkilled</li>
+            <li>Crafting</li>
+            <li>Commoner</li>
+            <li>AllWork</li>
+        </workTags>
+    </WorkTypeDef>
+
+</Defs>

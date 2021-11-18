@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Recipes want to Inherit. WTF!?-->
+
+    <!-- SoftWood Recipes -->
+    <!-- Cecropia -->
+    <RecipeDef>
+        <defName>ROWood_SawCecropia</defName>
+        <label>cecropia plank(x20)</label>
+        <description>Saw cecropia timber logs into planks.</description>
+        <jobString>Sawing cecropia logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>CecropiaLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <CecropiaPlank>20</CecropiaPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawCecropia_Electric</defName>
+        <label>cecropia plank(x20)</label>
+        <description>Saw cecropia timber logs into planks.</description>
+        <jobString>Sawing cecropia logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>CecropiaLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <CecropiaPlank>20</CecropiaPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_BatchSawCecropia_Electric</defName>
+        <label>cecropia plank(x100)</label>
+        <description>Batch saw cecropia timber logs into planks.</description>
+        <jobString>Batch sawing cecropia logs.</jobString>
+        <workAmount>3000</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>CecropiaLog</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <CecropiaPlank>100</CecropiaPlank>
+            <SlabPlank>20</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <!-- Willow -->
+    <RecipeDef>
+        <defName>ROWood_SawWillow</defName>
+        <label>willow plank(x20)</label>
+        <description>Saw willow timber logs into planks.</description>
+        <jobString>Sawing willow logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>WillowLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <WillowPlank>20</WillowPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawPine</defName>
+        <label>pine plank(x20)</label>
+        <description>Saw pine timber logs into planks.</description>
+        <jobString>Sawing pine logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PineLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PinePlank>20</PinePlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawCypress</defName>
+        <label>cypress plank(x20)</label>
+        <description>Saw cypress timber logs into planks.</description>
+        <jobString>Sawing cypress logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>CypressLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <CypressPlank>20</CypressPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawPoplar</defName>
+        <label>poplar plank(x20)</label>
+        <description>Saw poplar timber logs into planks.</description>
+        <jobString>Sawing poplar logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PoplarLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PoplarPlank>20</PoplarPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <!-- HardWood Logs-->
+    <RecipeDef>
+        <defName>ROWood_SawMaple</defName>
+        <label>maple plank(x20)</label>
+        <description>Saw maple timber logs into planks.</description>
+        <jobString>Sawing maple logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MapleLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <MaplePlank>20</MaplePlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawSequoia</defName>
+        <label>sequoia plank(x20)</label>
+        <description>Saw sequoia timber logs into planks.</description>
+        <jobString>Sawing sequoia logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SequoiaLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <SequoiaPlank>20</SequoiaPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawBirch</defName>
+        <label>birch plank(x20)</label>
+        <description>Saw birch timber logs into planks.</description>
+        <jobString>Sawing birch logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BirchLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <BirchPlank>20</BirchPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawTeak</defName>
+        <label>teak plank(x20)</label>
+        <description>Saw teak timber logs into planks.</description>
+        <jobString>Sawing teak logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>TeakLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <TeakPlank>20</TeakPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawOak</defName>
+        <label>oak plank(x20)</label>
+        <description>Saw oak timber logs into planks.</description>
+        <jobString>Sawing oak logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>OakLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <OakPlank>20</OakPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <!-- UltraHardWood Logs-->
+    <RecipeDef>
+        <defName>ROWood_SawDragonwood</defName>
+        <label>dragonwood plank(x20)</label>
+        <description>Saw dragonwood timber logs into planks.</description>
+        <jobString>Sawing dragonwood logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DragonwoodLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <DragonwoodPlank>20</DragonwoodPlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawMangrove</defName>
+        <label>mangrove plank(x20)</label>
+        <description>Saw mangrove timber logs into planks.</description>
+        <jobString>Sawing mangrove logs.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MangroveLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <MangrovePlank>20</MangrovePlank>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+</Defs>

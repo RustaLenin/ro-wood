@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!-- In this file we rebalance vanilla trees -->
+
+    <!--******************************************************-->
+    <!--********* First step: Change production type *********-->
+    <!--******************************************************-->
+
+    <!-- SoftWood -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/plant</xpath>
+        <value>
+            <harvestedThingDef>CecropiaLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant</xpath>
+        <value>
+            <harvestedThingDef>WillowLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
+        <value>
+            <harvestedThingDef>PineLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant</xpath>
+        <value>
+            <harvestedThingDef>CypressLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant</xpath>
+        <value>
+            <harvestedThingDef>PoplarLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <!-- HardWood -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant</xpath>
+        <value>
+            <harvestedThingDef>MapleLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant</xpath>
+        <value>
+            <harvestedThingDef>BirchLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant</xpath>
+        <value>
+            <harvestedThingDef>TeakLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant</xpath>
+        <value>
+            <harvestedThingDef>OakLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <!-- UltraHardWood -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant</xpath>
+        <value>
+            <harvestedThingDef>DragonwoodLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <!--******************************************************-->
+    <!--******** Second step: Change production amount *******-->
+    <!--******************************************************-->
+
+    <!-- SoftWood -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>3</harvestYield>            <!-- was 30 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>2</harvestYield>            <!-- was 20 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>5</harvestYield>            <!-- was 50 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>4</harvestYield>            <!-- was 45 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>4</harvestYield>            <!-- was 40 -->
+        </value>
+    </Operation>
+
+    <!-- HardWood -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>4</harvestYield>            <!-- was 40 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>6</harvestYield>            <!-- was 60 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>6</harvestYield>            <!-- was 68 -->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>7</harvestYield>            <!-- was 75 -->
+        </value>
+    </Operation>
+
+    <!-- UltraHardWood -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>6</harvestYield>            <!-- was 60 -->
+        </value>
+    </Operation>
+
+    <!--******************************************************-->
+    <!--********* Third step: Change grow days speed *********-->
+    <!--******************************************************-->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/growDays</xpath>
+        <value>
+            <growDays>19</growDays>            <!-- was 23-->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant/growDays</xpath>
+        <value>
+            <growDays>17</growDays>            <!-- was 18-->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant/growDays</xpath>
+        <value>
+            <growDays>35</growDays>            <!-- was 18-->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/growDays</xpath>
+        <value>
+            <growDays>33</growDays>            <!-- was 30-->
+        </value>
+    </Operation>
+
+    <!--******************************************************-->
+    <!--************* Third step: Change graphics ************-->
+    <!--******************************************************-->
+
+    <!-- SoftWood -->
+    <!-- Cecropia -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeCecropia</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Willow -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeWillow</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Pine -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePine"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreePine</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePine"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Cypress -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeCypress</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Poplar -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreePoplar</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- HardWood -->
+    <!-- Maple -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeMaple</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Birch -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeBirch</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Teak -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeTeak</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Oak -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeOak</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- UltraHardWood -->
+    <!-- Drago -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Trees/TreeDrago</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!--******************************************************-->
+    <!--**************** Additional steps... *****************-->
+    <!--******************************************************-->
+
+</Patch>

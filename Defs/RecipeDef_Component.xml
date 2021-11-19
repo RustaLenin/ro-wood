@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef>
+        <defName>ROWood_MakeWoodComponent_Hand</defName>
+        <label>wood component (x4)</label>
+        <description>Carve simple wood component out of timber log.</description>
+        <jobString>Carving wood components.</jobString>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>WoodWorking</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>RawTimber</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <ComponentWood>4</ComponentWood>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <workAmount>500</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+</Defs>

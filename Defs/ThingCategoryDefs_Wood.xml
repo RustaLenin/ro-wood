@@ -84,4 +84,18 @@
         <parent>Lumber</parent>
     </ThingCategoryDef>
 
+    <!-- Fuel -->
+    <!-- Parent -->
+    <ThingCategoryDef>
+        <defName>ROWoodAllFuel</defName>
+        <label>Fuel</label>
+        <parent>Manufactured</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>ROWoodFuel</defName>
+        <label>Wood fuel</label>
+        <parent>ROWoodAllFuel</parent>
+    </ThingCategoryDef>
+
 </Defs>

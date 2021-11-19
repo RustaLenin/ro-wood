@@ -2,6 +2,7 @@
 
 <Patch>
 
+	<!-- WoodLog Patches-->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>
 		<value>
@@ -21,6 +22,10 @@
 		<value>
 			<texPath>NewFirewood</texPath>
 		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps/categories</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -45,10 +50,30 @@
 	</Operation>
 
 	<Operation Class="PatchOperationInsert">
-		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>	
+		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>
 		<value>
 			<stackLimit>500</stackLimit>
 		</value>
 	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>ROWoodFuel</li>
+			</thingCategories>
+		</value>
+	</Operation>
+
+	<!-- Chemfuel Patch-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Chemfuel"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>ROWoodAllFuel</li>
+			</thingCategories>
+		</value>
+	</Operation>
+
 
 </Patch>

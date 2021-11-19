@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>ComponentWood</defName>
+        <label>wood component</label>
+        <description>Miscellaneous simple wood based components, such as: sticks, cogs, grips, wheels, hooks, locks, buckles and other hardware using in construction and crafting. </description>
+        <graphicData>
+            <texPath>ComponentWood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <soundInteract>Wood_Drop</soundInteract>
+        <soundDrop>Wood_Drop</soundDrop>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>16</MarketValue>
+            <Flammability>1</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+            <Mass>0.5</Mass>
+        </statBases>
+        <useHitPoints>true</useHitPoints>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+    </ThingDef>
+
+</Defs>

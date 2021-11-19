@@ -14,7 +14,7 @@
             <MaxHitPoints>30</MaxHitPoints>
             <Beauty>-1</Beauty>
             <MarketValue>0.3</MarketValue>
-            <Mass>0.5</Mass>
+            <Mass>0.8</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -70,7 +70,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>0.8</MarketValue>
-            <Mass>0.25</Mass>
+            <Mass>0.24</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -100,7 +100,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>0.8</MarketValue>
-            <Mass>0.275</Mass>
+            <Mass>0.24</Mass>
         </statBases>
         <stuffProps>
             <statOffsets Inherit="False">
@@ -129,7 +129,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>0.8</MarketValue>
-            <Mass>0.3</Mass>
+            <Mass>0.24</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -159,7 +159,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>0.8</MarketValue>
-            <Mass>0.32</Mass>
+            <Mass>0.29</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -189,7 +189,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>0.5</MarketValue>
-            <Mass>0.35</Mass>
+            <Mass>0.29</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -221,7 +221,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>1</MarketValue>
-            <Mass>0.37</Mass>
+            <Mass>0.34</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -251,7 +251,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>3.3</MarketValue>
-            <Mass>0.37</Mass>
+            <Mass>0.34</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -282,7 +282,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>1</MarketValue>
-            <Mass>0.45</Mass>
+            <Mass>0.34</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -312,7 +312,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>1.5</MarketValue>
-            <Mass>0.55</Mass>
+            <Mass>0.44</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -342,7 +342,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>1.8</MarketValue>
-            <Mass>0.65</Mass>
+            <Mass>0.54</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -375,7 +375,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>2</MarketValue>
-            <Mass>0.45</Mass>
+            <Mass>0.34</Mass>
         </statBases>
         <stackLimit>500</stackLimit>
         <stuffProps>
@@ -406,7 +406,7 @@
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>0.1</Beauty>
             <MarketValue>2</MarketValue>
-            <Mass>0.45</Mass>
+            <Mass>0.34</Mass>
         </statBases>
         <stuffProps>
             <statOffsets Inherit="False">

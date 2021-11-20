@@ -4,6 +4,11 @@
 
     <!-- Timbers categorys-->
     <StuffCategoryDef>
+        <defName>Timber</defName>
+        <label>Timber</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
         <defName>Hardwoods</defName>
         <label>Hardwood Timbers</label>
     </StuffCategoryDef>

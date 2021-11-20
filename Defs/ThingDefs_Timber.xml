@@ -46,6 +46,9 @@
                 <MoveSpeed>1.1</MoveSpeed>
                 <DoorOpenSpeed>1.4</DoorOpenSpeed>
             </statFactors>
+            <categories>
+                <li>Timber</li>
+            </categories>
         </stuffProps>
         <tools>
             <li>

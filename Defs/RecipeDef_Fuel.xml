@@ -25,6 +25,7 @@
         </fixedIngredientFilter>
         <products>
             <WoodLog>20</WoodLog>
+            <Wooddust>20</Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -57,6 +58,7 @@
         </fixedIngredientFilter>
         <products>
             <WoodLog>8</WoodLog>
+            <Wooddust>2</Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -89,6 +91,7 @@
         </fixedIngredientFilter>
         <products>
             <WoodLog>20</WoodLog>
+            <Wooddust>40</Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -121,6 +124,7 @@
         </fixedIngredientFilter>
         <products>
             <WoodLog>100</WoodLog>
+            <Wooddust>200</Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -153,6 +157,7 @@
         </fixedIngredientFilter>
         <products>
             <WoodLog>8</WoodLog>
+            <Wooddust>2</Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -185,12 +190,39 @@
         </fixedIngredientFilter>
         <products>
             <WoodLog>80</WoodLog>
+            <Wooddust>20</Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>100</workAmount>
         <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
         <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef name="ROWood_MakeFuelBriquetteFromWoodDust">
+        <defName>ROWood_MakeFuelBriquetteFromWoodDust</defName>
+        <label>make fuel briquette</label>
+        <description>Compress wood dust into briquette and heat it a beat.</description>
+        <jobString>Making fuel briquettes.</jobString>
+        <effectWorking>Cremate</effectWorking>
+        <soundWorking>Recipe_Cremate</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wooddust</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <products>
+            <FuelBriquette>1</FuelBriquette>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <workAmount>100</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
     </RecipeDef>
 
 </Defs>

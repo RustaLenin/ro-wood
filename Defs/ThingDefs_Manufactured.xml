@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>ComponentWood</defName>
+        <label>wood component</label>
+        <description>Miscellaneous simple wood based components, such as: sticks, cogs, grips, wheels, hooks, locks, buckles and other hardware using in construction and crafting.</description>
+        <graphicData>
+            <texPath>ComponentWood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <soundInteract>Wood_Drop</soundInteract>
+        <soundDrop>Wood_Drop</soundDrop>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>16</MarketValue>
+            <Flammability>1</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+            <Mass>0.5</Mass>
+        </statBases>
+        <useHitPoints>true</useHitPoints>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wooddust</defName>
+        <label>wood dust</label>
+        <description>Wood dust (or saw dust) is a by-product or waste product of woodworking operations such as sawing, sanding, milling, planing, and routing. It is composed of small chippings of wood.</description>
+        <graphicData>
+            <texPath>Wooddust</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <soundInteract>Wood_Drop</soundInteract>
+        <soundDrop>Wood_Drop</soundDrop>
+        <statBases>
+            <MaxHitPoints>30</MaxHitPoints>
+            <MarketValue>0.05</MarketValue>
+            <Flammability>2</Flammability>
+            <DeteriorationRate>0.1</DeteriorationRate>
+            <Mass>0.01</Mass>
+        </statBases>
+        <useHitPoints>true</useHitPoints>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <stackLimit>1000</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FuelBriquette</defName>
+        <label>fuel briquette</label>
+        <description>The raw material for this type of fuel is waste from the woodworking industry.</description>
+        <graphicData>
+            <texPath>FuelBriquette</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <soundInteract>Wood_Drop</soundInteract>
+        <soundDrop>Wood_Drop</soundDrop>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>1</MarketValue>
+            <Flammability>2</Flammability>
+            <DeteriorationRate>0.01</DeteriorationRate>
+            <Mass>0.25</Mass>
+        </statBases>
+        <useHitPoints>true</useHitPoints>
+        <thingCategories>
+            <li>ROWoodFuel</li>
+        </thingCategories>
+        <stackLimit>200</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+    </ThingDef>
+
+</Defs>

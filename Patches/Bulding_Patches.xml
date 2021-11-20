@@ -2,188 +2,523 @@
 
 <Patch>
 
-    <!-- Torch Lamp -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="TorchLamp"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
-        <value>
-            <fuelFilter>
-                <categories>
-                    <li>ROWoodFuel</li>
-                </categories>
-            </fuelFilter>
-        </value>
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <!-- ****************************** -->
+            <!-- ********** Vanilla *********** -->
+            <!-- ****************************** -->
+
+            <!-- Torch Lamp -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TorchLamp"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Butcher Table -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableButcher"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>4</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableButcher"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>100</costStuffCount>
+                </value>
+            </li>
+
+            <!-- Brewery -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Brewery"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Steel>30</Steel>
+                        <ComponentWood>8</ComponentWood>
+                    </costList>
+                    <costStuffCount>100</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
+            </li>
+
+            <!-- Fermenting Barrel -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="FermentingBarrel"]/costList</xpath>
+                <value>
+                    <costStuffCount>40</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                    <costList>
+                        <ComponentWood>2</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="FermentingBarrel"]/constructEffect</xpath>
+            </li>
+
+            <!-- Fueled Stove -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="FueledStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Fueled Stove -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="FueledStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Fueled Smithy -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="FueledSmithy"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Poker Table -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="PokerTable"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Cloth>50</Cloth>
+                        <ComponentWood>4</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="PokerTable"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>60</costStuffCount>
+                </value>
+            </li>
+
+
+            <!-- Billiards Table -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="BilliardsTable"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Cloth>80</Cloth>
+                        <ComponentWood>8</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="BilliardsTable"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>100</costStuffCount>
+                </value>
+            </li>
+
+            <!-- Passive Cooler -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="PassiveCooler"]/costList</xpath>
+                <value>
+                    <costStuffCount>40</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="PassiveCooler"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="PassiveCooler"]/constructEffect</xpath>
+            </li>
+
+            <!-- WoodFiredGenerator -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="WoodFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Bridge -->
+
+            <!-- !!! This operation drop the game, then you click on the bridge construction. dunnowhy. Don't use it. !!! -->
+
+            <!-- <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="Bridge"]/costList</xpath>
+                    <value>
+                        <costStuffCount>40</costStuffCount>
+                        <stuffCategories>
+                            <liWoody</li>
+                        </stuffCategories>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/TerrainDef[defName="Bridge"]/constructEffect</xpath>
+                </li> -->
+
+            <!-- Fabrication Bench -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+                <value>
+                    <li>ROWood_MakeWoodComponent_Electric</li>
+                </value>
+            </li>
+
+            <!-- Watermill Generatorr -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="WatermillGenerator"]/costList</xpath>
+                <value>
+                    <costStuffCount>160</costStuffCount>
+                    <stuffCategories>
+                        <li>Metallic</li>
+                    </stuffCategories>
+                    <costList>
+                        <ComponentWood>16</ComponentWood>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                    </costList>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="WatermillGenerator"]/constructEffect</xpath>
+            </li>
+
+            <!-- Door -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Door"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Fence Gate -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="FenceGate"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Bed -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Bed"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>4</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- DoubleBed -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DoubleBed"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>8</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Royal Bed -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RoyalBed"]/costList</xpath>
+                <value>
+                    <ComponentWood>16</ComponentWood>
+                </value>
+            </li>
+
+            <!-- Stool -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Stool"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- DiningChair -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>2</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- EndTable -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="EndTable"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Shelf -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Shelf"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Dresser -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Dresser"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Plant Pot -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Animal Sleeping Spot -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AnimalSleepingSpot"]/statBases</xpath>
+                <value>
+                    <BedRestEffectiveness>0.7</BedRestEffectiveness>
+                </value>
+            </li>
+
+            <!-- Animal Sleeping Box -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AnimalSleepingBox"]/statBases/BedRestEffectiveness</xpath>
+                <value>
+                    <BedRestEffectiveness>0.85</BedRestEffectiveness>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AnimalSleepingBox"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>10</costStuffCount>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AnimalSleepingBox"]</xpath>
+                <value>
+                    <costList>
+                        <Wooddust>50</Wooddust>
+                    </costList>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="FueledSmithy"]</xpath>
+                <value>
+                    <recipes>
+                        <li>ROWood_MakeFuelBriquetteFromWoodDust</li>
+                    </recipes>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="ElectricSmithy"]</xpath>
+                <value>
+                    <recipes>
+                        <li>ROWood_MakeFuelBriquetteFromWoodDust</li>
+                    </recipes>
+                </value>
+            </li>
+            
+
+            <!-- ****************************** -->
+            <!-- ********** Royalty *********** -->
+            <!-- ****************************** -->
+
+            <!-- Brazier -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.royalty">
+                <xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Throne -->
+            <li Class="PatchOperationAdd" MayRequire="ludeon.rimworld.royalty">
+                <xpath>Defs/ThingDef[defName="Throne"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>4</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Harp -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.royalty">
+                <xpath>Defs/ThingDef[defName="Harp"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>4</ComponentWood>
+                    </costList>
+                    <costStuffCount>80</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <!-- Harpsichord -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.royalty">
+                <xpath>Defs/ThingDef[defName="Harpsichord"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>8</ComponentWood>
+                    </costList>
+                    <costStuffCount>180</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <!-- Piano -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.royalty">
+                <xpath>Defs/ThingDef[defName="Piano"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>16</ComponentWood>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                    </costList>
+                    <costStuffCount>240</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <!-- ****************************** -->
+            <!-- ********** Ideology ********** -->
+            <!-- ****************************** -->
+
+            <!-- Drum -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="Drum"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>4</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Darklight Brazier -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="DarklightBrazier"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Dark torch -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="Darktorch"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+                <value>
+                    <fuelFilter>
+                        <categories>
+                            <li>ROWoodFuel</li>
+                        </categories>
+                    </fuelFilter>
+                </value>
+            </li>
+
+            <!-- Drape -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="Drape"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>16</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Plant Pot Bonsai -->
+            <li Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="PlantPot_Bonsai"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentWood>1</ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+        </operations>
     </Operation>
-
-    <!-- Butcher Table -->
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="TableButcher"]/costList</xpath>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="TableButcher"]/costStuffCount</xpath>
-        <value>
-            <costStuffCount>100</costStuffCount>
-        </value>
-    </Operation>
-
-    <!-- Brewery -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="Brewery"]/costList</xpath>
-        <value>
-            <costList>
-                <Steel>30</Steel>
-            </costList>
-            <costStuffCount>120</costStuffCount>
-            <stuffCategories>
-                <li>Woody</li>
-            </stuffCategories>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
-    </Operation>
-
-    <!-- Fermenting Barrel -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="FermentingBarrel"]/costList</xpath>
-        <value>
-            <costStuffCount>40</costStuffCount>
-            <stuffCategories>
-                <li>Woody</li>
-            </stuffCategories>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="FermentingBarrel"]/constructEffect</xpath>
-    </Operation>
-
-    <!-- Fueled Stove -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="FueledStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
-        <value>
-            <fuelFilter>
-                <categories>
-                    <li>ROWoodFuel</li>
-                </categories>
-            </fuelFilter>
-        </value>
-    </Operation>
-
-    <!-- Fueled Stove -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="FueledStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
-        <value>
-            <fuelFilter>
-                <categories>
-                    <li>ROWoodFuel</li>
-                </categories>
-            </fuelFilter>
-        </value>
-    </Operation>
-
-    <!-- Fueled Smithy -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="FueledSmithy"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
-        <value>
-            <fuelFilter>
-                <categories>
-                    <li>ROWoodFuel</li>
-                </categories>
-            </fuelFilter>
-        </value>
-    </Operation>
-
-    <!-- Poker Table -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="PokerTable"]/costList</xpath>
-        <value>
-            <costList>
-                <Cloth>50</Cloth>
-            </costList>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="PokerTable"]/costStuffCount</xpath>
-        <value>
-            <costStuffCount>75</costStuffCount>
-        </value>
-    </Operation>
-
-
-    <!-- Billiards Table -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="BilliardsTable"]/costList</xpath>
-        <value>
-            <costList>
-                <Cloth>80</Cloth>
-            </costList>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="BilliardsTable"]/costStuffCount</xpath>
-        <value>
-            <costStuffCount>110</costStuffCount>
-        </value>
-    </Operation>
-
-    <!-- Passive Cooler -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="PassiveCooler"]/costList</xpath>
-        <value>
-            <costStuffCount>40</costStuffCount>
-            <stuffCategories>
-                <li>Woody</li>
-            </stuffCategories>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="PassiveCooler"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
-        <value>
-            <fuelFilter>
-                <categories>
-                    <li>ROWoodFuel</li>
-                </categories>
-            </fuelFilter>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="PassiveCooler"]/constructEffect</xpath>
-    </Operation>
-
-    <!-- WoodFiredGenerator -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="WoodFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
-        <value>
-            <fuelFilter>
-                <categories>
-                    <li>ROWoodFuel</li>
-                </categories>
-            </fuelFilter>
-        </value>
-    </Operation>
-
-    <!-- Bridge -->
-
-    <!-- !!! This operation drop the game, then you click on the bridge construction. dunnowhy. Don't use it. !!! -->
-
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName="Bridge"]/costList</xpath>
-        <value>
-            <costStuffCount>40</costStuffCount>
-            <stuffCategories>
-                <li>Woody</li>
-            </stuffCategories>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/TerrainDef[defName="Bridge"]/constructEffect</xpath>
-    </Operation> -->
 
 </Patch>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Pila"]/costList</xpath>
+                <value>
+                    <costStuffCount>70</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Bow_Recurve"]/costList</xpath>
+                <value>
+                    <costStuffCount>40</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Bow_Short"]/costList</xpath>
+                <value>
+                    <costStuffCount>30</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Bow_Great"]/costList</xpath>
+                <value>
+                    <costStuffCount>60</costStuffCount>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

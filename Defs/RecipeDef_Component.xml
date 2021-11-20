@@ -25,6 +25,41 @@
         </fixedIngredientFilter>
         <products>
             <ComponentWood>4</ComponentWood>
+            <Wooddust>200</Wooddust>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <workAmount>500</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_MakeWoodComponent_Electric</defName>
+        <label>wood component (x4)</label>
+        <description>Carve simple wood component out of timber log.</description>
+        <jobString>Carving wood components.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>RawTimber</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <ComponentWood>4</ComponentWood>
+            <Wooddust>200</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>

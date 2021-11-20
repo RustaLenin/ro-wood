@@ -8,7 +8,7 @@
     <!-- Cecropia -->
     <RecipeDef>
         <defName>ROWood_SawCecropia</defName>
-        <label>cecropia plank(x20)</label>
+        <label>saw cecropia plank(x20)</label>
         <description>Saw cecropia timber logs into planks.</description>
         <jobString>Sawing cecropia logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -25,6 +25,7 @@
         </ingredients>
         <products>
             <CecropiaPlank>20</CecropiaPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -36,7 +37,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawCecropia_Electric</defName>
-        <label>cecropia plank(x20)</label>
+        <label>saw cecropia plank(x20)</label>
         <description>Saw cecropia timber logs into planks.</description>
         <jobString>Sawing cecropia logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -53,6 +54,7 @@
         </ingredients>
         <products>
             <CecropiaPlank>20</CecropiaPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -64,7 +66,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawCecropia_Electric</defName>
-        <label>cecropia plank(x100)</label>
+        <label>saw cecropia plank(x100)</label>
         <description>Batch saw cecropia timber logs into planks.</description>
         <jobString>Batch sawing cecropia logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -81,6 +83,7 @@
         </ingredients>
         <products>
             <CecropiaPlank>100</CecropiaPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -93,7 +96,7 @@
     <!-- Willow -->
     <RecipeDef>
         <defName>ROWood_SawWillow</defName>
-        <label>willow plank(x20)</label>
+        <label>saw willow plank(x20)</label>
         <description>Saw willow timber logs into planks.</description>
         <jobString>Sawing willow logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -110,6 +113,7 @@
         </ingredients>
         <products>
             <WillowPlank>20</WillowPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -121,7 +125,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawWillow_Electric</defName>
-        <label>willow plank(x20)</label>
+        <label>saw willow plank(x20)</label>
         <description>Saw willow timber logs into planks.</description>
         <jobString>Sawing willow logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -138,6 +142,7 @@
         </ingredients>
         <products>
             <WillowPlank>20</WillowPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -149,7 +154,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawWillow_Electric</defName>
-        <label>willow plank(x100)</label>
+        <label>saw willow plank(x100)</label>
         <description>Batch saw willow timber logs into planks.</description>
         <jobString>Sawing willow logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -166,6 +171,7 @@
         </ingredients>
         <products>
             <WillowPlank>100</WillowPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -178,7 +184,7 @@
     <!-- Pine -->
     <RecipeDef>
         <defName>ROWood_SawPine</defName>
-        <label>pine plank(x20)</label>
+        <label>saw pine plank(x20)</label>
         <description>Saw pine timber logs into planks.</description>
         <jobString>Sawing pine logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -195,6 +201,7 @@
         </ingredients>
         <products>
             <PinePlank>20</PinePlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -206,7 +213,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawPine_Electric</defName>
-        <label>pine plank(x20)</label>
+        <label>saw pine plank(x20)</label>
         <description>Saw pine timber logs into planks.</description>
         <jobString>Sawing pine logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -223,6 +230,7 @@
         </ingredients>
         <products>
             <PinePlank>20</PinePlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -234,7 +242,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawPine_Electric</defName>
-        <label>pine plank(x100)</label>
+        <label>saw pine plank(x100)</label>
         <description>Batch saw pine timber logs into planks.</description>
         <jobString>Sawing pine logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -251,6 +259,7 @@
         </ingredients>
         <products>
             <PinePlank>100</PinePlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -263,7 +272,7 @@
     <!-- Cypress -->
     <RecipeDef>
         <defName>ROWood_SawCypress</defName>
-        <label>cypress plank(x20)</label>
+        <label>saw cypress plank(x20)</label>
         <description>Saw cypress timber logs into planks.</description>
         <jobString>Sawing cypress logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -280,6 +289,7 @@
         </ingredients>
         <products>
             <CypressPlank>20</CypressPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -291,7 +301,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawCypress_Electric</defName>
-        <label>cypress plank(x20)</label>
+        <label>saw cypress plank(x20)</label>
         <description>Saw cypress timber logs into planks.</description>
         <jobString>Sawing cypress logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -308,6 +318,7 @@
         </ingredients>
         <products>
             <CypressPlank>20</CypressPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -319,7 +330,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawCypress_Electric</defName>
-        <label>cypress plank(x100)</label>
+        <label>saw cypress plank(x100)</label>
         <description>Saw cypress timber logs into planks.</description>
         <jobString>Sawing cypress logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -336,6 +347,7 @@
         </ingredients>
         <products>
             <CypressPlank>100</CypressPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -348,7 +360,7 @@
     <!-- Poplar -->
     <RecipeDef>
         <defName>ROWood_SawPoplar</defName>
-        <label>poplar plank(x20)</label>
+        <label>saw poplar plank(x20)</label>
         <description>Saw poplar timber logs into planks.</description>
         <jobString>Sawing poplar logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -365,6 +377,7 @@
         </ingredients>
         <products>
             <PoplarPlank>20</PoplarPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -376,7 +389,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawPoplar_Electric</defName>
-        <label>poplar plank(x20)</label>
+        <label>saw poplar plank(x20)</label>
         <description>Saw poplar timber logs into planks.</description>
         <jobString>Sawing poplar logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -393,6 +406,7 @@
         </ingredients>
         <products>
             <PoplarPlank>20</PoplarPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -404,7 +418,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawPoplar_Electric</defName>
-        <label>poplar plank(x100)</label>
+        <label>saw poplar plank(x100)</label>
         <description>Batch saw poplar timber logs into planks.</description>
         <jobString>Sawing poplar logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -421,6 +435,7 @@
         </ingredients>
         <products>
             <PoplarPlank>100</PoplarPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -434,7 +449,7 @@
     <!-- Maple -->
     <RecipeDef>
         <defName>ROWood_SawMaple</defName>
-        <label>maple plank(x20)</label>
+        <label>saw maple plank(x20)</label>
         <description>Saw maple timber logs into planks.</description>
         <jobString>Sawing maple logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -451,6 +466,7 @@
         </ingredients>
         <products>
             <MaplePlank>20</MaplePlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -462,7 +478,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawMaple_Electric</defName>
-        <label>maple plank(x20)</label>
+        <label>saw maple plank(x20)</label>
         <description>Saw maple timber logs into planks.</description>
         <jobString>Sawing maple logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -479,6 +495,7 @@
         </ingredients>
         <products>
             <MaplePlank>20</MaplePlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -490,7 +507,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawMaple_Electric</defName>
-        <label>maple plank(x100)</label>
+        <label>saw maple plank(x100)</label>
         <description>Batch saw maple timber logs into planks.</description>
         <jobString>Sawing maple logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -507,6 +524,7 @@
         </ingredients>
         <products>
             <MaplePlank>100</MaplePlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -519,7 +537,7 @@
     <!-- Sequoia -->
     <RecipeDef>
         <defName>ROWood_SawSequoia</defName>
-        <label>sequoia plank(x20)</label>
+        <label>saw sequoia plank(x20)</label>
         <description>Saw sequoia timber logs into planks.</description>
         <jobString>Sawing sequoia logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -536,6 +554,7 @@
         </ingredients>
         <products>
             <SequoiaPlank>20</SequoiaPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -547,7 +566,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawSequoia_Electric</defName>
-        <label>sequoia plank(x20)</label>
+        <label>saw sequoia plank(x20)</label>
         <description>Saw sequoia timber logs into planks.</description>
         <jobString>Sawing sequoia logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -564,6 +583,7 @@
         </ingredients>
         <products>
             <SequoiaPlank>20</SequoiaPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -575,7 +595,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawSequoia_Electric</defName>
-        <label>sequoia plank(x100)</label>
+        <label>saw sequoia plank(x100)</label>
         <description>Batch saw sequoia timber logs into planks.</description>
         <jobString>Sawing sequoia logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -592,6 +612,7 @@
         </ingredients>
         <products>
             <SequoiaPlank>100</SequoiaPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -604,7 +625,7 @@
     <!-- Birch -->
     <RecipeDef>
         <defName>ROWood_SawBirch</defName>
-        <label>birch plank(x20)</label>
+        <label>saw birch plank(x20)</label>
         <description>Saw birch timber logs into planks.</description>
         <jobString>Sawing birch logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -621,6 +642,7 @@
         </ingredients>
         <products>
             <BirchPlank>20</BirchPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -632,7 +654,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawBirch_Electric</defName>
-        <label>birch plank(x20)</label>
+        <label>saw birch plank(x20)</label>
         <description>Saw birch timber logs into planks.</description>
         <jobString>Sawing birch logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -649,6 +671,7 @@
         </ingredients>
         <products>
             <BirchPlank>20</BirchPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -660,7 +683,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawBirch_Electric</defName>
-        <label>birch plank(x1000)</label>
+        <label>saw birch plank(x1000)</label>
         <description>Batch saw birch timber logs into planks.</description>
         <jobString>Sawing birch logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -677,6 +700,7 @@
         </ingredients>
         <products>
             <BirchPlank>100</BirchPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -689,7 +713,7 @@
     <!-- Teak -->
     <RecipeDef>
         <defName>ROWood_SawTeak</defName>
-        <label>teak plank(x20)</label>
+        <label>saw teak plank(x20)</label>
         <description>Saw teak timber logs into planks.</description>
         <jobString>Sawing teak logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -706,6 +730,7 @@
         </ingredients>
         <products>
             <TeakPlank>20</TeakPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -717,7 +742,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawTeak_Electric</defName>
-        <label>teak plank(x20)</label>
+        <label>saw teak plank(x20)</label>
         <description>Saw teak timber logs into planks.</description>
         <jobString>Sawing teak logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -734,6 +759,7 @@
         </ingredients>
         <products>
             <TeakPlank>20</TeakPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -745,7 +771,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawTeak_Electric</defName>
-        <label>teak plank(x100)</label>
+        <label>saw teak plank(x100)</label>
         <description>Batch saw teak timber logs into planks.</description>
         <jobString>Sawing teak logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -762,6 +788,7 @@
         </ingredients>
         <products>
             <TeakPlank>100</TeakPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -774,7 +801,7 @@
     <!-- Oak -->
     <RecipeDef>
         <defName>ROWood_SawOak</defName>
-        <label>oak plank(x20)</label>
+        <label>saw oak plank(x20)</label>
         <description>Saw oak timber logs into planks.</description>
         <jobString>Sawing oak logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -791,6 +818,7 @@
         </ingredients>
         <products>
             <OakPlank>20</OakPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -802,7 +830,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawOak_Electric</defName>
-        <label>oak plank(x20)</label>
+        <label>saw oak plank(x20)</label>
         <description>Saw oak timber logs into planks.</description>
         <jobString>Sawing oak logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -819,6 +847,7 @@
         </ingredients>
         <products>
             <OakPlank>20</OakPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -830,7 +859,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawOak_Electric</defName>
-        <label>oak plank(x100)</label>
+        <label>saw oak plank(x100)</label>
         <description>Batch saw oak timber logs into planks.</description>
         <jobString>Sawing oak logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -847,6 +876,7 @@
         </ingredients>
         <products>
             <OakPlank>100</OakPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -860,7 +890,7 @@
     <!-- DragonWood -->
     <RecipeDef>
         <defName>ROWood_SawDragonwood</defName>
-        <label>dragonwood plank(x20)</label>
+        <label>saw dragonwood plank(x20)</label>
         <description>Saw dragonwood timber logs into planks.</description>
         <jobString>Sawing dragonwood logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -877,6 +907,7 @@
         </ingredients>
         <products>
             <DragonwoodPlank>20</DragonwoodPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -888,7 +919,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawDragonwood_Electric</defName>
-        <label>dragonwood plank(x20)</label>
+        <label>saw dragonwood plank(x20)</label>
         <description>Saw dragonwood timber logs into planks.</description>
         <jobString>Sawing dragonwood logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -905,6 +936,7 @@
         </ingredients>
         <products>
             <DragonwoodPlank>20</DragonwoodPlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -916,7 +948,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawDragonwood_Electric</defName>
-        <label>dragonwood plank(x100)</label>
+        <label>saw dragonwood plank(x100)</label>
         <description>Batch saw dragonwood timber logs into planks.</description>
         <jobString>Sawing dragonwood logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -933,6 +965,7 @@
         </ingredients>
         <products>
             <DragonwoodPlank>100</DragonwoodPlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -945,7 +978,7 @@
     <!-- Mangrove -->
     <RecipeDef>
         <defName>ROWood_SawMangrove</defName>
-        <label>mangrove plank(x20)</label>
+        <label>saw mangrove plank(x20)</label>
         <description>Saw mangrove timber logs into planks.</description>
         <jobString>Sawing mangrove logs.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -962,6 +995,7 @@
         </ingredients>
         <products>
             <MangrovePlank>20</MangrovePlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -973,7 +1007,7 @@
 
     <RecipeDef>
         <defName>ROWood_SawMangrove_Electric</defName>
-        <label>mangrove plank(x20)</label>
+        <label>saw mangrove plank(x20)</label>
         <description>Saw mangrove timber logs into planks.</description>
         <jobString>Sawing mangrove logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -990,6 +1024,7 @@
         </ingredients>
         <products>
             <MangrovePlank>20</MangrovePlank>
+            <Wooddust>20</Wooddust>
             <SlabPlank>4</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
@@ -1001,7 +1036,7 @@
 
     <RecipeDef>
         <defName>ROWood_BatchSawMangrove_Electric</defName>
-        <label>mangrove plank(x100)</label>
+        <label>saw mangrove plank(x100)</label>
         <description>Batch saw mangrove timber logs into planks.</description>
         <jobString>Sawing mangrove logs.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -1018,6 +1053,7 @@
         </ingredients>
         <products>
             <MangrovePlank>100</MangrovePlank>
+            <Wooddust>100</Wooddust>
             <SlabPlank>20</SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>

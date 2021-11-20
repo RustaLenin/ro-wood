@@ -104,6 +104,7 @@
         <costStuffCount>60</costStuffCount>
         <costList>
             <Steel>20</Steel>
+            <ComponentWood>8</ComponentWood>
 		</costList>
         <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 

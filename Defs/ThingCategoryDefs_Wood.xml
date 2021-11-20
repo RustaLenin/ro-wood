@@ -13,21 +13,21 @@
     <!-- Childs -->
     <ThingCategoryDef>
         <defName>HardwoodsTimbers</defName>
-        <label>Hardwood Timbers</label>
+        <label>Hardwood Timber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
         <defName>SoftwoodsTimbers</defName>
-        <label>Softwood Timbers</label>
+        <label>Softwood Timber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
         <defName>UltrahardwoodsTimbers</defName>
-        <label>Ultra-hardwood Timbers</label>
+        <label>Ultra-hardwood Timber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>RawTimber</parent>
     </ThingCategoryDef>
@@ -35,6 +35,13 @@
     <ThingCategoryDef>
         <defName>BambooTimbers</defName>
         <label>Unrefined Bamboo</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>RawTimber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>WoodLikeTimbers</defName>
+        <label>Wood-like Timber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>RawTimber</parent>
     </ThingCategoryDef>
@@ -80,6 +87,13 @@
     <ThingCategoryDef>
         <defName>EngineeredLumber</defName>
         <label>Engineered Lumber</label>
+        <iconPath>UI/Icons/Wooden</iconPath>
+        <parent>Lumber</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>WoodLikeLumber</defName>
+        <label>Wood-like Lumber</label>
         <iconPath>UI/Icons/Wooden</iconPath>
         <parent>Lumber</parent>
     </ThingCategoryDef>

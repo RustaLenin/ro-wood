@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- ToDo:
-        - Timbershrooms
         - Fibercorn
         - Treeconnecting, dryads and so on
         - Palm is not a TREE!
@@ -26,6 +25,10 @@
 
 <!-- Grafics ToDo:
         - Redraw Wooden Component
+-->
+
+<!-- Bugs to Fix:
+        - Unfinished wood work at electro sawmill
 -->
 
 

@@ -102,6 +102,7 @@
             <MarketValue>0.8</MarketValue>
             <Mass>0.24</Mass>
         </statBases>
+        <stackLimit>500</stackLimit>
         <stuffProps>
             <statOffsets Inherit="False">
                 <Beauty>1</Beauty>
@@ -362,7 +363,6 @@
     </ThingDef>
 
     <!-- UltraHardWood Planks-->
-
     <ThingDef Name="DragonwoodPlank" ParentName="DragonwoodLog">
         <defName>DragonwoodPlank</defName>
         <label>dragonwood plank</label>
@@ -408,6 +408,7 @@
             <MarketValue>2</MarketValue>
             <Mass>0.34</Mass>
         </statBases>
+        <stackLimit>500</stackLimit>
         <stuffProps>
             <statOffsets Inherit="False">
                 <Beauty>2</Beauty>
@@ -423,5 +424,70 @@
             <li>UltrahardwoodLumber</li>
         </thingCategories>
     </ThingDef>
+
+    <!-- Wood-like Planks-->
+    <ThingDef Name="TimbershroomPlank" ParentName="TimbershroomLog">
+        <defName>TimbershroomPlank</defName>
+        <label>timbershroom plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+            <color>(0, 233, 181)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>0.8</MarketValue>
+            <Mass>0.24</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>2</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>Timbershroom plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>Woodlike</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>WoodLikeLumber</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- Wood-like Planks-->
+    <ThingDef Name="BTWPlank" ParentName="BTWLog">
+        <defName>BTWPlank</defName>
+        <label>BTW plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>LumberPlanks</texPath>
+            <color>(128, 128, 128)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0</Beauty>
+            <MarketValue>0.8</MarketValue>
+            <Mass>0.24</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>0</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>biotechwood plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>Woodlike</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>WoodLikeLumber</li>
+        </thingCategories>
+    </ThingDef>
+
 
 </Defs>

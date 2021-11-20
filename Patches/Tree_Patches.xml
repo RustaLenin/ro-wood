@@ -80,6 +80,21 @@
         </value>
     </Operation>
 
+    <!-- Wood-like -->
+    <Operation Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
+        <xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+        <value>
+            <harvestedThingDef>TimbershroomLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+        <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]/plant/harvestedThingDef</xpath>
+        <value>
+            <harvestedThingDef>BTWLog</harvestedThingDef>
+        </value>
+    </Operation>
+
     <!--******************************************************-->
     <!--******** Second step: Change production amount *******-->
     <!--******************************************************-->
@@ -156,6 +171,22 @@
             <harvestYield>6</harvestYield>            <!-- was 60 -->
         </value>
     </Operation>
+
+    <!-- Wood-like -->
+    <Operation Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
+        <xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>6</harvestYield>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+        <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>1</harvestYield>            <!-- was 1 -->
+        </value>
+    </Operation>
+
 
     <!--******************************************************-->
     <!--********* Third step: Change grow days speed *********-->

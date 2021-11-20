@@ -141,6 +141,8 @@
             <li>ROWood_SawOak</li>
             <li>ROWood_SawDragonwood</li>
             <li>ROWood_SawMangrove</li>
+            <li>ROWood_SawTimbershroom</li>
+            <li>ROWood_SawBTW</li>
             <li>ROWood_MakeWoodComponent_Hand</li>
         </recipes>
 
@@ -206,12 +208,12 @@
 				<volume>(2.7, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>
 			</shadowData>
-			<!-- <damageData>
+			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
 				<cornerBL>Damage/Corner</cornerBL>
 				<cornerBR>Damage/Corner</cornerBR>
-			</damageData> -->
+			</damageData>
 		</graphicData>
 
         <!-- What need to produce-->
@@ -271,6 +273,10 @@
             <li>ROWood_BatchSawDragonwood_Electric</li>
             <li>ROWood_SawMangrove_Electric</li>
             <li>ROWood_BatchSawMangrove_Electric</li>
+            <li>ROWood_SawTimbershroom_Electric</li>
+            <li>ROWood_SawBTW_Electric</li>
+            <li>ROWood_BatchSawTBTW_Electric</li>
+            <li>ROWood_BatchSawTimbershroom_Electric</li>
         </recipes>
 
         <inspectorTabs>

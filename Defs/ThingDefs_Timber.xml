@@ -570,4 +570,94 @@
         </thingCategories>
     </ThingDef>
 
+    <!-- Wood-like Logs -->
+    <ThingDef Name="TimbershroomLog" ParentName="TimberBase">
+        <defName>TimbershroomLog</defName>
+        <label>Timbershroom log</label>
+        <description>Mushroom is a reproductive organ (fruiting body) of fungi. Timbershroom called so, cause his mushroom dense as hard like wood. And this is timbershroom wood log. It's too soft for making quality tools or melee weapons, but it beatiful and comfortable for making furnutire.</description>
+        <graphicData>
+            <color>(0, 233, 181)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <DeteriorationRate>0.2</DeteriorationRate>
+            <MarketValue>5</MarketValue>
+            <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+            <StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+            <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+            <BluntDamageMultiplier>0.5</BluntDamageMultiplier>
+            <Mass>8</Mass>
+        </statBases>
+        <stuffProps>
+            <categories>
+                <li>Woodlike</li>
+            </categories>
+            <stuffAdjective>Timbershroom log</stuffAdjective>
+            <color>(0, 233, 181)</color>
+            <statFactors>
+                <MaxHitPoints>0.5</MaxHitPoints>
+                <Flammability>0.3</Flammability>
+                <Beauty>2</Beauty>
+                <WorkToMake>0.4</WorkToMake>
+                <WorkToBuild>0.4</WorkToBuild>
+                <MarketValue>1.0</MarketValue>
+                <DoorOpenSpeed>1.4</DoorOpenSpeed>
+                <BedRestEffectiveness>1.2</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+                <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+                <Mass>1</Mass>
+            </statFactors>
+        </stuffProps>
+        <thingCategories>
+            <li>WoodLikeTimbers</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Name="BTWLog" ParentName="TimberBase">
+        <defName>BTWLog</defName>
+        <label>BTW log</label>
+        <description>BTW - is a abbreviation "Bio Tech Wood". Emperium BioTech corporation design Fibercorn plant to create cheap and quality wood-like material, which can be grow by colonist in new worlds extremly quick, without need to chop down local flora.\n This wood-like material is a pretty common at all possible characteristics. It's not soft and not hard, not weight light and not heavy, it's not ugly and not beatiful. This material is totally common.</description>
+        <graphicData>
+            <color>(128, 128, 128)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>4</MarketValue>
+            <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>1.0</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>1.0</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+            <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+            <Mass>8</Mass>
+        </statBases>
+        <stuffProps>
+            <categories>
+                <li>Woodlike</li>
+            </categories>
+            <stuffAdjective>Timbershroom log</stuffAdjective>
+            <color>(128, 128, 128)</color>
+            <statFactors>
+                <MaxHitPoints>1</MaxHitPoints>
+                <Flammability>1</Flammability>
+                <Beauty>1</Beauty>
+                <WorkToMake>1</WorkToMake>
+                <WorkToBuild>1</WorkToBuild>
+                <MarketValue>1.0</MarketValue>
+                <DoorOpenSpeed>1.0</DoorOpenSpeed>
+                <BedRestEffectiveness>1.0</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+                <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+                <MoveSpeed>1.0</MoveSpeed>
+                <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+                <Mass>1</Mass>
+            </statFactors>
+        </stuffProps>
+        <thingCategories>
+            <li>WoodLikeTimbers</li>
+        </thingCategories>
+    </ThingDef>
+
 </Defs>

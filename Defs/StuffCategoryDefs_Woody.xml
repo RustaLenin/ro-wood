@@ -28,6 +28,11 @@
         <label>Raw Bamboo</label>
     </StuffCategoryDef>
 
+    <StuffCategoryDef>
+        <defName>Woodlike</defName>
+        <label>Wood-like</label>
+    </StuffCategoryDef>
+
     <!-- Lumber categorys-->
     <StuffCategoryDef>
         <defName>HardwoodLumber</defName>

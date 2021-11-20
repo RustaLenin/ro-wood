@@ -1063,4 +1063,178 @@
         <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
     </RecipeDef>
 
+    <!-- Wood-like Recipes -->
+    <!-- Timbershroom -->
+    <RecipeDef>
+        <defName>ROWood_SawTimbershroom</defName>
+        <label>saw timbershroom plank(x20)</label>
+        <description>Saw timbershroom timber logs into planks.</description>
+        <jobString>Sawing timbershroom logs.</jobString>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>TimbershroomLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <TimbershroomPlank>20</TimbershroomPlank>
+            <Wooddust>20</Wooddust>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawTimbershroom_Electric</defName>
+        <label>saw timbershroom plank(x20)</label>
+        <description>Saw timbershroom timber logs into planks.</description>
+        <jobString>Sawing timbershroom logs.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>TimbershroomLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <TimbershroomPlank>20</TimbershroomPlank>
+            <Wooddust>20</Wooddust>
+            <SlabPlank>4</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_BatchSawTimbershroom_Electric</defName>
+        <label>saw timbershroom plank(x100)</label>
+        <description>Batch saw timbershroom timber logs into planks.</description>
+        <jobString>Batch sawing timbershroom logs.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>TimbershroomLog</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <TimbershroomPlank>100</TimbershroomPlank>
+            <Wooddust>100</Wooddust>
+            <SlabPlank>20</SlabPlank>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>3000</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <!-- BioTechWood -->
+    <RecipeDef>
+        <defName>ROWood_SawBTW</defName>
+        <label>saw BTW plank(x20)</label>
+        <description>Saw BTW timber logs into planks.</description>
+        <jobString>Sawing BTW logs.</jobString>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BTWLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <BTWPlank>20</BTWPlank>
+            <Wooddust>20</Wooddust>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_SawBTW_Electric</defName>
+        <label>saw BTW plank(x20)</label>
+        <description>Saw BTW timber logs into planks.</description>
+        <jobString>Sawing BTW logs.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BTWLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <BTWPlank>20</BTWPlank>
+            <Wooddust>20</Wooddust>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ROWood_BatchSawTBTW_Electric</defName>
+        <label>saw BTW plank(x100)</label>
+        <description>Batch saw BTW timber logs into planks.</description>
+        <jobString>Batch sawing BTW logs.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BTWLog</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <BTWPlank>100</BTWPlank>
+            <Wooddust>100</Wooddust>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>3000</workAmount>
+        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+    </RecipeDef>
+
 </Defs>

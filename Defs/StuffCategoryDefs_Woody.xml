@@ -4,59 +4,68 @@
 
     <!-- Timbers categorys-->
     <StuffCategoryDef>
-        <defName>Timber</defName>
+        <defName>HSK_Timber</defName>
         <label>Timber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>Hardwoods</defName>
+        <defName>HSK_Hardwoods</defName>
         <label>Hardwood Timbers</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>Softwoods</defName>
+        <defName>HSK_Softwoods</defName>
         <label>Softwood Timbers</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>Ultrahardwoods</defName>
+        <defName>HSK_Ultrahardwoods</defName>
         <label>Ultra-hardwood Timbers</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>Bambooish</defName>
+        <defName>HSK_Bambooish</defName>
         <label>Raw Bamboo</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>Woodlike</defName>
+        <defName>HSK_Woodlike</defName>
         <label>Wood-like</label>
     </StuffCategoryDef>
 
     <!-- Lumber categorys-->
     <StuffCategoryDef>
-        <defName>HardwoodLumber</defName>
+        <defName>HSK_HardwoodLumber</defName>
         <label>Hardwood Lumber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>SoftwoodLumber</defName>
+        <defName>HSK_SoftwoodLumber</defName>
         <label>Softwood Lumber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>UltrahardwoodLumber</defName>
+        <defName>HSK_UltrahardwoodLumber</defName>
         <label>Ultra-hardwood Lumber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>EngineeredLumber</defName>
+        <defName>HSK_EngineeredLumber</defName>
         <label>Engineered Lumber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>WoodSlabs</defName>
+        <defName>HSK_WoodSlabs</defName>
         <label>Wood Slabs</label>
+    </StuffCategoryDef>
+
+    <!-- Other -->
+    <StuffCategoryDef>
+        <defName>HSK_Primitive</defName>
+        <label>Primitive</label>
+        <destroySoundSmall>BuildingDestroyed_Stone_Small</destroySoundSmall>
+        <destroySoundMedium>BuildingDestroyed_Stone_Medium</destroySoundMedium>
+        <destroySoundLarge>BuildingDestroyed_Stone_Big</destroySoundLarge>
     </StuffCategoryDef>
 
 </Defs>

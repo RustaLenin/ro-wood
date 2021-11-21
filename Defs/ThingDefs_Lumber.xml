@@ -3,12 +3,12 @@
 <Defs>
 
     <!-- WoodSlab Planks-->
-    <ThingDef Name="SlabPlank" ParentName="TimberBase">
-        <defName>SlabPlank</defName>
-        <label>slabplank</label>
+    <ThingDef Name="HSK_SlabPlank" ParentName="HSK_TimberBase">
+        <defName>HSK_SlabPlank</defName>
+        <label>wood slab</label>
         <description>Cheap and low quality wood plank with tree bark on from one of the sides</description>
         <graphicData>
-            <texPath>LumberSlab</texPath>
+            <texPath>HSK/Manufactured/LumberSlab</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>30</MaxHitPoints>
@@ -22,10 +22,10 @@
                 <Beauty>-1</Beauty>
             </statOffsets>
             <appearance>Planks</appearance>
-            <stuffAdjective>Slabplank</stuffAdjective>
+            <stuffAdjective>Wood slab</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>WoodSlabs</li>
+                <li>HSK_WoodSlabs</li>
             </categories>
             <statFactors>
                 <MaxHitPoints>0.3</MaxHitPoints>
@@ -43,28 +43,19 @@
                 <Mass>2</Mass>
             </statFactors>
         </stuffProps>
-        <tools>
-            <li>
-                <label>log</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>5</power>
-                <cooldownTime>1</cooldownTime>
-            </li>
-        </tools>
+        <tools Inherit="False"></tools>
         <thingCategories Inherit="False">
-            <li>WoodSlabs</li>
+            <li>HSK_WoodSlabs</li>
         </thingCategories>
     </ThingDef>
 
     <!-- SoftWood Planks-->
-    <ThingDef Name="CecropiaPlank" ParentName="CecropiaLog">
-        <defName>CecropiaPlank</defName>
+    <ThingDef Name="HSK_CecropiaPlank" ParentName="HSK_CecropiaLog">
+        <defName>HSK_CecropiaPlank</defName>
         <label>cecropia plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -81,20 +72,20 @@
             <stuffAdjective>Cecropia plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>SoftwoodLumber</li>
+                <li>HSK_SoftwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>SoftwoodLumber</li>
+            <li>HSK_SoftwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="WillowPlank" ParentName="WillowLog">
-        <defName>WillowPlank</defName>
+    <ThingDef Name="HSK_WillowPlank" ParentName="HSK_WillowLog">
+        <defName>HSK_WillowPlank</defName>
         <label>willow plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -111,20 +102,20 @@
             <stuffAdjective>Willow plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>SoftwoodLumber</li>
+                <li>HSK_SoftwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>SoftwoodLumber</li>
+            <li>HSK_SoftwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="PinePlank" ParentName="PineLog">
-        <defName>PinePlank</defName>
+    <ThingDef Name="HSK_PinePlank" ParentName="HSK_PineLog">
+        <defName>HSK_PinePlank</defName>
         <label>pine plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -141,20 +132,20 @@
             <stuffAdjective>Pine plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>SoftwoodLumber</li>
+                <li>HSK_SoftwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>SoftwoodLumber</li>
+            <li>HSK_SoftwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="CypressPlank" ParentName="CypressLog">
-        <defName>CypressPlank</defName>
+    <ThingDef Name="HSK_CypressPlank" ParentName="HSK_CypressLog">
+        <defName>HSK_CypressPlank</defName>
         <label>cypress plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -171,20 +162,20 @@
             <stuffAdjective>Cypress plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>SoftwoodLumber</li>
+                <li>HSK_SoftwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>SoftwoodLumber</li>
+            <li>HSK_SoftwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="PoplarPlank" ParentName="PoplarLog">
-        <defName>PoplarPlank</defName>
+    <ThingDef Name="HSK_PoplarPlank" ParentName="HSK_PoplarLog">
+        <defName>HSK_PoplarPlank</defName>
         <label>poplar plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -201,22 +192,22 @@
             <stuffAdjective>Poplar plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>SoftwoodLumber</li>
+                <li>HSK_SoftwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>SoftwoodLumber</li>
+            <li>HSK_SoftwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
     <!-- HardWood Planks-->
 
-    <ThingDef Name="MaplePlank" ParentName="MapleLog">
-        <defName>MaplePlank</defName>
+    <ThingDef Name="HSK_MaplePlank" ParentName="HSK_MapleLog">
+        <defName>HSK_MaplePlank</defName>
         <label>maple plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -233,20 +224,20 @@
             <stuffAdjective>Maple plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>HardwoodLumber</li>
+                <li>HSK_HardwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>HardwoodLumber</li>
+            <li>HSK_HardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="SequoiaPlank" ParentName="SequoiaLog">
-        <defName>SequoiaPlank</defName>
+    <ThingDef Name="HSK_SequoiaPlank" ParentName="HSK_SequoiaLog">
+        <defName>HSK_SequoiaPlank</defName>
         <label>sequoia plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -262,21 +253,21 @@
             <appearance>Planks</appearance>
             <stuffAdjective>Sequoia plank</stuffAdjective>
             <categories Inherit="False">
-                <li>HardwoodLumber</li>
+                <li>HSK_HardwoodLumber</li>
                 <li>Woody</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>HardwoodLumber</li>
+            <li>HSK_HardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="BirchPlank" ParentName="BirchLog">
-        <defName>BirchPlank</defName>
+    <ThingDef Name="HSK_BirchPlank" ParentName="HSK_BirchLog">
+        <defName>HSK_BirchPlank</defName>
         <label>birch plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
             <color>(217,176,167)</color>
         </graphicData>
         <statBases>
@@ -294,20 +285,20 @@
             <stuffAdjective>Birch plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>HardwoodLumber</li>
+                <li>HSK_HardwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>HardwoodLumber</li>
+            <li>HSK_HardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="TeakPlank" ParentName="TeakLog">
-        <defName>TeakPlank</defName>
+    <ThingDef Name="HSK_TeakPlank" ParentName="HSK_TeakLog">
+        <defName>HSK_TeakPlank</defName>
         <label>teak plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -324,20 +315,20 @@
             <stuffAdjective>Teak plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>HardwoodLumber</li>
+                <li>HSK_HardwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>HardwoodLumber</li>
+            <li>HSK_HardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="OakPlank" ParentName="OakLog">
-        <defName>OakPlank</defName>
+    <ThingDef Name="HSK_OakPlank" ParentName="HSK_OakLog">
+        <defName>HSK_OakPlank</defName>
         <label>oak plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
         </graphicData>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
@@ -354,21 +345,21 @@
             <stuffAdjective>Oak plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>HardwoodLumber</li>
+                <li>HSK_HardwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>HardwoodLumber</li>
+            <li>HSK_HardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
     <!-- UltraHardWood Planks-->
-    <ThingDef Name="DragonwoodPlank" ParentName="DragonwoodLog">
-        <defName>DragonwoodPlank</defName>
+    <ThingDef Name="HSK_DragonwoodPlank" ParentName="HSK_DragonwoodLog">
+        <defName>HSK_DragonwoodPlank</defName>
         <label>dragonwood plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
             <color>(196,56,27)</color>
         </graphicData>
         <statBases>
@@ -386,20 +377,20 @@
             <stuffAdjective>Dragonwood plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>UltrahardwoodLumber</li>
+                <li>HSK_UltrahardwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>UltrahardwoodLumber</li>
+            <li>HSK_UltrahardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Name="MangrovePlank" ParentName="MangroveLog">
-        <defName>MangrovePlank</defName>
+    <ThingDef Name="HSK_MangrovePlank" ParentName="HSK_MangroveLog">
+        <defName>HSK_MangrovePlank</defName>
         <label>mangrove plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
             <color>(128,106,121)</color>
         </graphicData>
         <statBases>
@@ -417,21 +408,21 @@
             <stuffAdjective>Mangrove plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>UltrahardwoodLumber</li>
+                <li>HSK_UltrahardwoodLumber</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>UltrahardwoodLumber</li>
+            <li>HSK_UltrahardwoodLumber</li>
         </thingCategories>
     </ThingDef>
 
     <!-- Wood-like Planks-->
-    <ThingDef Name="TimbershroomPlank" ParentName="TimbershroomLog">
-        <defName>TimbershroomPlank</defName>
+    <ThingDef Name="HSK_TimbershroomPlank" ParentName="HSK_TimbershroomLog">
+        <defName>HSK_TimbershroomPlank</defName>
         <label>timbershroom plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
             <color>(0, 233, 181)</color>
         </graphicData>
         <statBases>
@@ -449,21 +440,21 @@
             <stuffAdjective>Timbershroom plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>Woodlike</li>
+                <li>HSK_Woodlike</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>WoodLikeLumber</li>
+            <li>HSK_WoodlikeLumber</li>
         </thingCategories>
     </ThingDef>
 
     <!-- Wood-like Planks-->
-    <ThingDef Name="BTWPlank" ParentName="BTWLog">
-        <defName>BTWPlank</defName>
+    <ThingDef Name="HSK_BTWPlank" ParentName="HSK_BTWLog">
+        <defName>HSK_BTWPlank</defName>
         <label>BTW plank</label>
         <description>description</description>
         <graphicData>
-            <texPath>LumberPlanks</texPath>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
             <color>(128, 128, 128)</color>
         </graphicData>
         <statBases>
@@ -481,11 +472,11 @@
             <stuffAdjective>biotechwood plank</stuffAdjective>
             <categories Inherit="False">
                 <li>Woody</li>
-                <li>Woodlike</li>
+                <li>HSK_Woodlike</li>
             </categories>
         </stuffProps>
         <thingCategories Inherit="False">
-            <li>WoodLikeLumber</li>
+            <li>HSK_WoodlikeLumber</li>
         </thingCategories>
     </ThingDef>
 

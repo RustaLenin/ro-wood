@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- ToDo:
-        - Fibercorn
+        - Naming
+        - Butchery of wood logs
+        - Add Mangrove & Sequoia to realms
+        - Translation
         - Treeconnecting, dryads and so on
         - Palm is not a TREE!
         - Traits
         - BackStory
         - Wood vine
         - Residuals
+        - SK.ExtendedPlantGraphic
 -->
 
 <!-- Patch ToDo:
@@ -15,7 +19,6 @@
 -->
 
 <!-- Mods compability ToDo:
-        - HSK
         - Combat Extended
         - Vanilla Extended Mods
         - Infusion

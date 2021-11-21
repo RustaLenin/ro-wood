@@ -4,112 +4,112 @@
     <!-- Raw Timber -->
     <!-- Parent -->
     <ThingCategoryDef>
-        <defName>RawTimber</defName>
+        <defName>HSK_RawTimber</defName>
         <label>Raw Timber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>ResourcesRaw</parent>
     </ThingCategoryDef>
 
     <!-- Childs -->
     <ThingCategoryDef>
-        <defName>HardwoodsTimbers</defName>
+        <defName>HSK_HardwoodsTimbers</defName>
         <label>Hardwood Timber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>RawTimber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>SoftwoodsTimbers</defName>
+        <defName>HSK_SoftwoodsTimbers</defName>
         <label>Softwood Timber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>RawTimber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>UltrahardwoodsTimbers</defName>
+        <defName>HSK_UltrahardwoodsTimbers</defName>
         <label>Ultra-hardwood Timber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>RawTimber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>BambooTimbers</defName>
+        <defName>HSK_BambooTimbers</defName>
         <label>Unrefined Bamboo</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>RawTimber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>WoodLikeTimbers</defName>
+        <defName>HSK_WoodlikeTimbers</defName>
         <label>Wood-like Timber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>RawTimber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
 
     <!-- WoodPlanks -->
     <!-- Parent -->
     <ThingCategoryDef>
-        <defName>Lumber</defName>
+        <defName>HSK_Lumber</defName>
         <label>Lumber Planks</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>Manufactured</parent>
     </ThingCategoryDef>
 
     <!-- Childs -->
     <ThingCategoryDef>
-        <defName>WoodSlabs</defName>
+        <defName>HSK_WoodSlabs</defName>
         <label>WoodSlabs</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>Lumber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>HardwoodLumber</defName>
+        <defName>HSK_HardwoodLumber</defName>
         <label>Hardwood Lumber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>Lumber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>SoftwoodLumber</defName>
+        <defName>HSK_SoftwoodLumber</defName>
         <label>Softwood Lumber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>Lumber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>UltrahardwoodLumber</defName>
+        <defName>HSK_UltrahardwoodLumber</defName>
         <label>Ultra-hardwood Lumber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>Lumber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>EngineeredLumber</defName>
+        <defName>HSK_EngineeredLumber</defName>
         <label>Engineered Lumber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>Lumber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>WoodLikeLumber</defName>
+        <defName>HSK_WoodlikeLumber</defName>
         <label>Wood-like Lumber</label>
-        <iconPath>UI/Icons/Wooden</iconPath>
-        <parent>Lumber</parent>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <!-- Fuel -->
     <!-- Parent -->
     <ThingCategoryDef>
-        <defName>ROWoodAllFuel</defName>
+        <defName>HSK_AllFuel</defName>
         <label>Fuel</label>
         <parent>Manufactured</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>ROWoodFuel</defName>
+        <defName>HSK_WoodFuel</defName>
         <label>Wood fuel</label>
-        <parent>ROWoodAllFuel</parent>
+        <parent>HSK_AllFuel</parent>
     </ThingCategoryDef>
 
 </Defs>

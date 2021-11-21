@@ -16,7 +16,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -27,7 +27,7 @@
                 <xpath>Defs/ThingDef[defName="TableButcher"]/costList</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>4</ComponentWood>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -45,7 +45,7 @@
                 <value>
                     <costList>
                         <Steel>30</Steel>
-                        <ComponentWood>8</ComponentWood>
+                        <HSK_ComponentWood>8</HSK_ComponentWood>
                     </costList>
                     <costStuffCount>100</costStuffCount>
                     <stuffCategories>
@@ -67,7 +67,7 @@
                         <li>Woody</li>
                     </stuffCategories>
                     <costList>
-                        <ComponentWood>2</ComponentWood>
+                        <HSK_ComponentWood>2</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -82,7 +82,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -94,7 +94,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -106,7 +106,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -118,7 +118,7 @@
                 <value>
                     <costList>
                         <Cloth>50</Cloth>
-                        <ComponentWood>4</ComponentWood>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -137,7 +137,7 @@
                 <value>
                     <costList>
                         <Cloth>80</Cloth>
-                        <ComponentWood>8</ComponentWood>
+                        <HSK_ComponentWood>8</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -165,7 +165,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -181,7 +181,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -205,14 +205,6 @@
                     <xpath>Defs/TerrainDef[defName="Bridge"]/constructEffect</xpath>
                 </li> -->
 
-            <!-- Fabrication Bench -->
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
-                <value>
-                    <li>ROWood_MakeWoodComponent_Electric</li>
-                </value>
-            </li>
-
             <!-- Watermill Generatorr -->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="WatermillGenerator"]/costList</xpath>
@@ -222,7 +214,7 @@
                         <li>Metallic</li>
                     </stuffCategories>
                     <costList>
-                        <ComponentWood>16</ComponentWood>
+                        <HSK_ComponentWood>16</HSK_ComponentWood>
                         <ComponentIndustrial>3</ComponentIndustrial>
                     </costList>
                 </value>
@@ -237,7 +229,7 @@
                 <xpath>Defs/ThingDef[defName="Door"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -247,7 +239,7 @@
                 <xpath>Defs/ThingDef[defName="FenceGate"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -257,7 +249,7 @@
                 <xpath>Defs/ThingDef[defName="Bed"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>4</ComponentWood>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -267,7 +259,7 @@
                 <xpath>Defs/ThingDef[defName="DoubleBed"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>8</ComponentWood>
+                        <HSK_ComponentWood>8</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -276,7 +268,7 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="RoyalBed"]/costList</xpath>
                 <value>
-                    <ComponentWood>16</ComponentWood>
+                    <HSK_ComponentWood>16</HSK_ComponentWood>
                 </value>
             </li>
 
@@ -285,7 +277,7 @@
                 <xpath>Defs/ThingDef[defName="Stool"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -295,7 +287,7 @@
                 <xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>2</ComponentWood>
+                        <HSK_ComponentWood>2</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -305,7 +297,7 @@
                 <xpath>Defs/ThingDef[defName="EndTable"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -315,7 +307,7 @@
                 <xpath>Defs/ThingDef[defName="Shelf"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -325,7 +317,7 @@
                 <xpath>Defs/ThingDef[defName="Dresser"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -335,8 +327,42 @@
                 <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
+                </value>
+            </li>
+
+            <!-- Table Sculpting -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TableSculpting"]/costList</xpath>
+                <value>
+                    <HSK_ComponentWood>2</HSK_ComponentWood>
+                </value>
+            </li>
+
+            <!-- Hand Tailoring Bench -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HandTailoringBench"]</xpath>
+                <value>
+                    <costList>
+                        <HSK_ComponentWood>2</HSK_ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Table Stonecutter -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TableStonecutter"]/costList</xpath>
+                <value>
+                    <HSK_ComponentWood>2</HSK_ComponentWood>
+                </value>
+            </li>
+
+            <!-- Simple Research Bench -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="SimpleResearchBench"]/costList</xpath>
+                <value>
+                    <HSK_ComponentWood>4</HSK_ComponentWood>
                 </value>
             </li>
 
@@ -367,29 +393,78 @@
                 <xpath>Defs/ThingDef[defName="AnimalSleepingBox"]</xpath>
                 <value>
                     <costList>
-                        <Wooddust>50</Wooddust>
+                        <HSK_Wooddust>50</HSK_Wooddust>
                     </costList>
                 </value>
             </li>
 
+            <!-- Fueled Smithy -->
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="FueledSmithy"]</xpath>
+                <xpath>Defs/ThingDef[defName="FueledSmithy"]/costList</xpath>
                 <value>
-                    <recipes>
-                        <li>ROWood_MakeFuelBriquetteFromWoodDust</li>
-                    </recipes>
+                    <HSK_ComponentWood>4</HSK_ComponentWood>
                 </value>
             </li>
 
+            <!-- Fueled Stove -->
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="ElectricSmithy"]</xpath>
+                <xpath>Defs/ThingDef[defName="FueledStove"]/costList</xpath>
                 <value>
-                    <recipes>
-                        <li>ROWood_MakeFuelBriquetteFromWoodDust</li>
-                    </recipes>
+                    <HSK_ComponentWood>4</HSK_ComponentWood>
                 </value>
             </li>
-            
+
+            <!-- Armchair -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Armchair"]</xpath>
+                <value>
+                    <costList>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- AnimalBed -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AnimalBed"]</xpath>
+                <value>
+                    <costList>
+                        <HSK_ComponentWood>2</HSK_ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+            <!-- Butcher Spot -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="ButcherSpot"]</xpath>
+                <value>
+                    <costList>
+                        <HSK_UniverseStoneTool>1</HSK_UniverseStoneTool>
+                    </costList>
+
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ButcherSpot"]/useHitPoints</xpath>
+                <value>
+                    <useHitPoints>true</useHitPoints>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ButcherSpot"]/statBases</xpath>
+                <value>
+                    <statBases>
+                        <WorkToBuild>150</WorkToBuild>
+                        <MaxHitPoints>50</MaxHitPoints>
+                        <Flammability>0</Flammability>
+                        <Cleanliness>-5</Cleanliness>
+                        <WorkTableWorkSpeedFactor>0.7</WorkTableWorkSpeedFactor>
+                        <Mass>10</Mass>
+                    </statBases>
+                </value>
+            </li>
 
             <!-- ****************************** -->
             <!-- ********** Royalty *********** -->
@@ -401,7 +476,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -412,7 +487,7 @@
                 <xpath>Defs/ThingDef[defName="Throne"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>4</ComponentWood>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -422,7 +497,7 @@
                 <xpath>Defs/ThingDef[defName="Harp"]/costList</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>4</ComponentWood>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
                     </costList>
                     <costStuffCount>80</costStuffCount>
                     <stuffCategories>
@@ -436,7 +511,7 @@
                 <xpath>Defs/ThingDef[defName="Harpsichord"]/costList</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>8</ComponentWood>
+                        <HSK_ComponentWood>8</HSK_ComponentWood>
                     </costList>
                     <costStuffCount>180</costStuffCount>
                     <stuffCategories>
@@ -450,7 +525,7 @@
                 <xpath>Defs/ThingDef[defName="Piano"]/costList</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>16</ComponentWood>
+                        <HSK_ComponentWood>16</HSK_ComponentWood>
                         <ComponentIndustrial>4</ComponentIndustrial>
                     </costList>
                     <costStuffCount>240</costStuffCount>
@@ -469,7 +544,7 @@
                 <xpath>Defs/ThingDef[defName="Drum"]/costList</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>4</ComponentWood>
+                        <HSK_ComponentWood>4</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -480,7 +555,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -492,7 +567,7 @@
                 <value>
                     <fuelFilter>
                         <categories>
-                            <li>ROWoodFuel</li>
+                            <li>HSK_WoodFuel</li>
                         </categories>
                     </fuelFilter>
                 </value>
@@ -503,7 +578,7 @@
                 <xpath>Defs/ThingDef[defName="Drape"]/costList</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>16</ComponentWood>
+                        <HSK_ComponentWood>16</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>
@@ -513,7 +588,7 @@
                 <xpath>Defs/ThingDef[defName="PlantPot_Bonsai"]</xpath>
                 <value>
                     <costList>
-                        <ComponentWood>1</ComponentWood>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
                     </costList>
                 </value>
             </li>

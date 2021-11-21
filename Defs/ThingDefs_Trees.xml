@@ -2,11 +2,11 @@
 <Defs>
 
     <ThingDef ParentName="DeciduousTreeBase">
-        <defName>Plant_Mangrove</defName>
+        <defName>HSK_Plant_Mangrove</defName>
         <label>mangrove tree</label>
         <description>Mangroves are trees or shrubs that grow in salty water in hot places like the tropics.</description>
         <graphicData>
-            <texPath>Trees/TreeMangrove</texPath>
+            <texPath>HSK/Trees/TreeMangrove</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.15, 0.2, 0.15)</volume>
@@ -22,18 +22,18 @@
             <growDays>17</growDays>
             <harvestWork>4500</harvestWork>
             <harvestYield>5</harvestYield>
-            <harvestedThingDef>MangroveLog</harvestedThingDef>
+            <harvestedThingDef>HSK_MangroveLog</harvestedThingDef>
             <wildClusterRadius>10</wildClusterRadius>
             <wildClusterWeight>11</wildClusterWeight>
         </plant>
     </ThingDef>
 
     <ThingDef ParentName="DeciduousTreeBase">
-		<defName>Plant_Sequoia</defName>
+		<defName>HSK_Plant_Sequoia</defName>
 		<label>sequoia tree</label>
 		<description>Rare, huge and very slow growing tree. It is often referred to simply as mahogany because of the particular color of the wood. It is the tallest known tree and has a very long life. Individual sequoias reach incredible sizes. Due to the fact that this tree is rare - items made from it are especially valuable!</description>
 		<graphicData>
-			<texPath>Trees/TreeSequoia</texPath>
+			<texPath>HSK/Trees/TreeSequoia</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.35, 0.2, 0.2)</volume>
@@ -53,7 +53,7 @@
 			<growDays>85</growDays>
 			<harvestWork>3000</harvestWork>
 			<harvestYield>25</harvestYield>
-            <harvestedThingDef>SequoiaLog</harvestedThingDef>
+            <harvestedThingDef>HSK_SequoiaLog</harvestedThingDef>
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>6</wildClusterWeight>
 			<visualSizeRange>2~7</visualSizeRange>

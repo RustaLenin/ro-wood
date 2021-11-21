@@ -3,11 +3,11 @@
 <Defs>
 
     <ThingDef ParentName="ResourceBase">
-        <defName>ComponentWood</defName>
+        <defName>HSK_ComponentWood</defName>
         <label>wood component</label>
         <description>Miscellaneous simple wood based components, such as: sticks, cogs, grips, wheels, hooks, locks, buckles and other hardware using in construction and crafting.</description>
         <graphicData>
-            <texPath>ComponentWood</texPath>
+            <texPath>HSK/Manufactured/ComponentWood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techLevel>Neolithic</techLevel>
@@ -29,11 +29,11 @@
     </ThingDef>
 
     <ThingDef ParentName="ResourceBase">
-        <defName>Wooddust</defName>
+        <defName>HSK_Wooddust</defName>
         <label>wood dust</label>
         <description>Wood dust (or saw dust) is a by-product or waste product of woodworking operations such as sawing, sanding, milling, planing, and routing. It is composed of small chippings of wood.</description>
         <graphicData>
-            <texPath>Wooddust</texPath>
+            <texPath>HSK/Manufactured/Wooddust</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techLevel>Neolithic</techLevel>
@@ -55,11 +55,11 @@
     </ThingDef>
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FuelBriquette</defName>
+        <defName>HSK_FuelBriquette</defName>
         <label>fuel briquette</label>
         <description>The raw material for this type of fuel is waste from the woodworking industry.</description>
         <graphicData>
-            <texPath>FuelBriquette</texPath>
+            <texPath>HSK/Manufactured/FuelBriquette</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <techLevel>Neolithic</techLevel>
@@ -74,9 +74,64 @@
         </statBases>
         <useHitPoints>true</useHitPoints>
         <thingCategories>
-            <li>ROWoodFuel</li>
+            <li>HSK_WoodFuel</li>
         </thingCategories>
         <stackLimit>200</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>HSK_UniverseStoneTool</defName>
+        <label>stone tool</label>
+        <description>If you need to do anything, it will be much more easier with this totaly universal stone tool. Swear!</description>
+        <graphicData>
+            <texPath>HSK/Manufactured/StoneTool</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <soundInteract>ChunkRock_Drop</soundInteract>
+        <soundDrop>ChunkRock_Drop</soundDrop>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>1</MarketValue>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+            <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+            <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+            <Mass>2</Mass>
+        </statBases>
+        <stuffProps>
+            <categories>
+                <li>HSK_Primitive</li>
+            </categories>
+            <stuffAdjective>Primitive</stuffAdjective>
+            <statFactors>
+                <MaxHitPoints>1</MaxHitPoints>
+                <Flammability>0</Flammability>
+                <Beauty>0.4</Beauty>
+                <WorkToMake>2.5</WorkToMake>
+                <WorkToBuild>2.5</WorkToBuild>
+                <MeleeWeapon_CooldownMultiplier>2</MeleeWeapon_CooldownMultiplier>
+                <MarketValue>0.01</MarketValue>
+                <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+                <Mass>1</Mass>
+            </statFactors>
+        </stuffProps>
+        <tools>
+            <li>
+                <label>base</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>28</power>
+                <cooldownTime>2.5</cooldownTime>
+            </li>
+        </tools>
+        <useHitPoints>true</useHitPoints>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <stackLimit>10</stackLimit>
         <healthAffectsPrice>false</healthAffectsPrice>
     </ThingDef>
 

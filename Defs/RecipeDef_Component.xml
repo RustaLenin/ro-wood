@@ -2,17 +2,17 @@
 <Defs>
 
     <RecipeDef>
-        <defName>ROWood_MakeWoodComponent_Hand</defName>
-        <label>wood component (x4)</label>
+        <defName>HSK_MakeWoodComponent_Hand</defName>
+        <label>make wood component (x4)</label>
         <description>Carve simple wood component out of timber log.</description>
         <jobString>Carving wood components.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
-        <soundWorking>WoodWorking</soundWorking>
+        <soundWorking>HSK_WoodWorking</soundWorking>
         <ingredients>
             <li>
                 <filter>
                     <categories>
-                        <li>RawTimber</li>
+                        <li>HSK_RawTimber</li>
                     </categories>
                 </filter>
                 <count>1</count>
@@ -20,24 +20,28 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>RawTimber</li>
+                <li>HSK_RawTimber</li>
             </categories>
         </fixedIngredientFilter>
         <products>
-            <ComponentWood>4</ComponentWood>
-            <Wooddust>200</Wooddust>
-            <SlabPlank>4</SlabPlank>
+            <HSK_ComponentWood>4</HSK_ComponentWood>
+            <HSK_Wooddust>200</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>500</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_WoodWorkingSpot</li>
+            <li>HSK_Sawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef>
-        <defName>ROWood_MakeWoodComponent_Electric</defName>
-        <label>wood component (x4)</label>
+        <defName>HSK_MakeWoodComponent_Electric</defName>
+        <label>make wood component (x4)</label>
         <description>Carve simple wood component out of timber log.</description>
         <jobString>Carving wood components.</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
@@ -46,7 +50,7 @@
             <li>
                 <filter>
                     <categories>
-                        <li>RawTimber</li>
+                        <li>HSK_RawTimber</li>
                     </categories>
                 </filter>
                 <count>1</count>
@@ -54,19 +58,22 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>RawTimber</li>
+                <li>HSK_RawTimber</li>
             </categories>
         </fixedIngredientFilter>
         <products>
-            <ComponentWood>4</ComponentWood>
-            <Wooddust>200</Wooddust>
-            <SlabPlank>4</SlabPlank>
+            <HSK_ComponentWood>4</HSK_ComponentWood>
+            <HSK_Wooddust>200</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>500</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
     </RecipeDef>
 
 </Defs>

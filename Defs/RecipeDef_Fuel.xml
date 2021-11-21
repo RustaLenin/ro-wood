@@ -2,17 +2,17 @@
 <Defs>
 
     <RecipeDef>
-        <defName>ROWood_ChopLogsIntoFireWood_Hand</defName>
+        <defName>HSK_ChopLogsIntoFireWood_Hand</defName>
         <label>Chop logs into firewood (x20)</label>
         <description>Chop timber logs into firewood.</description>
         <jobString>Chopping logs into firewood.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
-        <soundWorking>LogChopping</soundWorking>
+        <soundWorking>HSK_LogChopping</soundWorking>
         <ingredients>
             <li>
                 <filter>
                     <categories>
-                        <li>RawTimber</li>
+                        <li>HSK_RawTimber</li>
                     </categories>
                 </filter>
                 <count>1</count>
@@ -20,32 +20,36 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>RawTimber</li>
+                <li>HSK_RawTimber</li>
             </categories>
         </fixedIngredientFilter>
         <products>
             <WoodLog>20</WoodLog>
-            <Wooddust>20</Wooddust>
+            <HSK_Wooddust>20</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>300</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_WoodWorkingSpot</li>
+            <li>HSK_Sawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef>
-        <defName>ROWood_ChopSlabsIntoFireWood_Hand</defName>
+        <defName>HSK_ChopSlabsIntoFireWood_Hand</defName>
         <label>Chop woodslabs into firewood (x8)</label>
         <description>Chop woodslabs into firewood.</description>
         <jobString>Chopping woodslabs into firewood.</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
-        <soundWorking>LogChopping</soundWorking>
+        <soundWorking>HSK_LogChopping</soundWorking>
         <ingredients>
             <li>
                 <filter>
                     <categories>
-                        <li>WoodSlabs</li>
+                        <li>HSK_WoodSlabs</li>
                     </categories>
                 </filter>
                 <count>4</count>
@@ -53,22 +57,26 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>WoodSlabs</li>
+                <li>HSK_WoodSlabs</li>
             </categories>
         </fixedIngredientFilter>
         <products>
             <WoodLog>8</WoodLog>
-            <Wooddust>2</Wooddust>
+            <HSK_Wooddust>2</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>100</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_WoodWorkingSpot</li>
+            <li>HSK_Sawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef>
-        <defName>ROWood_SawLogsIntoFireWood_Electric_Singly</defName>
+        <defName>HSK_SawLogsIntoFireWood_Electric_Singly</defName>
         <label>Saw logs into firewood (x20)</label>
         <description>Saw logs into firewood on this electric sawmill.</description>
         <jobString>Sawing logs into firewood.</jobString>
@@ -78,7 +86,7 @@
             <li>
                 <filter>
                     <categories>
-                        <li>RawTimber</li>
+                        <li>HSK_RawTimber</li>
                     </categories>
                 </filter>
                 <count>1</count>
@@ -86,22 +94,25 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>RawTimber</li>
+                <li>HSK_RawTimber</li>
             </categories>
         </fixedIngredientFilter>
         <products>
             <WoodLog>20</WoodLog>
-            <Wooddust>40</Wooddust>
+            <HSK_Wooddust>40</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>300</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef>
-        <defName>ROWood_SawLogsIntoFireWood_Electric_Batch</defName>
+        <defName>HSK_SawLogsIntoFireWood_Electric_Batch</defName>
         <label>Saw logs into firewood (x100)</label>
         <description>Saw logs into firewood on this electric sawmill.</description>
         <jobString>Batch sawing logs into firewood.</jobString>
@@ -111,7 +122,7 @@
             <li>
                 <filter>
                     <categories>
-                        <li>RawTimber</li>
+                        <li>HSK_RawTimber</li>
                     </categories>
                 </filter>
                 <count>5</count>
@@ -119,22 +130,25 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>RawTimber</li>
+                <li>HSK_RawTimber</li>
             </categories>
         </fixedIngredientFilter>
         <products>
             <WoodLog>100</WoodLog>
-            <Wooddust>200</Wooddust>
+            <HSK_Wooddust>200</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>1500</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
-    <RecipeDef name="ROWood_SawSlabsIntoFireWood_Electric">
-        <defName>ROWood_SawSlabsIntoFireWood_Electric</defName>
+    <RecipeDef name="HSK_SawSlabsIntoFireWood_Electric">
+        <defName>HSK_SawSlabsIntoFireWood_Electric</defName>
         <label>Saw woodslabs into firewood (x8)</label>
         <description>Saw woodslabs into firewood.</description>
         <jobString>Sawing woodslabs into firewood.</jobString>
@@ -144,7 +158,7 @@
             <li>
                 <filter>
                     <categories>
-                        <li>WoodSlabs</li>
+                        <li>HSK_WoodSlabs</li>
                     </categories>
                 </filter>
                 <count>4</count>
@@ -152,22 +166,25 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>WoodSlabs</li>
+                <li>HSK_WoodSlabs</li>
             </categories>
         </fixedIngredientFilter>
         <products>
             <WoodLog>8</WoodLog>
-            <Wooddust>2</Wooddust>
+            <HSK_Wooddust>2</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>100</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
-    <RecipeDef name="ROWood_BatchSawSlabsIntoFireWood_Electric">
-        <defName>ROWood_BatchSawSlabsIntoFireWood_Electric</defName>
+    <RecipeDef name="HSK_BatchSawSlabsIntoFireWood_Electric">
+        <defName>HSK_BatchSawSlabsIntoFireWood_Electric</defName>
         <label>Saw woodslabs into firewood (x80)</label>
         <description>Saw woodslabs into firewood.</description>
         <jobString>Sawing woodslabs into firewood.</jobString>
@@ -177,7 +194,7 @@
             <li>
                 <filter>
                     <categories>
-                        <li>WoodSlabs</li>
+                        <li>HSK_WoodSlabs</li>
                     </categories>
                 </filter>
                 <count>40</count>
@@ -185,22 +202,25 @@
         </ingredients>
         <fixedIngredientFilter>
             <categories>
-                <li>WoodSlabs</li>
+                <li>HSK_WoodSlabs</li>
             </categories>
         </fixedIngredientFilter>
         <products>
             <WoodLog>80</WoodLog>
-            <Wooddust>20</Wooddust>
+            <HSK_Wooddust>20</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>100</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
-        <unfinishedThingDef>UnfinishedWoodWork</unfinishedThingDef>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
     </RecipeDef>
 
-    <RecipeDef name="ROWood_MakeFuelBriquetteFromWoodDust">
-        <defName>ROWood_MakeFuelBriquetteFromWoodDust</defName>
+    <RecipeDef name="HSK_MakeFuelBriquetteFromWooddust">
+        <defName>HSK_MakeFuelBriquetteFromWooddust</defName>
         <label>make fuel briquette</label>
         <description>Compress wood dust into briquette and heat it a beat.</description>
         <jobString>Making fuel briquettes.</jobString>
@@ -210,19 +230,23 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Wooddust</li>
+                        <li>HSK_Wooddust</li>
                     </thingDefs>
                 </filter>
                 <count>50</count>
             </li>
         </ingredients>
         <products>
-            <FuelBriquette>1</FuelBriquette>
+            <HSK_FuelBriquette>1</HSK_FuelBriquette>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
         <workAmount>100</workAmount>
-        <workSpeedStat>ROWood_WoodWorkingSpeed</workSpeedStat>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <recipeUsers>
+            <li>FueledSmithy</li>
+            <li>ElectricSmithy</li>
+        </recipeUsers>
     </RecipeDef>
 
 </Defs>

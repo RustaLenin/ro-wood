@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <WorkTypeDef>
-        <defName>TreeChopping</defName>
+    <!-- <WorkTypeDef>
+        <defName>HSK_TreeChopping</defName>
         <labelShort>Tree chop</labelShort>
         <pawnLabel>Tree chopper</pawnLabel>
         <gerundLabel>chopping trees</gerundLabel>
@@ -20,10 +20,10 @@
             <li>Commoner</li>
             <li>AllWork</li>
         </workTags>
-    </WorkTypeDef>
+    </WorkTypeDef> -->
 
     <WorkTypeDef>
-        <defName>WoodWorking</defName>
+        <defName>HSK_WoodWorking</defName>
         <labelShort>Wood work</labelShort>
         <pawnLabel>Wood worker</pawnLabel>
         <gerundLabel>Wood working</gerundLabel>

@@ -4,16 +4,16 @@
     <!-- NEED TO SET driverClass-->
 
     <!-- <JobDef>
-        <defName>ROWood_HarvestTreeDesignated</defName>
-        <driverClass>ROWood.</driverClass>
+        <defName>HSK_HarvestTreeDesignated</defName>
+        <driverClass>HSK.</driverClass>
         <driverClass>TreeChopSpeed.JobDriver_PlantHarvest_Designated_Tree</driverClass>
         <reportString>harvesting TargetA.</reportString>
         <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
     </JobDef>
 
     <JobDef>
-        <defName>ROWood_CutTreeDesignated</defName>
-        <driverClass>ROWood.</driverClass>
+        <defName>HSK_CutTreeDesignated</defName>
+        <driverClass>HSK.</driverClass>
         <driverClass>TreeChopSpeed.JobDriver_PlantCut_Designated_Tree</driverClass>
         <reportString>cutting TargetA.</reportString>
         <allowOpportunisticPrefix>true</allowOpportunisticPrefix>

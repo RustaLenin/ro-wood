@@ -6,7 +6,7 @@
     <!-- <WorkGiverDef>
         <defName>TreesChop</defName>
         <label>chop trees</label>
-        <giverClass>ROWood.</giverClass>
+        <giverClass>HSK.</giverClass>
         <workType>TreeChopping</workType>
         <verb>chop trees</verb>
         <gerund>chopping</gerund>
@@ -16,15 +16,47 @@
     </WorkGiverDef> -->
 
     <WorkGiverDef>
-        <defName>DoBillLogSplitting</defName>
-        <label>Chop logs</label>
+        <defName>HSK_DoBill_HSK_WoodWorkin</defName>
+        <label>Wood working at woodworking spot</label>
         <giverClass>WorkGiver_DoBill</giverClass>
-        <workType>WoodWorking</workType>
-        <priorityInType>1</priorityInType>
+        <workType>HSK_WoodWorking</workType>
+        <priorityInType>90</priorityInType>
         <fixedBillGiverDefs>
-            <li>ROWood_LogSplittingSpot</li>
-            <li>ROWood_Sawmill</li>
-            <li>ROWood_ElectroSawmill</li>
+            <li>HSK_WoodWorkingSpot</li>
+        </fixedBillGiverDefs>
+        <verb>wood works</verb>
+        <gerund>woodworking</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <prioritizeSustains>true</prioritizeSustains>
+    </WorkGiverDef>
+
+    <WorkGiverDef>
+        <defName>HSK_DoBill_HSK_Sawmill</defName>
+        <label>Wood working at sawmill</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>HSK_WoodWorking</workType>
+        <priorityInType>95</priorityInType>
+        <fixedBillGiverDefs>
+            <li>HSK_Sawmill</li>
+        </fixedBillGiverDefs>
+        <verb>wood works</verb>
+        <gerund>woodworking</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <prioritizeSustains>true</prioritizeSustains>
+    </WorkGiverDef>
+
+    <WorkGiverDef>
+        <defName>HSK_DoBill_HSK_ElectroSawmill</defName>
+        <label>Wood working at electro sawmill</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>HSK_WoodWorking</workType>
+        <priorityInType>100</priorityInType>
+        <fixedBillGiverDefs>
+            <li>HSK_ElectroSawmill</li>
         </fixedBillGiverDefs>
         <verb>wood works</verb>
         <gerund>woodworking</gerund>

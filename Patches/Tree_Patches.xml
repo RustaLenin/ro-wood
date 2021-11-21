@@ -11,35 +11,35 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/plant</xpath>
         <value>
-            <harvestedThingDef>CecropiaLog</harvestedThingDef>
+            <harvestedThingDef>HSK_CecropiaLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant</xpath>
         <value>
-            <harvestedThingDef>WillowLog</harvestedThingDef>
+            <harvestedThingDef>HSK_WillowLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
         <value>
-            <harvestedThingDef>PineLog</harvestedThingDef>
+            <harvestedThingDef>HSK_PineLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant</xpath>
         <value>
-            <harvestedThingDef>CypressLog</harvestedThingDef>
+            <harvestedThingDef>HSK_CypressLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant</xpath>
         <value>
-            <harvestedThingDef>PoplarLog</harvestedThingDef>
+            <harvestedThingDef>HSK_PoplarLog</harvestedThingDef>
         </value>
     </Operation>
 
@@ -47,28 +47,28 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant</xpath>
         <value>
-            <harvestedThingDef>MapleLog</harvestedThingDef>
+            <harvestedThingDef>HSK_MapleLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant</xpath>
         <value>
-            <harvestedThingDef>BirchLog</harvestedThingDef>
+            <harvestedThingDef>HSK_BirchLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant</xpath>
         <value>
-            <harvestedThingDef>TeakLog</harvestedThingDef>
+            <harvestedThingDef>HSK_TeakLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant</xpath>
         <value>
-            <harvestedThingDef>OakLog</harvestedThingDef>
+            <harvestedThingDef>HSK_OakLog</harvestedThingDef>
         </value>
     </Operation>
 
@@ -76,7 +76,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant</xpath>
         <value>
-            <harvestedThingDef>DragonwoodLog</harvestedThingDef>
+            <harvestedThingDef>HSK_DragonwoodLog</harvestedThingDef>
         </value>
     </Operation>
 
@@ -84,14 +84,14 @@
     <Operation Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
         <xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
         <value>
-            <harvestedThingDef>TimbershroomLog</harvestedThingDef>
+            <harvestedThingDef>HSK_TimbershroomLog</harvestedThingDef>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
         <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]/plant/harvestedThingDef</xpath>
         <value>
-            <harvestedThingDef>BTWLog</harvestedThingDef>
+            <harvestedThingDef>HSK_BTWLog</harvestedThingDef>
         </value>
     </Operation>
 
@@ -229,7 +229,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeCecropia</texPath>
+            <texPath>HSK/Trees/TreeCecropia</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -243,7 +243,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeWillow</texPath>
+            <texPath>HSK/Trees/TreeWillow</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -257,7 +257,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreePine"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreePine</texPath>
+            <texPath>HSK/Trees/TreePine</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -271,7 +271,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeCypress</texPath>
+            <texPath>HSK/Trees/TreeCypress</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -285,7 +285,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreePoplar</texPath>
+            <texPath>HSK/Trees/TreePoplar</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -300,7 +300,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeMaple</texPath>
+            <texPath>HSK/Trees/TreeMaple</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -314,7 +314,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeBirch</texPath>
+            <texPath>HSK/Trees/TreeBirch</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -328,7 +328,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeTeak</texPath>
+            <texPath>HSK/Trees/TreeTeak</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -342,7 +342,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeOak</texPath>
+            <texPath>HSK/Trees/TreeOak</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -357,7 +357,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Trees/TreeDrago</texPath>
+            <texPath>HSK/Trees/TreeDrago</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">

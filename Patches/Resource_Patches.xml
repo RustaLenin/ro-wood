@@ -20,7 +20,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>NewFirewood</texPath>
+			<texPath>HSK/Manufactured/NewFirewood</texPath>
 		</value>
 	</Operation>
 
@@ -60,7 +60,7 @@
 		<xpath>Defs/ThingDef[defName="WoodLog"]/thingCategories</xpath>
 		<value>
 			<thingCategories>
-				<li>ROWoodFuel</li>
+				<li>HSK_WoodFuel</li>
 			</thingCategories>
 		</value>
 	</Operation>
@@ -70,10 +70,9 @@
 		<xpath>Defs/ThingDef[defName="Chemfuel"]/thingCategories</xpath>
 		<value>
 			<thingCategories>
-				<li>ROWoodAllFuel</li>
+				<li>HSK_AllFuel</li>
 			</thingCategories>
 		</value>
 	</Operation>
-
 
 </Patch>

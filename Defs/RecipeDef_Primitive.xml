@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef>
+        <defName>HSK_MakeStoneTool</defName>
+        <label>make stone tool</label>
+        <description>Every stone is much more useful, if it's a sharp stone!</description>
+        <jobString>Sharpen stone</jobString>
+        <effectWorking>CutStone</effectWorking>
+        <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>StoneChunks</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>StoneChunks</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <HSK_UniverseStoneTool>1</HSK_UniverseStoneTool>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.25</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <recipeUsers>
+            <li>CraftingSpot</li>
+        </recipeUsers>
+    </RecipeDef>
+
+</Defs>

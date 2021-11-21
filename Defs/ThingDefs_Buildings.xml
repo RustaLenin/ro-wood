@@ -3,12 +3,12 @@
 <Defs>
 
     <ThingDef ParentName="BuildingBase">
-        <defName>ROWood_LogSplittingSpot</defName>
-        <label>log-splitting spot</label>
+        <defName>HSK_WoodWorkingSpot</defName>
+        <label>wood working spot</label>
         <description>You need a space for your woodworking and here it is. Here you can splitting wood logs into firewood. And all this is only with bare hands, so, work speed will be extremly slow.</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
-            <texPath>WorkTables/LogSplittingSpot</texPath>
+            <texPath>HSK/WorkTables/WoodWorkingSpot</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1,1)</drawSize>
         </graphicData>
@@ -18,12 +18,14 @@
             <li>BuildingsProduction</li>
         </thingCategories>
         <statBases>
-            <WorkToBuild>0</WorkToBuild>
+            <WorkToBuild>150</WorkToBuild>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <Cleanliness>-5</Cleanliness>
             <WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
-            <Mass>0.1</Mass>
+            <Mass>10</Mass>
         </statBases>
         <scatterableOnMapGen>false</scatterableOnMapGen>
-        <useHitPoints>false</useHitPoints>
         <size>(1,1)</size>
         <designationCategory>Production</designationCategory>
         <passability>Standable</passability>
@@ -32,11 +34,9 @@
         <surfaceType>Item</surfaceType>
         <tickerType>Normal</tickerType>
 
-        <recipes>
-            <li>ROWood_ChopLogsIntoFireWood_Hand</li>
-            <li>ROWood_ChopSlabsIntoFireWood_Hand</li>
-            <li>ROWood_MakeWoodComponent_Hand</li>
-        </recipes>
+        <costList>
+            <HSK_UniverseStoneTool>1</HSK_UniverseStoneTool>
+		</costList>
 
         <inspectorTabs>
             <li>ITab_Bills</li>
@@ -51,6 +51,7 @@
             <buildingTags>
                 <li>Production</li>
             </buildingTags>
+            <uninstallWork>25</uninstallWork>
         </building>
 
         <comps>
@@ -74,7 +75,7 @@
 
     <ThingDef ParentName="BuildingBase">
         <!-- Name & Description -->
-        <defName>ROWood_Sawmill</defName>
+        <defName>HSK_Sawmill</defName>
         <label>sawmill</label>
         <description>A small muscle-powered hand saw for sawing logs into planks and chopping into firewood.</description>
         <thingClass>Building_WorkTable</thingClass>
@@ -85,7 +86,7 @@
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>
 
         <graphicData>
-            <texPath>WorkTables/TableSawmill</texPath>
+            <texPath>HSK/WorkTables/TableSawmill</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(2,1)</drawSize>
             <shaderType>CutoutComplex</shaderType>
@@ -104,7 +105,7 @@
         <costStuffCount>60</costStuffCount>
         <costList>
             <Steel>20</Steel>
-            <ComponentWood>8</ComponentWood>
+            <HSK_ComponentWood>8</HSK_ComponentWood>
 		</costList>
         <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 
@@ -124,27 +125,6 @@
         <!-- <altitudeLayer>FloorEmplacement</altitudeLayer> -->
         <minifiedDef>MinifiedThing</minifiedDef>
         <scatterableOnMapGen>false</scatterableOnMapGen>
-
-        <!-- What it producing-->
-        <recipes>
-            <li>ROWood_ChopLogsIntoFireWood_Hand</li>
-            <li>ROWood_ChopSlabsIntoFireWood_Hand</li>
-            <li>ROWood_SawCecropia</li>
-            <li>ROWood_SawWillow</li>
-            <li>ROWood_SawPine</li>
-            <li>ROWood_SawCypress</li>
-            <li>ROWood_SawPoplar</li>
-            <li>ROWood_SawMaple</li>
-            <li>ROWood_SawSequoia</li>
-            <li>ROWood_SawBirch</li>
-            <li>ROWood_SawTeak</li>
-            <li>ROWood_SawOak</li>
-            <li>ROWood_SawDragonwood</li>
-            <li>ROWood_SawMangrove</li>
-            <li>ROWood_SawTimbershroom</li>
-            <li>ROWood_SawBTW</li>
-            <li>ROWood_MakeWoodComponent_Hand</li>
-        </recipes>
 
         <inspectorTabs>
             <li>ITab_Bills</li>
@@ -190,7 +170,7 @@
 
     <ThingDef ParentName="BuildingBase">
         <!-- Name & Description -->
-        <defName>ROWood_ElectroSawmill</defName>
+        <defName>HSK_ElectroSawmill</defName>
         <label>electro sawmill</label>
         <description>An electric sawmill for cutting logs into planks and firewood. Requires power, so, dont leave it under rain.</description>
         <thingClass>Building_WorkTable</thingClass>
@@ -201,7 +181,7 @@
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>
 
         <graphicData>
-			<texPath>WorkTables/ElectricSawmill</texPath>
+			<texPath>HSK/WorkTables/ElectricSawmill</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shadowData>
@@ -242,42 +222,6 @@
         <!-- <altitudeLayer>FloorEmplacement</altitudeLayer> -->
         <minifiedDef>MinifiedThing</minifiedDef>
         <scatterableOnMapGen>false</scatterableOnMapGen>
-
-        <!-- What it producing-->
-        <recipes>
-            <li>ROWood_SawLogsIntoFireWood_Electric_Singly</li>
-            <li>ROWood_SawLogsIntoFireWood_Electric_Batch</li>
-            <li>ROWood_SawSlabsIntoFireWood_Electric</li>
-            <li>ROWood_BatchSawSlabsIntoFireWood_Electric</li>
-            <li>ROWood_SawCecropia_Electric</li>
-            <li>ROWood_BatchSawCecropia_Electric</li>
-            <li>ROWood_SawWillow_Electric</li>
-            <li>ROWood_BatchSawWillow_Electric</li>
-            <li>ROWood_SawPine_Electric</li>
-            <li>ROWood_BatchSawPine_Electric</li>
-            <li>ROWood_SawCypress_Electric</li>
-            <li>ROWood_BatchSawCypress_Electric</li>
-            <li>ROWood_SawPoplar_Electric</li>
-            <li>ROWood_BatchSawPoplar_Electric</li>
-            <li>ROWood_SawMaple_Electric</li>
-            <li>ROWood_BatchSawMaple_Electric</li>
-            <li>ROWood_SawSequoia_Electric</li>
-            <li>ROWood_BatchSawSequoia_Electric</li>
-            <li>ROWood_SawBirch_Electric</li>
-            <li>ROWood_BatchSawBirch_Electric</li>
-            <li>ROWood_SawTeak_Electric</li>
-            <li>ROWood_BatchSawTeak_Electric</li>
-            <li>ROWood_SawOak_Electric</li>
-            <li>ROWood_BatchSawOak_Electric</li>
-            <li>ROWood_SawDragonwood_Electric</li>
-            <li>ROWood_BatchSawDragonwood_Electric</li>
-            <li>ROWood_SawMangrove_Electric</li>
-            <li>ROWood_BatchSawMangrove_Electric</li>
-            <li>ROWood_SawTimbershroom_Electric</li>
-            <li>ROWood_SawBTW_Electric</li>
-            <li>ROWood_BatchSawTBTW_Electric</li>
-            <li>ROWood_BatchSawTimbershroom_Electric</li>
-        </recipes>
 
         <inspectorTabs>
             <li>ITab_Bills</li>

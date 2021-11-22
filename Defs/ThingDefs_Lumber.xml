@@ -480,5 +480,36 @@
         </thingCategories>
     </ThingDef>
 
+    <!-- Bamboo Planks-->
+    <ThingDef Name="HSK_BambooPlank" ParentName="HSK_BambooStick">
+        <defName>HSK_BambooPlank</defName>
+        <label>bamboo plank</label>
+        <description>description</description>
+        <graphicData>
+            <texPath>HSK/Manufactured/LumberPlanks</texPath>
+            <color>(204, 255, 102)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>0.1</Beauty>
+            <MarketValue>2</MarketValue>
+            <Mass>0.35</Mass>
+        </statBases>
+        <stackLimit>500</stackLimit>
+        <stuffProps>
+            <statOffsets Inherit="False">
+                <Beauty>2</Beauty>
+            </statOffsets>
+            <appearance>Planks</appearance>
+            <stuffAdjective>bamboo plank</stuffAdjective>
+            <categories Inherit="False">
+                <li>Woody</li>
+                <li>HSK_SoftwoodLumber</li>
+            </categories>
+        </stuffProps>
+        <thingCategories Inherit="False">
+            <li>HSK_SoftwoodLumber</li>
+        </thingCategories>
+    </ThingDef>
 
 </Defs>

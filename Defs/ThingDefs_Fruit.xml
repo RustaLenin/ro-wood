@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>HSK_RawCoconut</defName>
+        <label>Coconut</label>
+        <description>Coconut.</description>
+        <graphicData>
+            <texPath>HSK/Fruits/Coconut</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>6</MarketValue>
+            <Nutrition>0.5</Nutrition>
+            <Mass>0.375</Mass>
+        </statBases>
+        <tickerType>Rare</tickerType>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>14</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+            <joyKind>Gluttonous</joyKind>
+            <joy>0.08</joy>
+        </ingestible>
+    </ThingDef>
+
+</Defs>

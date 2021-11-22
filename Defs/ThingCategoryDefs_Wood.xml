@@ -10,6 +10,13 @@
         <parent>ResourcesRaw</parent>
     </ThingCategoryDef>
 
+    <ThingCategoryDef>
+        <defName>HSK_BambooSticks</defName>
+        <label>Unrefined Bamboo</label>
+        <iconPath>HSK/UI/Icons/Wooden</iconPath>
+        <parent>ResourcesRaw</parent>
+    </ThingCategoryDef>
+
     <!-- Childs -->
     <ThingCategoryDef>
         <defName>HSK_HardwoodsTimbers</defName>
@@ -28,13 +35,6 @@
     <ThingCategoryDef>
         <defName>HSK_UltrahardwoodsTimbers</defName>
         <label>Ultra-hardwood Timber</label>
-        <iconPath>HSK/UI/Icons/Wooden</iconPath>
-        <parent>HSK_RawTimber</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-        <defName>HSK_BambooTimbers</defName>
-        <label>Unrefined Bamboo</label>
         <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>

@@ -2,7 +2,79 @@
 <Defs>
 
     <!-- Recipes wan't to Inherit. WTF!?-->
-    <!-- Try to use later <requiredGiverWorkType>***</requiredGiverWorkType> -->
+    <!-- Unfinished work is caused by for wood buthery recipes-->
+
+    <!-- Butchery any type of timber into wood logs-->
+    <RecipeDef>
+        <defName>HSK_ButcheryWoodLog</defName>
+        <label>Saw any wood log</label>
+        <description>Just saw  nearest timber log into planks.</description>
+        <jobString>Sawing wood log.</jobString>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>HSK_SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>HSK_RawTimber</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>HSK_RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <specialProducts>
+            <li>Butchery</li>
+        </specialProducts>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <!-- <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef> -->
+        <recipeUsers>
+            <li>HSK_WoodWorkingSpot</li>
+            <li>HSK_Sawmill</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>HSK_ButcheryWoodLog_Electric</defName>
+        <label>saw any wood log</label>
+        <description>Just saw  nearest timber log into planks.</description>
+        <jobString>Sawing wood log.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>HSK_RawTimber</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>HSK_RawTimber</li>
+            </categories>
+        </fixedIngredientFilter>
+        <specialProducts>
+            <li>Butchery</li>
+        </specialProducts>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>600</workAmount>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <!-- <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef> -->
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
+    </RecipeDef>
 
     <!-- SoftWood Recipes -->
     <!-- Cecropia -->
@@ -1370,6 +1442,103 @@
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.35</workSkillLearnFactor>
         <workAmount>3000</workAmount>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <!-- Steak-Lumber Recipes -->
+    <!-- Bamboo -->
+
+    <RecipeDef>
+        <defName>HSK_SawBamboo</defName>
+        <label>saw bamboo plank(x5)</label>
+        <description>Saw and compress bamboo stics into planks.</description>
+        <jobString>Sawing bamboo sticks.</jobString>
+        <effectWorking>MakeWoodPlanks_Hand</effectWorking>
+        <soundWorking>HSK_SawLog</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>HSK_BambooStick</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+        </ingredients>
+        <products>
+            <HSK_BambooPlank>5</HSK_BambooPlank>
+            <HSK_Wooddust>50</HSK_Wooddust>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>200</workAmount>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_WoodWorkingSpot</li>
+            <li>HSK_Sawmill</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>HSK_SawBamboo_Electric</defName>
+        <label>saw bamboo plank(x5)</label>
+        <description>Saw and compress bamboo stics into planks.</description>
+        <jobString>Sawing bamboo sticks.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>HSK_BambooStick</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+        </ingredients>
+        <products>
+            <HSK_BambooPlank>5</HSK_BambooPlank>
+            <HSK_Wooddust>50</HSK_Wooddust>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>200</workAmount>
+        <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
+        <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
+        <recipeUsers>
+            <li>HSK_ElectroSawmill</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>HSK_BatchSawBamboo_Electric</defName>
+        <label>saw bamboo plank(x20)</label>
+        <description>Batch saw and compress bamboo stics into planks.</description>
+        <jobString>Batch sawing bamboo sticks.</jobString>
+        <effectWorking>MakeWoodPlanks_Electric</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>HSK_BambooStick</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <products>
+            <HSK_BambooPlank>20</HSK_BambooPlank>
+            <HSK_Wooddust>200</HSK_Wooddust>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.35</workSkillLearnFactor>
+        <workAmount>1000</workAmount>
         <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
         <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
         <recipeUsers>

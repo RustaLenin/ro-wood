@@ -107,6 +107,11 @@
         <thingCategories>
             <li>HSK_SoftwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_CecropiaPlank>20</HSK_CecropiaPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_WillowLog" ParentName="HSK_TimberBase">
@@ -145,6 +150,11 @@
         <thingCategories>
             <li>HSK_SoftwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_WillowPlank>20</HSK_WillowPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_PineLog" ParentName="HSK_TimberBase">
@@ -184,6 +194,11 @@
         <thingCategories>
             <li>HSK_SoftwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_PinePlank>20</HSK_PinePlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_CypressLog" ParentName="HSK_TimberBase">
@@ -223,6 +238,11 @@
         <thingCategories>
             <li>HSK_SoftwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_CypressPlank>20</HSK_CypressPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_PoplarLog" ParentName="HSK_TimberBase">
@@ -262,6 +282,11 @@
         <thingCategories>
             <li>HSK_SoftwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_PoplarPlank>20</HSK_PoplarPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <!-- HardWood Logs-->
@@ -306,6 +331,11 @@
         <thingCategories>
             <li>HSK_HardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_MaplePlank>20</HSK_MaplePlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_SequoiaLog" ParentName="HSK_TimberBase">
@@ -349,6 +379,11 @@
         <thingCategories>
             <li>HSK_HardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_SequoiaPlank>20</HSK_SequoiaPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_BirchLog" ParentName="HSK_TimberBase">
@@ -393,6 +428,11 @@
         <thingCategories>
             <li>HSK_HardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_BirchPlank>20</HSK_BirchPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_TeakLog" ParentName="HSK_TimberBase">
@@ -436,6 +476,11 @@
         <thingCategories>
             <li>HSK_HardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_TeakPlank>20</HSK_TeakPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_OakLog" ParentName="HSK_TimberBase">
@@ -479,9 +524,15 @@
         <thingCategories>
             <li>HSK_HardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_OakPlank>20</HSK_OakPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <!-- UltraHardWood Logs-->
+    <!-- DragonWood -->
     <ThingDef Name="HSK_DragonwoodLog" ParentName="HSK_TimberBase">
         <defName>HSK_DragonwoodLog</defName>
         <label>Dragonwood log</label>
@@ -524,6 +575,11 @@
         <thingCategories>
             <li>HSK_UltrahardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_DragonwoodPlank>20</HSK_DragonwoodPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_MangroveLog" ParentName="HSK_TimberBase">
@@ -568,6 +624,11 @@
         <thingCategories>
             <li>HSK_UltrahardwoodsTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_MangrovePlank>20</HSK_MangrovePlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <!-- Wood-like Logs -->
@@ -612,6 +673,11 @@
         <thingCategories>
             <li>HSK_WoodlikeTimbers</li>
         </thingCategories>
+        <butcherProducts>
+            <HSK_TimbershroomPlank>20</HSK_TimbershroomPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+            <HSK_SlabPlank>4</HSK_SlabPlank>
+        </butcherProducts>
     </ThingDef>
 
     <ThingDef Name="HSK_BTWLog" ParentName="HSK_TimberBase">
@@ -657,6 +723,58 @@
         </stuffProps>
         <thingCategories>
             <li>HSK_WoodlikeTimbers</li>
+        </thingCategories>
+        <butcherProducts>
+            <HSK_BTWPlank>20</HSK_BTWPlank>
+            <HSK_Wooddust>20</HSK_Wooddust>
+        </butcherProducts>
+    </ThingDef>
+
+    <!-- Bsmboo Sticks -->
+    <ThingDef Name="HSK_BambooStick" ParentName="HSK_TimberBase">
+        <defName>HSK_BambooStick</defName>
+        <label>bamboo stick</label>
+        <description>Bamboo sticks is alternative for wood timber. It has mostly same properties like any softwood. Most difirrence is size. You need a about five bamboo sticks to make one bamboo plank.</description>
+        <graphicData>
+            <texPath>HSK/Timber/BambooStick</texPath>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>0.35</MarketValue>
+            <StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.04</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>0.9</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>1.5</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+            <BluntDamageMultiplier>0.5</BluntDamageMultiplier>
+            <Mass>0.1</Mass>
+        </statBases>
+        <stackLimit>1000</stackLimit>
+        <stuffProps>
+            <categories>
+                <li>HSK_Bambooish</li>
+            </categories>
+            <stuffAdjective>Bamboo stick</stuffAdjective>
+            <color>(204, 255, 102)</color>
+            <statFactors>
+                <MaxHitPoints>0.75</MaxHitPoints>
+                <Flammability>1</Flammability>
+                <Beauty>2.2</Beauty>
+                <WorkToMake>0.5</WorkToMake>
+                <WorkToBuild>0.5</WorkToBuild>
+                <MarketValue>0.85</MarketValue>
+                <DoorOpenSpeed>1.4</DoorOpenSpeed>
+                <BedRestEffectiveness>1.1</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+                <MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
+                <MoveSpeed>1.0</MoveSpeed>
+                <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+                <Mass>0.5</Mass>
+            </statFactors>
+        </stuffProps>
+        <thingCategories>
+            <li>HSK_BambooSticks</li>
         </thingCategories>
     </ThingDef>
 

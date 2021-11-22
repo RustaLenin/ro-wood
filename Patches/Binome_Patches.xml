@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <!-- Boreal Forest -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+                <value>
+                        <HSK_Plant_Sequoia>0.11</HSK_Plant_Sequoia>
+                </value>
+            </li>
+
+            <!-- Tropical Rainforest -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+                <value>
+                        <HSK_Plant_Mangrove>1.2</HSK_Plant_Mangrove>
+                </value>
+            </li>
+
+            <!-- Tropica lSwamp -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+                <value>
+                        <HSK_Plant_Mangrove>0.9</HSK_Plant_Mangrove>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

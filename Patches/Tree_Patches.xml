@@ -95,6 +95,14 @@
         </value>
     </Operation>
 
+    <!-- Other -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant</xpath>
+        <value>
+            <harvestedThingDef>HSK_RawCoconut</harvestedThingDef>
+        </value>
+    </Operation>
+
     <!--******************************************************-->
     <!--******** Second step: Change production amount *******-->
     <!--******************************************************-->
@@ -362,6 +370,20 @@
     </Operation>
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/graphicData/graphicClass</xpath>
+        <value>
+            <graphicClass>Graphic_Random</graphicClass>
+        </value>
+    </Operation>
+
+    <!-- Other -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePalm"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>HSK/Plants/CoconutPalm</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePalm"]/graphicData/graphicClass</xpath>
         <value>
             <graphicClass>Graphic_Random</graphicClass>
         </value>

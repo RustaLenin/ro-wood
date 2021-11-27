@@ -9,18 +9,18 @@
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>HSK_Hardwoods</defName>
-        <label>Hardwood Timbers</label>
+        <defName>HSK_Softwoods</defName>
+        <label>Softwood Timber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
-        <defName>HSK_Softwoods</defName>
-        <label>Softwood Timbers</label>
+        <defName>HSK_Hardwoods</defName>
+        <label>Hardwood Timber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
         <defName>HSK_Ultrahardwoods</defName>
-        <label>Ultra-hardwood Timbers</label>
+        <label>Ultra-hardwood Timber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
@@ -35,13 +35,18 @@
 
     <!-- Lumber categorys-->
     <StuffCategoryDef>
-        <defName>HSK_HardwoodLumber</defName>
-        <label>Hardwood Lumber</label>
+        <defName>HSK_Lumber</defName>
+        <label>Lumber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
         <defName>HSK_SoftwoodLumber</defName>
         <label>Softwood Lumber</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>HSK_HardwoodLumber</defName>
+        <label>Hardwood Lumber</label>
     </StuffCategoryDef>
 
     <StuffCategoryDef>
@@ -57,6 +62,11 @@
     <StuffCategoryDef>
         <defName>HSK_WoodSlabs</defName>
         <label>Wood Slabs</label>
+    </StuffCategoryDef>
+
+    <StuffCategoryDef>
+        <defName>HSK_WoodlikeLumber</defName>
+        <label>Wood-like</label>
     </StuffCategoryDef>
 
     <!-- Other -->

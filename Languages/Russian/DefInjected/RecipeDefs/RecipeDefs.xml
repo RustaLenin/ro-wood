@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!--  
+        label:       Что прикажете? *Голосом батрака из WC3*
+        description: Что сделать в деталях?
+        jobString:   Что делает батрак?
+    -->
+
+    <!-- Компоненты-->
+    <HSK_MakeWoodComponent_Hand.label>сделать деревянный компонент (x4)</HSK_MakeWoodComponent_Hand.label>
+    <HSK_MakeWoodComponent_Hand.description>Вручную вырезать деревянный компонент из бревна.</HSK_MakeWoodComponent_Hand.description>
+    <HSK_MakeWoodComponent_Hand.jobString>Вырезает деревянные компоненты.</HSK_MakeWoodComponent_Hand.jobString>
+
+    <HSK_MakeWoodComponent_Electric.label>сделать деревянный компонент (x4)</HSK_MakeWoodComponent_Electric.label>
+    <HSK_MakeWoodComponent_Electric.description>Выточить деревянный компонент из бревна на электрическом станке.</HSK_MakeWoodComponent_Electric.description>
+    <HSK_MakeWoodComponent_Electric.jobString>Вытачивает деревянные компоненты.</HSK_MakeWoodComponent_Electric.jobString>
+
+    <!-- Топливо -->
+    <HSK_ChopLogsIntoFireWood_Hand.label>нарубить бревно на дрова (x50)</HSK_ChopLogsIntoFireWood_Hand.label>
+    <HSK_ChopLogsIntoFireWood_Hand.description>Вручную нарубить бревно на дрова.</HSK_ChopLogsIntoFireWood_Hand.description>
+    <HSK_ChopLogsIntoFireWood_Hand.jobString>Нарубает дрова</HSK_ChopLogsIntoFireWood_Hand.jobString>
+
+    <HSK_ChopSlabsIntoFireWood_Hand.label>нарубить горбыль на дрова (x8)</HSK_ChopSlabsIntoFireWood_Hand.label>
+    <HSK_ChopSlabsIntoFireWood_Hand.description>Вручную нарубить горбыль на дрова.</HSK_ChopSlabsIntoFireWood_Hand.description>
+    <HSK_ChopSlabsIntoFireWood_Hand.jobString>Нарубает дрова</HSK_ChopSlabsIntoFireWood_Hand.jobString>
+
+    <HSK_SawLogsIntoFireWood_Electric_Singly.label>распилить бревно на дрова (x50)</HSK_SawLogsIntoFireWood_Electric_Singly.label>
+    <HSK_SawLogsIntoFireWood_Electric_Singly.description>Распилить бревно на дрова на электрическом станке.</HSK_SawLogsIntoFireWood_Electric_Singly.description>
+    <HSK_SawLogsIntoFireWood_Electric_Singly.jobString>Напиливает дрова</HSK_SawLogsIntoFireWood_Electric_Singly.jobString>
+
+    <HSK_SawLogsIntoFireWood_Electric_Batch.label>расплить бревна на дрова (x250)</HSK_SawLogsIntoFireWood_Electric_Batch.label>
+    <HSK_SawLogsIntoFireWood_Electric_Batch.description>Распилить бревна на дрова на электрическом станке.</HSK_SawLogsIntoFireWood_Electric_Batch.description>
+    <HSK_SawLogsIntoFireWood_Electric_Batch.jobString>Напиливает дрова</HSK_SawLogsIntoFireWood_Electric_Batch.jobString>
+
+    <HSK_SawSlabsIntoFireWood_Electric.label>распилить горбыль на дрова (x8)</HSK_SawSlabsIntoFireWood_Electric.label>
+    <HSK_SawSlabsIntoFireWood_Electric.description>Распилить горбыль на дрова на электрическом станке.</HSK_SawSlabsIntoFireWood_Electric.description>
+    <HSK_SawSlabsIntoFireWood_Electric.jobString>Напиливает дрова</HSK_SawSlabsIntoFireWood_Electric.jobString>
+
+    <HSK_BatchSawSlabsIntoFireWood_Electric.label>распилить горбыль на дрова (x80)</HSK_BatchSawSlabsIntoFireWood_Electric.label>
+    <HSK_BatchSawSlabsIntoFireWood_Electric.description>Распилить горбыль на дрова на электрическом станке.</HSK_BatchSawSlabsIntoFireWood_Electric.description>
+    <HSK_BatchSawSlabsIntoFireWood_Electric.jobString>Напиливает дрова</HSK_BatchSawSlabsIntoFireWood_Electric.jobString>
+
+    <HSK_MakeFuelBriquetteFromWooddust.label>сделать топливный брикет</HSK_MakeFuelBriquetteFromWooddust.label>
+    <HSK_MakeFuelBriquetteFromWooddust.description>Сжать и нагреть опилки для создания топливного брикета.</HSK_MakeFuelBriquetteFromWooddust.description>
+    <HSK_MakeFuelBriquetteFromWooddust.jobString>создаёт топливный брикет</HSK_MakeFuelBriquetteFromWooddust.jobString>
+
+    <!-- Примитивное -->
+    <HSK_MakeStoneTool.label>сделать каменный инструмент</HSK_MakeStoneTool.label>
+    <HSK_MakeStoneTooldescription>Заточить камень, чтобы его можно было использовать как примитивный инструмент.</HSK_MakeStoneTooldescription>
+    <HSK_MakeStoneTool.jobString>Затачивает камень</HSK_MakeStoneTool.jobString>
+
+    <!-- Лесоматериал в древесину -->
+    <!-- "Разделка" на древесину -->
+    <HSK_ButcheryWoodLog.label>пилить бревна</HSK_ButcheryWoodLog.label>
+    <HSK_ButcheryWoodLog.description>Вручную распиливать бревна на доски.</HSK_ButcheryWoodLog.description>
+    <HSK_ButcheryWoodLog.jobString>Напиливает доски</HSK_ButcheryWoodLog.jobString>
+
+    <HSK_ButcheryWoodLog_Electric.label>пилить бревна</HSK_ButcheryWoodLog_Electric.label>
+    <HSK_ButcheryWoodLog_Electric.description>Распиливать бревна на доски на электрическом станке.</HSK_ButcheryWoodLog_Electric.description>
+    <HSK_ButcheryWoodLog_Electric.jobString>Напиливает доски</HSK_ButcheryWoodLog_Electric.jobString>
+
+    <!-- Мягкая древесина -->
+    <!-- Цекропия -->
+    <HSK_SawCecropia.label>напилить доски цекропии(x20)</HSK_SawCecropia.label>
+    <HSK_SawCecropia.description>Вручную распилить бревна цекропии на доски.</HSK_SawCecropia.description>
+    <HSK_SawCecropia.jobString>Напиливает доски цекропии</HSK_SawCecropia.jobString>
+
+    <HSK_SawCecropia_Electric.label>напилить доски цекропии(x20)</HSK_SawCecropia_Electric.label>
+    <HSK_SawCecropia_Electric.description>Распилить бревна цекропии на доски на электрическом станке.</HSK_SawCecropia_Electric.description>
+    <HSK_SawCecropia_Electric.jobString>Напиливает доски цекропии</HSK_SawCecropia_Electric.jobString>
+
+    <HSK_BatchSawCecropia_Electric.label>напилить доски цекропии(x100)</HSK_BatchSawCecropia_Electric.label>
+    <HSK_BatchSawCecropia_Electric.description>Распилить бревна цекропии на доски на электрическом станке.</HSK_BatchSawCecropia_Electric.description>
+    <HSK_BatchSawCecropia_Electric.jobString>Напиливает доски цекропии</HSK_BatchSawCecropia_Electric.jobString>
+
+    <!-- Ива -->
+    <HSK_SawWillow.label>напилить доски ивы(x20)</HSK_SawWillow.label>
+    <HSK_SawWillow.description>Вручную распилить бревна ивы на доски.</HSK_SawWillow.description>
+    <HSK_SawWillow.jobString>Напиливает доски ивы</HSK_SawWillow.jobString>
+
+    <HSK_SawWillow_Electric.label>напилить доски ивы(x20)</HSK_SawWillow_Electric.label>
+    <HSK_SawWillow_Electric.description>Распилить бревна ивы на доски на электрическом станке.</HSK_SawWillow_Electric.description>
+    <HSK_SawWillow_Electric.jobString>Напиливает доски ивы</HSK_SawWillow_Electric.jobString>
+
+    <HSK_BatchSawWillow_Electric.label>напилить доски ивы(x100)</HSK_BatchSawWillow_Electric.label>
+    <HSK_BatchSawWillow_Electric.description>Распилить бревна ивы на доски на электрическом станке.</HSK_BatchSawWillow_Electric.description>
+    <HSK_BatchSawWillow_Electric.jobString>Напиливает доски ивы</HSK_BatchSawWillow_Electric.jobString>
+
+    <!-- Сосна -->
+    <HSK_SawPine.label>напилить доски сосны(x20)</HSK_SawPine.label>
+    <HSK_SawPine.description>Вручную распилить бревна сосны на доски.</HSK_SawPine.description>
+    <HSK_SawPine.jobString>Напиливает доски сосны</HSK_SawPine.jobString>
+
+    <HSK_SawPine_Electric.label>напилить доски сосны(x20)</HSK_SawPine_Electric.label>
+    <HSK_SawPine_Electric.description>Распилить бревна сосны на доски на электрическом станке.</HSK_SawPine_Electric.description>
+    <HSK_SawPine_Electric.jobString>Напиливает доски сосны</HSK_SawPine_Electric.jobString>
+
+    <HSK_BatchSawPine_Electric.label>напилить доски сосны(x100)</HSK_BatchSawPine_Electric.label>
+    <HSK_BatchSawPine_Electric.description>Распилить бревна сосны на доски на электрическом станке.</HSK_BatchSawPine_Electric.description>
+    <HSK_BatchSawPine_Electric.jobString>Напиливает доски сосны</HSK_BatchSawPine_Electric.jobString>
+
+    <!-- Кипарис -->
+    <HSK_SawCypress.label>напилить доски кипариса(x20)</HSK_SawCypress.label>
+    <HSK_SawCypress.description>Вручную распилить бревна кипариса на доски.</HSK_SawCypress.description>
+    <HSK_SawCypress.jobString>Напиливает доски кипариса</HSK_SawCypress.jobString>
+
+    <HSK_SawCypress_Electric.label>напилить доски кипариса(x20)</HSK_SawCypress_Electric.label>
+    <HSK_SawCypress_Electric.description>Распилить бревна кипариса на доски на электрическом станке.</HSK_SawCypress_Electric.description>
+    <HSK_SawCypress_Electric.jobString>Напиливает доски кипариса</HSK_SawCypress_Electric.jobString>
+
+    <HSK_BatchSawCypress_Electric.label>напилить доски кипариса(x100)</HSK_BatchSawCypress_Electric.label>
+    <HSK_BatchSawCypress_Electric.description>Распилить бревна кипариса на доски на электрическом станке.</HSK_BatchSawCypress_Electric.description>
+    <HSK_BatchSawCypress_Electric.jobString>Напиливает доски кипариса</HSK_BatchSawCypress_Electric.jobString>
+
+    <!-- Тополь -->
+    <HSK_SawPoplar.label>напилить доски тополя(x20)</HSK_SawPoplar.label>
+    <HSK_SawPoplar.description>Вручную распилить бревна тополя на доски.</HSK_SawPoplar.description>
+    <HSK_SawPoplar.jobString>Напиливает доски тополя</HSK_SawPoplar.jobString>
+
+    <HSK_SawPoplar_Electric.label>напилить доски тополя(x20)</HSK_SawPoplar_Electric.label>
+    <HSK_SawPoplar_Electric.description>Распилить бревна тополя на доски на электрическом станке.</HSK_SawPoplar_Electric.description>
+    <HSK_SawPoplar_Electric.jobString>Напиливает доски тополя</HSK_SawPoplar_Electric.jobString>
+
+    <HSK_BatchSawPoplar_Electric.label>напилить доски тополя(x100)</HSK_BatchSawPoplar_Electric.label>
+    <HSK_BatchSawPoplar_Electric.description>Распилить бревна тополя на доски на электрическом станке.</HSK_BatchSawPoplar_Electric.description>
+    <HSK_BatchSawPoplar_Electric.jobString>Напиливает доски тополя</HSK_BatchSawPoplar_Electric.jobString>
+
+    <!-- Жесткая древесина-->
+    <!-- Клен -->
+    <HSK_SawMaple.label>напилить доски клена(x20)</HSK_SawMaple.label>
+    <HSK_SawMaple.description>Вручную распилить бревна клена на доски.</HSK_SawMaple.description>
+    <HSK_SawMaple.jobString>Напиливает доски клена</HSK_SawMaple.jobString>
+
+    <HSK_SawMaple_Electric.label>напилить доски клена(x20)</HSK_SawMaple_Electric.label>
+    <HSK_SawMaple_Electric.description>Распилить бревна клена на доски на электрическом станке.</HSK_SawMaple_Electric.description>
+    <HSK_SawMaple_Electric.jobString>Напиливает доски клена</HSK_SawMaple_Electric.jobString>
+
+    <HSK_BatchSawMaple_Electric.label>напилить доски клена(x100)</HSK_BatchSawMaple_Electric.label>
+    <HSK_BatchSawMaple_Electric.description>Распилить бревна клена на доски на электрическом станке.</HSK_BatchSawMaple_Electric.description>
+    <HSK_BatchSawMaple_Electric.jobString>Напиливает доски клена</HSK_BatchSawMaple_Electric.jobString>
+
+    <!-- Секвойя -->
+    <HSK_SawSequoia.label>напилить доски секвойи(x20)</HSK_SawSequoia.label>
+    <HSK_SawSequoia.description>Вручную распилить бревна секвойи на доски.</HSK_SawSequoia.description>
+    <HSK_SawSequoia.jobString>Напиливает доски секвойи</HSK_SawSequoia.jobString>
+
+    <HSK_SawSequoia_Electric.label>напилить доски секвойи(x20)</HSK_SawSequoia_Electric.label>
+    <HSK_SawSequoia_Electric.description>Распилить бревна секвойи на доски на электрическом станке.</HSK_SawSequoia_Electric.description>
+    <HSK_SawSequoia_Electric.jobString>Напиливает доски секвойи</HSK_SawSequoia_Electric.jobString>
+
+    <HSK_BatchSawSequoia_Electric.label>напилить доски секвойи(x100)</HSK_BatchSawSequoia_Electric.label>
+    <HSK_BatchSawSequoia_Electric.description>Распилить бревна секвойи на доски на электрическом станке.</HSK_BatchSawSequoia_Electric.description>
+    <HSK_BatchSawSequoia_Electric.jobString>Напиливает доски секвойи</HSK_BatchSawSequoia_Electric.jobString>
+
+    <!-- Берёза -->
+    <HSK_SawBirch.label>напилить доски берёзы(x20)</HSK_SawBirch.label>
+    <HSK_SawBirch.description>Вручную распилить бревна берёзы на доски.</HSK_SawBirch.description>
+    <HSK_SawBirch.jobString>Напиливает доски берёзы</HSK_SawBirch.jobString>
+
+    <HSK_SawBirch_Electric.label>напилить доски берёзы(x20)</HSK_SawBirch_Electric.label>
+    <HSK_SawBirch_Electric.description>Распилить бревна берёзы на доски на электрическом станке.</HSK_SawBirch_Electric.description>
+    <HSK_SawBirch_Electric.jobString>Напиливает доски берёзы</HSK_SawBirch_Electric.jobString>
+
+    <HSK_BatchSawBirch_Electric.label>напилить доски берёзы(x100)</HSK_BatchSawBirch_Electric.label>
+    <HSK_BatchSawBirch_Electric.description>Распилить бревна берёзы на доски на электрическом станке.</HSK_BatchSawBirch_Electric.description>
+    <HSK_BatchSawBirch_Electric.jobString>Напиливает доски берёзы</HSK_BatchSawBirch_Electric.jobString>
+
+    <!-- Тик -->
+    <HSK_SawTeak.label>напилить доски тика(x20)</HSK_SawTeak.label>
+    <HSK_SawTeak.description>Вручную распилить бревна тика на доски.</HSK_SawTeak.description>
+    <HSK_SawTeak.jobString>Напиливает доски тика</HSK_SawTeak.jobString>
+
+    <HSK_SawTeak_Electric.label>напилить доски тика(x20)</HSK_SawTeak_Electric.label>
+    <HSK_SawTeak_Electric.description>Распилить бревна тика на доски на электрическом станке.</HSK_SawTeak_Electric.description>
+    <HSK_SawTeak_Electric.jobString>Напиливает доски тика</HSK_SawTeak_Electric.jobString>
+
+    <HSK_BatchSawTeak_Electric.label>напилить доски тика(x100)</HSK_BatchSawTeak_Electric.label>
+    <HSK_BatchSawTeak_Electric.description>Распилить бревна тика на доски на электрическом станке.</HSK_BatchSawTeak_Electric.description>
+    <HSK_BatchSawTeak_Electric.jobString>Напиливает доски тика</HSK_BatchSawTeak_Electric.jobString>
+
+    <!-- Дуб -->
+    <HSK_SawOak.label>напилить доски дуба(x20)</HSK_SawOak.label>
+    <HSK_SawOak.description>Вручную распилить бревна дуба на доски.</HSK_SawOak.description>
+    <HSK_SawOak.jobString>Напиливает доски дуба</HSK_SawOak.jobString>
+
+    <HSK_SawOak_Electric.label>напилить доски дуба(x20)</HSK_SawOak_Electric.label>
+    <HSK_SawOak_Electric.description>Распилить бревна дуба на доски на электрическом станке.</HSK_SawOak_Electric.description>
+    <HSK_SawOak_Electric.jobString>Напиливает доски дуба</HSK_SawOak_Electric.jobString>
+
+    <HSK_BatchSawOak_Electric.label>напилить доски дуба(x100)</HSK_BatchSawOak_Electric.label>
+    <HSK_BatchSawOak_Electric.description>Распилить бревна дуба на доски на электрическом станке.</HSK_BatchSawOak_Electric.description>
+    <HSK_BatchSawOak_Electric.jobString>Напиливает доски дуба</HSK_BatchSawOak_Electric.jobString>
+
+    <!-- Ультра-жесткая древесина-->
+    <!-- Драконово дерево -->
+    <HSK_SawDragonwood.label>напилить доски драконова дерева(x20)</HSK_SawDragonwood.label>
+    <HSK_SawDragonwood.descriptionHand>Вручную распилить бревна драконова дерева на доски.</HSK_SawDragonwood.description>
+    <HSK_SawDragonwood.jobString>Напиливает доски драконова дерева</HSK_SawDragonwood.jobString>
+
+    <HSK_SawDragonwood_Electric.label>напилить доски драконова дерева(x20)</HSK_SawDragonwood_Electric.label>
+    <HSK_SawDragonwood_Electric.description>Распилить бревна драконова дерева на доски на электрическом станке.</HSK_SawDragonwood_Electric.description>
+    <HSK_SawDragonwood_Electric.jobString>Напиливает доски драконова дерева</HSK_SawDragonwood_Electric.jobString>
+
+    <HSK_BatchSawDragonwood_Electric.label>напилить доски драконова дерева(x100)</HSK_BatchSawDragonwood_Electric.label>
+    <HSK_BatchSawDragonwood_Electric.description>Распилить бревна драконова дерева на доски на электрическом станке.</HSK_BatchSawDragonwood_Electric.description>
+    <HSK_BatchSawDragonwood_Electric.jobString>Напиливает доски драконова дерева</HSK_BatchSawDragonwood_Electric.jobString>
+
+    <!-- Мангрово дерево -->
+    <HSK_SawMangrove.label>напилить доски мангрова дерева(x20)</HSK_SawMangrove.label>
+    <HSK_SawMangrove.description>Вручную распилить бревна мангрова дерева на доски.</HSK_SawMangrove.description>
+    <HSK_SawMangrove.jobString>Напиливает доски мангрова дерева</HSK_SawMangrove.jobString>
+
+    <HSK_SawMangrove_Electric.label>напилить доски мангрова дерева(x20)</HSK_SawMangrove_Electric.label>
+    <HSK_SawMangrove_Electric.description>Распилить бревна мангрова дерева на доски на электрическом станке.</HSK_SawMangrove_Electric.description>
+    <HSK_SawMangrove_Electric.jobString>Напиливает доски мангрова дерева</HSK_SawMangrove_Electric.jobString>
+    
+    <HSK_BatchSawMangrove_Electric.label>напилить доски мангрова дерева(x100)</HSK_BatchSawMangrove_Electric.label>
+    <HSK_BatchSawMangrove_Electric.description>Распилить бревна мангрова дерева на доски на электрическом станке.</HSK_BatchSawMangrove_Electric.description>
+    <HSK_BatchSawMangrove_Electric.jobString>Напиливает доски мангрова дерева</HSK_BatchSawMangrove_Electric.jobString>
+
+    <!-- дерево-подобное -->
+    <!-- грибодерево -->
+    <HSK_SawTimbershroom.label>напилить доски грибодерева(x20)</HSK_SawTimbershroom.label>
+    <HSK_SawTimbershroom.description>Вручную распилить бревна грибодерева на доски.</HSK_SawTimbershroom.description>
+    <HSK_SawTimbershroom.jobString>Напиливает доски грибодерева</HSK_SawTimbershroom.jobString>
+
+    <HSK_SawTimbershroom_Electric.label>напилить доски грибодерева(x20)</HSK_SawTimbershroom_Electric.label>
+    <HSK_SawTimbershroom_Electric.description>Распилить бревна грибодерева на доски на электрическом станке.</HSK_SawTimbershroom_Electric.description>
+    <HSK_SawTimbershroom_Electric.jobString>Напиливает доски грибодерева</HSK_SawTimbershroom_Electric.jobString>
+
+    <HSK_BatchSawTimbershroom_Electric.label>напилить доски грибодерева(x100)</HSK_BatchSawTimbershroom_Electric.label>
+    <HSK_BatchSawTimbershroom_Electric.description>Распилить бревна грибодерева на доски на электрическом станке.</HSK_BatchSawTimbershroom_Electric.description>
+    <HSK_BatchSawTimbershroom_Electric.jobString>Напиливает доски грибодерева</HSK_BatchSawTimbershroom_Electric.jobString>
+
+    <!-- биотех -->
+    <HSK_SawBTW.label>напилить доски биотехдревесины(x20)</HSK_SawBTW.label>
+    <HSK_SawBTW.description>Вручную распилить бревна биотехдревесины на доски.</HSK_SawBTW.description>
+    <HSK_SawBTW.jobString>Напиливает доски биотехдревесины</HSK_SawBTW.jobString>
+
+    <HSK_SawBTW_Electric.label>напилить доски биотехдревесины(x20)</HSK_SawBTW_Electric.label>
+    <HSK_SawBTW_Electric.description>Распилить бревна биотехдревесины на доски на электрическом станке.</HSK_SawBTW_Electric.description>
+    <HSK_SawBTW_Electric.jobString>Напиливает доски биотехдревесины</HSK_SawBTW_Electric.jobString>
+
+    <HSK_BatchSawTBTW_Electric.label>напилить доски биотехдревесины(x100)</HSK_BatchSawTBTW_Electric.label>
+    <HSK_BatchSawTBTW_Electric.description>Распилить бревна биотехдревесины на доски на электрическом станке.</HSK_BatchSawTBTW_Electric.description>
+    <HSK_BatchSawTBTW_Electric.jobString>Напиливает доски биотехдревесины</HSK_BatchSawTBTW_Electric.jobString>
+
+    <!-- древесина из спресованных палок -->
+    <!-- Бамбук -->
+    <HSK_SawBamboo.label>напилить бамбуковые доски(x5)</HSK_SawBamboo.label>
+    <HSK_SawBamboo.description>Вручную спрессовать и напилить бамбуковых досок</HSK_SawBamboo.description>
+    <HSK_SawBamboo.jobString>Напиливает бамбуковые доски</HSK_SawBamboo.jobString>
+
+    <HSK_SawBamboo_Electric.label>напилить бамбуковые доски(x5)</HSK_SawBamboo_Electric.label>
+    <HSK_SawBamboo_Electric.description>Спрессовать и напилить бамбуковых досок на электрическом станке.</HSK_SawBamboo_Electric.description>
+    <HSK_SawBamboo_Electric.jobString>Напиливает бамбуковые доски</HSK_SawBamboo_Electric.jobString>
+
+    <HSK_BatchSawBamboo_Electric.label>напилить бамбуковые доски(x20)</HSK_BatchSawBamboo_Electric.label>
+    <HSK_BatchSawBamboo_Electric.description>Спрессовать и напилить бамбуковых досок на электрическом станке.</HSK_BatchSawBamboo_Electric.description>
+    <HSK_BatchSawBamboo_Electric.jobString>Напиливает бамбуковые доски</HSK_BatchSawBamboo_Electric.jobString>
+
+</LanguageData>

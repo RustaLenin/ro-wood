@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Станки -->
+    <HSK_WoodWorkingSpot.label>Место для деревообработки</HSK_WoodWorkingSpot.label>
+    <HSK_WoodWorkingSpot.description>Не представляете как порубить это бревно на дрова? Как на счёт просто места на земле и большего острого камня? Да, это не самый быстрый способ, но он по крайней мере работает!</HSK_WoodWorkingSpot.description>
+
+    <HSK_Sawmill.label>лесопилка</HSK_Sawmill.label>
+    <HSK_Sawmill.description>Стол, пила, топор и две мускулистые руки способны творить настоящее волшебство. Не быстро, ведь это всё чем вы располагаете, но безотказно.</HSK_Sawmill.description>
+
+    <HSK_ElectroSawmill.label>электрическая лесопилка</HSK_ElectroSawmill.label>
+    <HSK_ElectroSawmill.description>Перед вами легендарный многофункциональный деревообрабатывающий станок SAWCRAFT-9000. Он делает «Виу, виу, виу», и всё - вся работа сделана! Жрет дофига энергии и терпеть не может дожди, но работает очень быстро!</HSK_ElectroSawmill.description>
+
+    <!-- Незаконченная работа -->
+    <HSK_UnfinishedWoodWork.label>Обрабатываемая древесина</HSK_UnfinishedWoodWork.label>
+    <HSK_UnfinishedWoodWork.description>Частично обработанная древесина. Вам стоило бы завершить то, что вы начали делать.</HSK_UnfinishedWoodWork.description>
+
+    <!-- Фрукты -->
+    <HSK_RawCoconut.label>Кокос</HSK_RawCoconut.label>
+    <HSK_RawCoconut.description>Состоит из трех частей. Прочной скорлупы, которую невозможно открыть голыми руками. Нежной и вкуснейшей белой мякоти. И кокосового молочка. Настоящее мастерство — это вскрыть скорлупу не испачкав мякоть и не пролив ни капли молочка.</HSK_RawCoconut.description>
+
+    <!-- Timber -->
+    <HSK_CecropiaLog.label>бревно цекропии</HSK_CecropiaLog.label>
+    <HSK_CecropiaLog.description>Цекропия легкая и податливая древесина, с которой очень легко работать. В меру красивая, из неё получится удобная и практичная мебель, но не стоит использовать эту древесину для строительства, производства инструментов и оружия.</HSK_CecropiaLog.description>
+    <HSK_CecropiaLog.stuffProps.stuffAdjective>цекропиевых бревён</HSK_CecropiaLog.stuffProps.stuffAdjective>
+
+    <HSK_WillowLog.label>бревно ивы</HSK_WillowLog.label>
+    <HSK_WillowLog.description>Древесина ивы отличается мягкостью и пластичностью, что позволяет легко изготавливать из неё различные компоненты для иструментов и мебели. Однако, древесина ивы не отличается красотой, по этому, её обычно пускают на чисто утилитарные предметы.</HSK_WillowLog.description>
+    <HSK_WillowLog.stuffProps.stuffAdjective>бревен ивы</HSK_WillowLog.stuffProps.stuffAdjective>
+
+    <HSK_PineLog.label>бревно сосны</HSK_PineLog.label>
+    <HSK_PineLog.description>Сосновая древесина широко используется в строительстве. Сосна обычно растёт стройным и высоким деревом, что позволяет изготавливать из неё больше ровных и красивых досок. Она не отличается прочностью, но зато с ней легко работать.</HSK_PineLog.description>
+    <HSK_PineLog.stuffProps.stuffAdjective>бревен сосны</HSK_PineLog.stuffProps.stuffAdjective>
+
+    <HSK_CypressLog.label>бревно кипариса</HSK_CypressLog.label>
+    <HSK_CypressLog.description>Кипарис, известный своей узловатой текстурой древесины, довольно прочен не смотря на то, что за его податливость и легкость обработки он все ещё относится к мягким породам древесины.</HSK_CypressLog.description>
+    <HSK_CypressLog.stuffProps.stuffAdjective>бревен кипариса</HSK_CypressLog.stuffProps.stuffAdjective>
+
+    <HSK_PoplarLog.label>бревно тополя</HSK_PoplarLog.label>
+    <HSK_PoplarLog.description>Тополь - одна из самых распространенных пород древесины, она очень дешевая и мягкая, а ее умеренный вес и прочность делают ее полезной во всех сферах применения.</HSK_PoplarLog.description>
+    <HSK_PoplarLog.stuffProps.stuffAdjective>бревен тополя</HSK_PoplarLog.stuffProps.stuffAdjective>
+
+    <HSK_MapleLog.label>бревно клена</HSK_MapleLog.label>
+    <HSK_MapleLog.description>Клен довольно прочен и немного тяжел, и часто имеет красивый рисунок текстуры древесины. Чаще всего он используется для строительства, не смотря на сложности обработки.</HSK_MapleLog.description>
+    <HSK_MapleLog.stuffProps.stuffAdjective>бревен клена</HSK_MapleLog.stuffProps.stuffAdjective>
+
+    <HSK_SequoiaLog.label>бревно секвойи</HSK_SequoiaLog.label>
+    <HSK_SequoiaLog.description>Редкая и дорогая красная древесина отличается своей необычайной красотой. Из-за этого она практически никогда не используется для строительства, а идёт на создание дорогой мебели и произведений искусства.</HSK_SequoiaLog.description>
+    <HSK_SequoiaLog.stuffProps.stuffAdjective>бревен секвойи</HSK_SequoiaLog.stuffProps.stuffAdjective>
+
+    <HSK_BirchLog.label>бревно березы</HSK_BirchLog.label>
+    <HSK_BirchLog.description>Березовая древесина не отличается красотой и замысловатыми узорами, но она очень крепка и вместе с тем, легче поддаётся обработке.</HSK_BirchLog.description>
+    <HSK_BirchLog.stuffProps.stuffAdjective>бревен березы</HSK_BirchLog.stuffProps.stuffAdjective>
+
+    <HSK_TeakLog.label>бревно тика</HSK_TeakLog.label>
+    <HSK_TeakLog.description>Тик - это востребованная древесина твердых пород. Она крайне редка, дорога, красива и прочна. Изделия из тика практически не имеют себе равных. Единственный минус, он невероятно тяжелый.</HSK_TeakLog.description>
+    <HSK_TeakLog.stuffProps.stuffAdjective>бревен тика</HSK_TeakLog.stuffProps.stuffAdjective>
+
+    <HSK_OakLog.label>бревно дуба</HSK_OakLog.label>
+    <HSK_OakLog.description>Поговорка «Крепкий, как дуб» относится и к древесине. Нет ничего прочнее, что можно было бы найти в регионах с умеренным климатом. А еще дубовая древесина самая тяжелая.</HSK_OakLog.description>
+    <HSK_OakLog.stuffProps.stuffAdjective>бревен дуба</HSK_OakLog.stuffProps.stuffAdjective>
+
+    <HSK_DragonwoodLog.label>Бревно драконово дерева</HSK_DragonwoodLog.label>
+    <HSK_DragonwoodLog.description>Драконово дерево - редкое и невероятно твердое и красивое. У него кроваво-красный сок, который обладает целебными свойствами и используется в качестве красителя. С ним очень сложно работать из-за его чрезвычайной твердости.</HSK_DragonwoodLog.description>
+    <HSK_OakLog.stuffProps.stuffAdjective>бревен драконова дерева</HSK_OakLog.stuffProps.stuffAdjective>
+
+    <HSK_MangroveLog.label>мангровое бревно</HSK_MangroveLog.label>
+    <HSK_MangroveLog.description>Мангровая древесина - отличный строительный материал благодаря своей естественной огнестойкости и невероятной прочности (уступает только драконовому дереву). Но гораздо чаще он используется в качестве дров, потому что с ним очень тяжело и сложно работать.</HSK_MangroveLog.description>
+    <HSK_MangroveLog.stuffProps.stuffAdjective>мангровых бревен</HSK_MangroveLog.stuffProps.stuffAdjective>
+
+    <HSK_TimbershroomLog.label>бревно грибодерева</HSK_TimbershroomLog.label>
+    <HSK_TimbershroomLog.description>Грибодерево имеет такое название, потому что оно достигает размеров дерева, а также, потому что ножна такого гриба, чтобы поддерживать огромную шляпку - такая же твердая и прочная, как древесина. Пожалуй, оно не достаточно плотное чтобы делать из него инструменты или оружие, но достаточно красивое и удобное, чтобы изготавливать напольные покрытия или мебель.</HSK_TimbershroomLog.description>
+    <HSK_TimbershroomLog.stuffProps.stuffAdjective>бревен грибодерева</HSK_TimbershroomLog.stuffProps.stuffAdjective>
+
+    <HSK_BTWLog.label>БТД бревно</HSK_BTWLog.label>
+    <HSK_BTWLog.description>БТД - это аббревиатура "Био Тех Древесина". Имперская корпорация БиоТех разработала древокуст для создания дешевого и качественного древесина-подобного материала, который может выращиваться колонистами при освоении новых миров крайне быстро и без необходимости утилизации местной флоры.\n Этот древесина-подобный материал обладает крайне средними характеристиками. Его сложно причислить к твердым или мягким сортам древесины. Он в меру тяжелый, в меру прочный и обрабатывать его также в меру сложно. Если и существует "обычная" древесина - то вот она.</HSK_BTWLog.description>
+    <HSK_BTWLog.stuffProps.stuffAdjective>БТД бревен</HSK_BTWLog.stuffProps.stuffAdjective>
+
+    <HSK_BambooStick.label>бамбуковая палка</HSK_BambooStick.label>
+    <HSK_BambooStick.description>Бамбук - хорошая альтернатива обычной древесине. Бабмук имеет крайне схожие характеристики с мягкими сортами древесины. Основное разлиие - в размерах. Из бревна может получится несколько досок. С бамбуквыми палками наоборот, вам будет необходимо спрессовать и распилить несколько палок, чтобы получить одну доску.</HSK_BambooStick.description>
+    <HSK_BTWLog.stuffProps.stuffAdjective>бамбуковых палок</HSK_BTWLog.stuffProps.stuffAdjective>
+
+    <!-- Lumber -->
+    <HSK_SlabPlank.label>горбыль</HSK_SlabPlank.label>
+    <HSK_SlabPlank.description>Получил своё название, потому что кусок коры и древесины на одной из сторон этой доски стоит горбом. Горбыль, ни что иное как банальный спил края бревна. Из него можно сделать сельский сортир или антураж для ролевой игры, но в остальном он идёт на дрова и щепу.</HSK_SlabPlank.description>
+    <HSK_SlabPlank.stuffProps.stuffAdjective>горбыля</HSK_SlabPlank.stuffProps.stuffAdjective>
+
+    <HSK_CecropiaPlank.label>доска цекропии</HSK_CecropiaPlank.label>
+    <HSK_CecropiaPlank>Умеренно красивая деревянная доска. Из такого материала получится неплохая мебель. Но не стоит делать из него оружие или инструменты, они будут слишком хрупкими.</HSK_CecropiaPlank>
+    <HSK_CecropiaPlank.stuffProps.stuffAdjective>цекропии</HSK_CecropiaPlank.stuffProps.stuffAdjective>
+
+    <HSK_WillowPlank.label>доска ивы</HSK_WillowPlank.label>
+    <HSK_WillowPlank.description>Красивая и гибкая деревянная доска.</HSK_WillowPlank.description>
+    <HSK_WillowPlank.stuffProps.stuffAdjective>ивы</HSK_WillowPlank.stuffProps.stuffAdjective>
+
+    <HSK_PinePlank.label>сосновая доска</HSK_PinePlank.label>
+    <HSK_PinePlank.description>Сосновые доски особенно приятно пахнут, а ещё  они в меру красивые и достаточно прочные.</HSK_PinePlank.description>
+    <HSK_PinePlank.stuffProps.stuffAdjective>сосны</HSK_PinePlank.stuffProps.stuffAdjective>
+
+    <HSK_CypressPlank.label>доска кипариса</HSK_CypressPlank.label>
+    <HSK_CypressPlank.description>Доски из кипариса - достатчно крепкие для стриотельства и при том легкие в работе.</HSK_CypressPlank.description>
+    <HSK_CypressPlank.stuffProps.stuffAdjective>кипариса</HSK_CypressPlank.stuffProps.stuffAdjective>
+
+    <HSK_PoplarPlank.label>доска тополя</HSK_PoplarPlank.label>
+    <HSK_PoplarPlank.description>Наиболее распространённый вид досок который можно использовать для чего угодно.</HSK_PoplarPlank.description>
+    <HSK_PoplarPlank.stuffProps.stuffAdjective>тополя</HSK_PoplarPlank.stuffProps.stuffAdjective>
+
+    <HSK_MaplePlank.label>доски клена</HSK_MaplePlank.label>
+    <HSK_MaplePlank.description>Доски клена отличаются своей прочностью и красотой.</HSK_MaplePlank.description>
+    <HSK_MaplePlank.stuffProps.stuffAdjective>клена</HSK_MaplePlank.stuffProps.stuffAdjective>
+
+    <HSK_SequoiaPlank.label>доска секвойи</HSK_SequoiaPlank.label>
+    <HSK_SequoiaPlank.description>Красная, редкая, красивая и чертовски дорогая.</HSK_SequoiaPlank.description>
+    <HSK_SequoiaPlank.stuffProps.stuffAdjective>секвойи</HSK_SequoiaPlank.stuffProps.stuffAdjective>
+
+    <HSK_BirchPlank.label>доска березы</HSK_BirchPlank.label>
+    <HSK_BirchPlank.description>Березовые доски тверды и прочны, но вместе с тем, их легко обрабатывать.</HSK_BirchPlank.description>
+    <HSK_BirchPlank.stuffProps.stuffAdjective>березы</HSK_BirchPlank.stuffProps.stuffAdjective>
+
+    <HSK_TeakPlank.label>доска тика</HSK_TeakPlank.label>
+    <HSK_TeakPlank.description>Доска тика - неверояно красивая и прочная, но очень тяжелая.</HSK_TeakPlank.description>
+    <HSK_TeakPlank.stuffProps.stuffAdjective>тика</HSK_TeakPlank.stuffProps.stuffAdjective>
+
+    <HSK_OakPlank.label>доска дуба</HSK_OakPlank.label>
+    <HSK_OakPlank.description>Если вы планируете что-то построить на века, стройте из этих дубовых досок.</HSK_OakPlank.description>
+    <HSK_OakPlank.stuffProps.stuffAdjective>дуба</HSK_OakPlank.stuffProps.stuffAdjective>
+
+    <HSK_DragonwoodPlank.label>доска драконова дерева</HSK_DragonwoodPlank.label>
+    <HSK_DragonwoodPlank.description>Невероятно крепкая и красивая древесина.</HSK_DragonwoodPlank.description>
+    <HSK_DragonwoodPlank.stuffProps.stuffAdjective>драконова дерева</HSK_DragonwoodPlank.stuffProps.stuffAdjective>
+
+    <HSK_MangrovePlank.label>доска мангрова дерева</HSK_MangrovePlank.label>
+    <HSK_MangrovePlank.description>Крайне прочная древесина с высокой огнеупорностью.</HSK_MangrovePlank.description>
+    <HSK_MangrovePlank.stuffProps.stuffAdjective>мангрова дерева</HSK_MangrovePlank.stuffProps.stuffAdjective>
+
+    <HSK_TimbershroomPlank.label>доска грибодерева</HSK_TimbershroomPlank.label>
+    <HSK_TimbershroomPlank.description>Легкая и мягкая, но необычная и красивая грибная древесина.</HSK_TimbershroomPlank.description>
+    <HSK_TimbershroomPlank.stuffProps.stuffAdjective>грибодерева</HSK_TimbershroomPlank.stuffProps.stuffAdjective>
+
+    <HSK_BTWPlank.label>БТД доска</HSK_BTWPlank.label>
+    <HSK_BTWPlank.description>Совершенно ничем не примечальная древесина.</HSK_BTWPlank.description>
+    <HSK_BTWPlank.stuffProps.stuffAdjective>биотехдревесины</HSK_BTWPlank.stuffProps.stuffAdjective>
+
+    <HSK_BambooPlank.label>бамбуковая доска</HSK_BambooPlank.label>
+    <HSK_BambooPlank.description>Легкая красивая и в меру прочная доска и бамбука.</HSK_BambooPlank.description>
+    <HSK_BambooPlank.stuffProps.stuffAdjective>бамбука</HSK_BambooPlank.stuffProps.stuffAdjective>
+
+    <!-- Manufactured -->
+    <HSK_ComponentWood.label>деревянный компонент</HSK_ComponentWood.label>
+    <HSK_ComponentWood.description>Разные простые компоненты на основе дерева, такие как: палки, шестерни, ручки, колеса, крючки, замки, пряжки и все прочее, что может быть использовано в строительстве и рукоделии.</HSK_ComponentWood.description>
+
+    <HSK_Wooddust.label>опилки</HSK_Wooddust.label>
+    <HSK_Wooddust.description>Опилки (или древесная пыль) является побочным продуктом или отходом деревообрабатывающих операций, таких как пиление, шлифование, строгание и фрезерование. Состоит из небольших кусочков дерева.</HSK_Wooddust.description>
+
+    <HSK_FuelBriquette.label>топливный брикет</HSK_FuelBriquette.label>
+    <HSK_FuelBriquette.description>Созданный из отходов деревообработки топливный брикет может использоваться вместо дров или угля.</HSK_FuelBriquette.description>
+
+    <HSK_UniverseStoneTool.label>каменный инструмент</HSK_UniverseStoneTool.label>
+    <HSK_UniverseStoneTool.description>Если вам нужно что-то делать, то вам поможет этот большой острый камень. Поверьте, с ним будет всяко проще, чем просто работать голыми руками.</HSK_UniverseStoneTool.description>
+    
+    <WoodLog.label>Дрова</WoodLog.label>
+    <WoodLog.description>Кусок бревна используется как биотопливо. Его сжигают в печах, каминах, топках или кострах для получения тепла и света.</WoodLog.description>
+
+    <!-- Trees -->
+    <HSK_Plant_Mangrove.label>Мангрово дерево</HSK_Plant_Mangrove.label>
+    <HSK_Plant_Mangrove.description>Мангровы деревья растут преимущественно в соленой воде в жарких регионах, например в тропиках.</HSK_Plant_Mangrove.description>
+
+    <HSK_Plant_Sequoia.label>Секвойя</HSK_Plant_Sequoia.label>
+    <HSK_Plant_Sequoia.description>Редкое, огромное и очень медленнорастущее дерево. Его часто называют просто красным деревом из-за особого цвета древесины. Это самое высокое известное дерево, которое живет очень долго. Отдельные секвойи достигают невероятных размеров. В связи с тем, что это дерево встречается редко - изделия из него особенно ценны!</HSK_Plant_Sequoia.description>
+
+</LanguageData>

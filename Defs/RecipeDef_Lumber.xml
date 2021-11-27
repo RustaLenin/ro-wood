@@ -8,8 +8,8 @@
     <RecipeDef>
         <defName>HSK_ButcheryWoodLog</defName>
         <label>Saw any wood log</label>
-        <description>Just saw  nearest timber log into planks.</description>
-        <jobString>Sawing wood log.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -44,8 +44,8 @@
     <RecipeDef>
         <defName>HSK_ButcheryWoodLog_Electric</defName>
         <label>saw any wood log</label>
-        <description>Just saw  nearest timber log into planks.</description>
-        <jobString>Sawing wood log.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -81,8 +81,8 @@
     <RecipeDef>
         <defName>HSK_SawCecropia</defName>
         <label>saw cecropia plank(x20)</label>
-        <description>Saw cecropia timber logs into planks.</description>
-        <jobString>Sawing cecropia logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -114,8 +114,8 @@
     <RecipeDef>
         <defName>HSK_SawCecropia_Electric</defName>
         <label>saw cecropia plank(x20)</label>
-        <description>Saw cecropia timber logs into planks.</description>
-        <jobString>Sawing cecropia logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -146,8 +146,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawCecropia_Electric</defName>
         <label>saw cecropia plank(x100)</label>
-        <description>Batch saw cecropia timber logs into planks.</description>
-        <jobString>Batch sawing cecropia logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -179,8 +179,8 @@
     <RecipeDef>
         <defName>HSK_SawWillow</defName>
         <label>saw willow plank(x20)</label>
-        <description>Saw willow timber logs into planks.</description>
-        <jobString>Sawing willow logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -212,8 +212,8 @@
     <RecipeDef>
         <defName>HSK_SawWillow_Electric</defName>
         <label>saw willow plank(x20)</label>
-        <description>Saw willow timber logs into planks.</description>
-        <jobString>Sawing willow logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -244,8 +244,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawWillow_Electric</defName>
         <label>saw willow plank(x100)</label>
-        <description>Batch saw willow timber logs into planks.</description>
-        <jobString>Sawing willow logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -277,8 +277,8 @@
     <RecipeDef>
         <defName>HSK_SawPine</defName>
         <label>saw pine plank(x20)</label>
-        <description>Saw pine timber logs into planks.</description>
-        <jobString>Sawing pine logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -310,8 +310,8 @@
     <RecipeDef>
         <defName>HSK_SawPine_Electric</defName>
         <label>saw pine plank(x20)</label>
-        <description>Saw pine timber logs into planks.</description>
-        <jobString>Sawing pine logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -342,8 +342,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawPine_Electric</defName>
         <label>saw pine plank(x100)</label>
-        <description>Batch saw pine timber logs into planks.</description>
-        <jobString>Sawing pine logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -375,8 +375,8 @@
     <RecipeDef>
         <defName>HSK_SawCypress</defName>
         <label>saw cypress plank(x20)</label>
-        <description>Saw cypress timber logs into planks.</description>
-        <jobString>Sawing cypress logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -408,8 +408,8 @@
     <RecipeDef>
         <defName>HSK_SawCypress_Electric</defName>
         <label>saw cypress plank(x20)</label>
-        <description>Saw cypress timber logs into planks.</description>
-        <jobString>Sawing cypress logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -440,8 +440,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawCypress_Electric</defName>
         <label>saw cypress plank(x100)</label>
-        <description>Saw cypress timber logs into planks.</description>
-        <jobString>Sawing cypress logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -473,8 +473,8 @@
     <RecipeDef>
         <defName>HSK_SawPoplar</defName>
         <label>saw poplar plank(x20)</label>
-        <description>Saw poplar timber logs into planks.</description>
-        <jobString>Sawing poplar logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -506,8 +506,8 @@
     <RecipeDef>
         <defName>HSK_SawPoplar_Electric</defName>
         <label>saw poplar plank(x20)</label>
-        <description>Saw poplar timber logs into planks.</description>
-        <jobString>Sawing poplar logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -538,8 +538,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawPoplar_Electric</defName>
         <label>saw poplar plank(x100)</label>
-        <description>Batch saw poplar timber logs into planks.</description>
-        <jobString>Sawing poplar logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -572,8 +572,8 @@
     <RecipeDef>
         <defName>HSK_SawMaple</defName>
         <label>saw maple plank(x20)</label>
-        <description>Saw maple timber logs into planks.</description>
-        <jobString>Sawing maple logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -605,8 +605,8 @@
     <RecipeDef>
         <defName>HSK_SawMaple_Electric</defName>
         <label>saw maple plank(x20)</label>
-        <description>Saw maple timber logs into planks.</description>
-        <jobString>Sawing maple logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -637,8 +637,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawMaple_Electric</defName>
         <label>saw maple plank(x100)</label>
-        <description>Batch saw maple timber logs into planks.</description>
-        <jobString>Sawing maple logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -670,8 +670,8 @@
     <RecipeDef>
         <defName>HSK_SawSequoia</defName>
         <label>saw sequoia plank(x20)</label>
-        <description>Saw sequoia timber logs into planks.</description>
-        <jobString>Sawing sequoia logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -703,8 +703,8 @@
     <RecipeDef>
         <defName>HSK_SawSequoia_Electric</defName>
         <label>saw sequoia plank(x20)</label>
-        <description>Saw sequoia timber logs into planks.</description>
-        <jobString>Sawing sequoia logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -735,8 +735,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawSequoia_Electric</defName>
         <label>saw sequoia plank(x100)</label>
-        <description>Batch saw sequoia timber logs into planks.</description>
-        <jobString>Sawing sequoia logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -768,8 +768,8 @@
     <RecipeDef>
         <defName>HSK_SawBirch</defName>
         <label>saw birch plank(x20)</label>
-        <description>Saw birch timber logs into planks.</description>
-        <jobString>Sawing birch logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -801,8 +801,8 @@
     <RecipeDef>
         <defName>HSK_SawBirch_Electric</defName>
         <label>saw birch plank(x20)</label>
-        <description>Saw birch timber logs into planks.</description>
-        <jobString>Sawing birch logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -833,8 +833,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawBirch_Electric</defName>
         <label>saw birch plank(x1000)</label>
-        <description>Batch saw birch timber logs into planks.</description>
-        <jobString>Sawing birch logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -866,8 +866,8 @@
     <RecipeDef>
         <defName>HSK_SawTeak</defName>
         <label>saw teak plank(x20)</label>
-        <description>Saw teak timber logs into planks.</description>
-        <jobString>Sawing teak logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -899,8 +899,8 @@
     <RecipeDef>
         <defName>HSK_SawTeak_Electric</defName>
         <label>saw teak plank(x20)</label>
-        <description>Saw teak timber logs into planks.</description>
-        <jobString>Sawing teak logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -931,8 +931,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawTeak_Electric</defName>
         <label>saw teak plank(x100)</label>
-        <description>Batch saw teak timber logs into planks.</description>
-        <jobString>Sawing teak logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -964,8 +964,8 @@
     <RecipeDef>
         <defName>HSK_SawOak</defName>
         <label>saw oak plank(x20)</label>
-        <description>Saw oak timber logs into planks.</description>
-        <jobString>Sawing oak logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -997,8 +997,8 @@
     <RecipeDef>
         <defName>HSK_SawOak_Electric</defName>
         <label>saw oak plank(x20)</label>
-        <description>Saw oak timber logs into planks.</description>
-        <jobString>Sawing oak logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1029,8 +1029,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawOak_Electric</defName>
         <label>saw oak plank(x100)</label>
-        <description>Batch saw oak timber logs into planks.</description>
-        <jobString>Sawing oak logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1063,8 +1063,8 @@
     <RecipeDef>
         <defName>HSK_SawDragonwood</defName>
         <label>saw dragonwood plank(x20)</label>
-        <description>Saw dragonwood timber logs into planks.</description>
-        <jobString>Sawing dragonwood logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -1096,8 +1096,8 @@
     <RecipeDef>
         <defName>HSK_SawDragonwood_Electric</defName>
         <label>saw dragonwood plank(x20)</label>
-        <description>Saw dragonwood timber logs into planks.</description>
-        <jobString>Sawing dragonwood logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1128,8 +1128,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawDragonwood_Electric</defName>
         <label>saw dragonwood plank(x100)</label>
-        <description>Batch saw dragonwood timber logs into planks.</description>
-        <jobString>Sawing dragonwood logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1161,8 +1161,8 @@
     <RecipeDef>
         <defName>HSK_SawMangrove</defName>
         <label>saw mangrove plank(x20)</label>
-        <description>Saw mangrove timber logs into planks.</description>
-        <jobString>Sawing mangrove logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -1194,8 +1194,8 @@
     <RecipeDef>
         <defName>HSK_SawMangrove_Electric</defName>
         <label>saw mangrove plank(x20)</label>
-        <description>Saw mangrove timber logs into planks.</description>
-        <jobString>Sawing mangrove logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1226,8 +1226,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawMangrove_Electric</defName>
         <label>saw mangrove plank(x100)</label>
-        <description>Batch saw mangrove timber logs into planks.</description>
-        <jobString>Sawing mangrove logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1260,8 +1260,8 @@
     <RecipeDef>
         <defName>HSK_SawTimbershroom</defName>
         <label>saw timbershroom plank(x20)</label>
-        <description>Saw timbershroom timber logs into planks.</description>
-        <jobString>Sawing timbershroom logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -1293,8 +1293,8 @@
     <RecipeDef>
         <defName>HSK_SawTimbershroom_Electric</defName>
         <label>saw timbershroom plank(x20)</label>
-        <description>Saw timbershroom timber logs into planks.</description>
-        <jobString>Sawing timbershroom logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1325,8 +1325,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawTimbershroom_Electric</defName>
         <label>saw timbershroom plank(x100)</label>
-        <description>Batch saw timbershroom timber logs into planks.</description>
-        <jobString>Batch sawing timbershroom logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1358,8 +1358,8 @@
     <RecipeDef>
         <defName>HSK_SawBTW</defName>
         <label>saw BTW plank(x20)</label>
-        <description>Saw BTW timber logs into planks.</description>
-        <jobString>Sawing BTW logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -1390,8 +1390,8 @@
     <RecipeDef>
         <defName>HSK_SawBTW_Electric</defName>
         <label>saw BTW plank(x20)</label>
-        <description>Saw BTW timber logs into planks.</description>
-        <jobString>Sawing BTW logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1421,8 +1421,8 @@
     <RecipeDef>
         <defName>HSK_BatchSawTBTW_Electric</defName>
         <label>saw BTW plank(x100)</label>
-        <description>Batch saw BTW timber logs into planks.</description>
-        <jobString>Batch sawing BTW logs.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -1455,8 +1455,8 @@
     <RecipeDef>
         <defName>HSK_SawBamboo</defName>
         <label>saw bamboo plank(x5)</label>
-        <description>Saw and compress bamboo stics into planks.</description>
-        <jobString>Sawing bamboo sticks.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_SawLog</soundWorking>
         <ingredients>
@@ -1487,8 +1487,8 @@
     <RecipeDef>
         <defName>HSK_SawBamboo_Electric</defName>
         <label>saw bamboo plank(x5)</label>
-        <description>Saw and compress bamboo stics into planks.</description>
-        <jobString>Sawing bamboo sticks.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>

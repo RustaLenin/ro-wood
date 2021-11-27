@@ -19,15 +19,15 @@
 
     <!-- Childs -->
     <ThingCategoryDef>
-        <defName>HSK_HardwoodsTimbers</defName>
-        <label>Hardwood Timber</label>
+        <defName>HSK_SoftwoodsTimbers</defName>
+        <label>Softwood Timber</label>
         <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>HSK_SoftwoodsTimbers</defName>
-        <label>Softwood Timber</label>
+        <defName>HSK_HardwoodsTimbers</defName>
+        <label>Hardwood Timber</label>
         <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>HSK_RawTimber</parent>
     </ThingCategoryDef>
@@ -64,15 +64,15 @@
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>HSK_HardwoodLumber</defName>
-        <label>Hardwood Lumber</label>
+        <defName>HSK_SoftwoodLumber</defName>
+        <label>Softwood Lumber</label>
         <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>HSK_Lumber</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>HSK_SoftwoodLumber</defName>
-        <label>Softwood Lumber</label>
+        <defName>HSK_HardwoodLumber</defName>
+        <label>Hardwood Lumber</label>
         <iconPath>HSK/UI/Icons/Wooden</iconPath>
         <parent>HSK_Lumber</parent>
     </ThingCategoryDef>

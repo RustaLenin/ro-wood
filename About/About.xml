@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- In Progress:
+        - RUS Translation
+-->
+
 <!-- ToDo:s
-        - Bamboo
-        - Translation
-        - Treeconnecting, dryads and so on
         - Traits
         - BackStory
         - Wood vine
         - Residuals
-        - SK.ExtendedPlantGraphic
+        - Treeconnecting, dryads and so on
+        - Add industrial age research of woodworking
 -->
 
 <!-- Patch ToDo:
@@ -25,6 +27,8 @@
 
 <!-- Grafics ToDo:
         - Redraw Wooden Component
+        - Bamboo
+        - SK.ExtendedPlantGraphic
 -->
 
 <!-- Bugs to Fix:

@@ -5,7 +5,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>HSK_ComponentWood</defName>
         <label>wood component</label>
-        <description>Miscellaneous simple wood based components, such as: sticks, cogs, grips, wheels, hooks, locks, buckles and other hardware using in construction and crafting.</description>
+        <description>wood component description</description>
         <graphicData>
             <texPath>HSK/Manufactured/ComponentWood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -31,7 +31,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>HSK_Wooddust</defName>
         <label>wood dust</label>
-        <description>Wood dust (or saw dust) is a by-product or waste product of woodworking operations such as sawing, sanding, milling, planing, and routing. It is composed of small chippings of wood.</description>
+        <description>wood dust description</description>
         <graphicData>
             <texPath>HSK/Manufactured/Wooddust</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -57,7 +57,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>HSK_FuelBriquette</defName>
         <label>fuel briquette</label>
-        <description>The raw material for this type of fuel is waste from the woodworking industry.</description>
+        <description>fuel briquette description</description>
         <graphicData>
             <texPath>HSK/Manufactured/FuelBriquette</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>

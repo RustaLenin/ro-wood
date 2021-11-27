@@ -3,9 +3,9 @@
 
     <RecipeDef>
         <defName>HSK_ChopLogsIntoFireWood_Hand</defName>
-        <label>Chop logs into firewood (x20)</label>
-        <description>Chop timber logs into firewood.</description>
-        <jobString>Chopping logs into firewood.</jobString>
+        <label>Chop logs into firewood (x50)</label>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_LogChopping</soundWorking>
         <ingredients>
@@ -24,8 +24,8 @@
             </categories>
         </fixedIngredientFilter>
         <products>
-            <WoodLog>20</WoodLog>
-            <HSK_Wooddust>20</HSK_Wooddust>
+            <WoodLog>50</WoodLog>
+            <HSK_Wooddust>10</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -41,8 +41,8 @@
     <RecipeDef>
         <defName>HSK_ChopSlabsIntoFireWood_Hand</defName>
         <label>Chop woodslabs into firewood (x8)</label>
-        <description>Chop woodslabs into firewood.</description>
-        <jobString>Chopping woodslabs into firewood.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_LogChopping</soundWorking>
         <ingredients>
@@ -77,9 +77,9 @@
 
     <RecipeDef>
         <defName>HSK_SawLogsIntoFireWood_Electric_Singly</defName>
-        <label>Saw logs into firewood (x20)</label>
-        <description>Saw logs into firewood on this electric sawmill.</description>
-        <jobString>Sawing logs into firewood.</jobString>
+        <label>Saw logs into firewood (x50)</label>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -98,8 +98,8 @@
             </categories>
         </fixedIngredientFilter>
         <products>
-            <WoodLog>20</WoodLog>
-            <HSK_Wooddust>40</HSK_Wooddust>
+            <WoodLog>50</WoodLog>
+            <HSK_Wooddust>10</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -113,9 +113,9 @@
 
     <RecipeDef>
         <defName>HSK_SawLogsIntoFireWood_Electric_Batch</defName>
-        <label>Saw logs into firewood (x100)</label>
+        <label>description</label>
         <description>Saw logs into firewood on this electric sawmill.</description>
-        <jobString>Batch sawing logs into firewood.</jobString>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -134,8 +134,8 @@
             </categories>
         </fixedIngredientFilter>
         <products>
-            <WoodLog>100</WoodLog>
-            <HSK_Wooddust>200</HSK_Wooddust>
+            <WoodLog>250</WoodLog>
+            <HSK_Wooddust>50</HSK_Wooddust>
         </products>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -150,8 +150,8 @@
     <RecipeDef name="HSK_SawSlabsIntoFireWood_Electric">
         <defName>HSK_SawSlabsIntoFireWood_Electric</defName>
         <label>Saw woodslabs into firewood (x8)</label>
-        <description>Saw woodslabs into firewood.</description>
-        <jobString>Sawing woodslabs into firewood.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -186,8 +186,8 @@
     <RecipeDef name="HSK_BatchSawSlabsIntoFireWood_Electric">
         <defName>HSK_BatchSawSlabsIntoFireWood_Electric</defName>
         <label>Saw woodslabs into firewood (x80)</label>
-        <description>Saw woodslabs into firewood.</description>
-        <jobString>Sawing woodslabs into firewood.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>
@@ -223,7 +223,7 @@
         <defName>HSK_MakeFuelBriquetteFromWooddust</defName>
         <label>make fuel briquette</label>
         <description>Compress wood dust into briquette and heat it a beat.</description>
-        <jobString>Making fuel briquettes.</jobString>
+        <jobString>job description</jobString>
         <effectWorking>Cremate</effectWorking>
         <soundWorking>Recipe_Cremate</soundWorking>
         <ingredients>

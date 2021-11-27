@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Timber -->
+    <HSK_RawTimber.label>Raw Timber</HSK_RawTimber.label>
+    <HSK_BambooSticks.label>Unrefined Bamboo</HSK_BambooSticks.label>
+    <HSK_SoftwoodsTimbers.label>Softwood Timber</HSK_SoftwoodsTimbers.label>
+    <HSK_HardwoodsTimbers.label>Hardwood Timber</HSK_HardwoodsTimbers.label>
+    <HSK_UltrahardwoodsTimbers.label>Ultra-hardwood Timber</HSK_UltrahardwoodsTimbers.label>
+    <HSK_WoodlikeTimbers.label>Wood-like Timber</HSK_WoodlikeTimbers.label>
+
+    <!-- Lumber -->
+    <HSK_Lumber.label>Lumber Planks</HSK_Lumber.label>
+    <HSK_WoodSlabs.label>WoodSlabs</HSK_WoodSlabs.label>
+    <HSK_SoftwoodLumber.label>Softwood Lumber</HSK_SoftwoodLumber.label>
+    <HSK_HardwoodLumber.label>Hardwood Lumber</HSK_HardwoodLumber.label>
+    <HSK_UltrahardwoodLumber.label>Ultra-hardwood Lumber</HSK_UltrahardwoodLumber.label>
+    <HSK_Engineered.label>Engineered Lumber</HSK_Engineered.label>
+    <HSK_WoodlikeLumber.label>Wood-like Lumber</HSK_WoodlikeLumber.label>
+
+    <!-- Fuel -->
+    <HSK_AllFuel.label>Fuel</HSK_AllFuel.label>
+    <HSK_WoodFuel.label>Wood fuel</HSK_WoodFuel.label>
+
+</LanguageData>

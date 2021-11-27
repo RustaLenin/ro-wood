@@ -5,7 +5,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>HSK_WoodWorkingSpot</defName>
         <label>wood working spot</label>
-        <description>You need a space for your woodworking and here it is. Here you can splitting wood logs into firewood. And all this is only with bare hands, so, work speed will be extremly slow.</description>
+        <description>description</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
             <texPath>HSK/WorkTables/WoodWorkingSpot</texPath>
@@ -77,7 +77,7 @@
         <!-- Name & Description -->
         <defName>HSK_Sawmill</defName>
         <label>sawmill</label>
-        <description>A small muscle-powered hand saw for sawing logs into planks and chopping into firewood.</description>
+        <description>description</description>
         <thingClass>Building_WorkTable</thingClass>
 
         <!-- Draw -->
@@ -172,7 +172,7 @@
         <!-- Name & Description -->
         <defName>HSK_ElectroSawmill</defName>
         <label>electro sawmill</label>
-        <description>An electric sawmill for cutting logs into planks and firewood. Requires power, so, dont leave it under rain.</description>
+        <description>descriptions</description>
         <thingClass>Building_WorkTable</thingClass>
 
         <!-- Draw -->

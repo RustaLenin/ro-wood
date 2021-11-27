@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- WorkTables-->
+    <HSK_WoodWorkingSpot.label>wood working spot</HSK_WoodWorkingSpot.label>
+    <HSK_WoodWorkingSpot.description>Have no idea how to split timber log on a firewoods? How about a place on earth and a big sharp stone? Yeah, that's not fast way, but it works!</HSK_WoodWorkingSpot.description>
+
+    <HSK_Sawmill.label>sawmill</HSK_Sawmill.label>
+    <HSK_Sawmill.description>Table, saw, axe and two muscled hands can create truly magic. A bit slow, cause that is all you have, but functional.</HSK_Sawmill.description>
+
+    <HSK_ElectroSawmill.label>electro sawmill</HSK_ElectroSawmill.label>
+    <HSK_ElectroSawmill.description>That is a legendary SAWCRAFT-9000 — multifunctional woodworking bench. It makes "Whew, whew, whew", and here it is — all work is done. Need a lot of power and totaly dislikes rains, but works very fast!</HSK_ElectroSawmill.description>
+
+    <!-- Unfinished -->
+    <HSK_UnfinishedWoodWork.label>unfinished woodwork</HSK_UnfinishedWoodWork.label>
+    <HSK_UnfinishedWoodWork.description>Partially processed wood. You should have finished what you start doing.</HSK_UnfinishedWoodWork.description>
+
+    <!-- Fruits -->
+    <HSK_RawCoconut.label>Coconut</HSK_RawCoconut.label>
+    <HSK_RawCoconut.description>Consists of three parts. A sturdy shell that cannot be opened with bare hands. Delicate and delicious white pulp. And coconut milk. The real skill is to open the shell without staining the flesh or spilling a drop of milk.</HSK_RawCoconut.description>
+
+    <!-- Timber -->
+    <HSK_CecropiaLog.label>cecropia log<</HSK_CecropiaLog.label>
+    <HSK_CecropiaLog.description>Cecropia light and soft wood, what very easy to work with. Moderately beautiful, it will make comfortable and practical furniture, but you should not use this wood for construction, the production of tools and weapons.</HSK_CecropiaLog.description>
+
+    <HSK_WillowLog.label>willow log</HSK_WillowLog.label>
+    <HSK_WillowLog.description>Willow wood is soft and flexible, which makes it easy to make various components for tools and furniture from it. However, willow wood is not distinguished by its beauty, therefore, it is usuallyused for purely utilitarian items.</HSK_WillowLog.description>
+
+    <HSK_PineLog.label>pine log</HSK_PineLog.label>
+    <HSK_PineLog.description>Pine wood is widely used in construction. Pine usually grows into a slender and tall tree, which makes it possible to make more smooth and beautiful boards from it. Pine wood is not durable, but it is easy to work with.</HSK_PineLog.description>
+
+    <HSK_CypressLog.label>cypress log</HSK_CypressLog.label>
+    <HSK_CypressLog.description>Cypress, which is known for its knotty wood grain, is fairly strong for being a light softwood.</HSK_CypressLog.description>
+
+    <HSK_PoplarLog.label>poplar log</HSK_PoplarLog.label>
+    <HSK_PoplarLog.description>Poplar is one of the most common woods and is very cheap and bland, but its moderate weight and strength makes it useful in all sorts of applications.</HSK_PoplarLog.description>
+
+    <HSK_MapleLog.label>maple log</HSK_MapleLog.label>
+    <HSK_MapleLog.description>Maple is quite sturdy and slightly heavy, and often has a beautiful wood grain pattern. Most often it is used for construction, despite the complexity of processing.</HSK_MapleLog.description>
+
+    <HSK_SequoiaLog.label>sequoia log</HSK_SequoiaLog.label>
+    <HSK_SequoiaLog.description>Red, rare, high-priced and beautiful tree log. Mostly using for furniture and art.</HSK_SequoiaLog.description>
+
+    <HSK_BirchLog.label>birch log</HSK_BirchLog.label>
+    <HSK_BirchLog.description>Birch wood is not distinguished by its beauty and intricate patterns, but it is very hard, durable and at the same time easier to process.</HSK_BirchLog.description>
+
+    <HSK_TeakLog.label>teak log</HSK_TeakLog.label>
+    <HSK_TeakLog.description>Teak is a demanded hardwood. It is extremely rare, expensive, beautiful and durable. Teak products are virtually unmatched. The only negative is that it is incredibly heavy.</HSK_TeakLog.description>
+
+    <HSK_OakLog.label>oak log</HSK_OakLog.label>
+    <HSK_OakLog.description>The saying "Strong as an oak" also pertains to the lumber. It's the strongest wood you can find in temperate regions. It's also the heaviest.</HSK_OakLog.description>
+
+    <HSK_DragonwoodLog.label>Dragonwood log</HSK_DragonwoodLog.label>
+    <HSK_DragonwoodLog.description>Dragonwood is a rare and incredibly hard, beautiful wood. It's sap is blood-red and has healing properties. It's very difficult to work with due to its extreme hardness.</HSK_DragonwoodLog.description>
+
+    <HSK_MangroveLog.label>mangrove log</HSK_MangroveLog.label>
+    <HSK_MangroveLog.description>Mangrove is an excellent building material due to its natural fire-resistance and incredible strength (only surpassed by dragonwood). It's often preferred to be used as firewood because their being extremely heavy and difficult to work with.</HSK_MangroveLog.description>
+
+    <HSK_TimbershroomLog.label>timbershroom log</HSK_TimbershroomLog.label>
+    <HSK_TimbershroomLog.description>Mushroom is a reproductive organ (fruiting body) of fungi. Timbershroom called so, cause his mushroom dense and hard like wood. And this is timbershroom wood log. It's too soft for making quality tools or melee weapons, but it beatiful and comfortable for making furnutire.</HSK_TimbershroomLog.description>
+
+    <HSK_BTWLog.label>BTW log</HSK_BTWLog.label>
+    <HSK_BTWLog.description>BTW - is a abbreviation "Bio Tech Wood". Emperium BioTech corporation design Fibercorn plant to create cheap and quality wood-like material, which can be grow by colonist in new worlds extremly quick, without need to chop down local flora.\n This wood-like material is a pretty common at all possible characteristics. It's not soft and not hard, not weight light and not heavy, it's not ugly and not beatiful. This material is totally common.</HSK_BTWLog.description>
+
+    <HSK_BambooStick.label>bamboo stick</HSK_BambooStick.label>
+    <HSK_BambooStick.description>Bamboo sticks is alternative for wood timber. It has mostly same properties like any softwood. Most difirrence is size. You need a about five bamboo sticks to make one bamboo plank.</HSK_BambooStick.description>
+
+    <!-- Lumber -->
+    <HSK_SlabPlank.label>wood slab</HSK_SlabPlank.label>
+    <HSK_SlabPlank.description>Cheap and low quality wood plank with tree bark on from one of the sides. No one will be surprised if you make a rural toilet out of a wood slab. But mostly it using to make firewood.</HSK_SlabPlank.description>
+
+    <HSK_CecropiaPlank.label>cecropia plank</HSK_CecropiaPlank.label>
+    <HSK_CecropiaPlank.description>Moderately beautiful wood plank. It will make comfortable and practical furniture, but fragile tools or weapons.</HSK_CecropiaPlank.description>
+
+    <HSK_WillowPlank.label>willow plank</HSK_WillowPlank.label>
+    <HSK_WillowPlank.description>Beautiful and flexible wood plank.</HSK_WillowPlank.description>
+
+    <HSK_PinePlank.label>pine plank</HSK_PinePlank.label>
+    <HSK_PinePlank.description>Pine boards smell especially good, and they are moderately beautiful and quite durable.</HSK_PinePlank.description>
+
+    <HSK_CypressPlank.label>cypress plank</HSK_CypressPlank.label>
+    <HSK_CypressPlank.description>Cypress wood planks - Easy to work and strong enough to build.</HSK_CypressPlank.description>
+
+    <HSK_PoplarPlank.label>poplar plank</HSK_PoplarPlank.label>
+    <HSK_PoplarPlank.description>Most common wood planks which you can use for everything.</HSK_PoplarPlank.description>
+
+    <HSK_MaplePlank.label>maple plank</HSK_MaplePlank.label>
+    <HSK_MaplePlank.description>Maple planks - durable and beauty.</HSK_MaplePlank.description>
+
+    <HSK_SequoiaPlank.label>sequoia plank</HSK_SequoiaPlank.label>
+    <HSK_SequoiaPlank.description>Sequoia plank - red, rare, beatiful and high-priced. </HSK_SequoiaPlank.description>
+
+    <HSK_BirchPlank.label>birch plank</HSK_BirchPlank.label>
+    <HSK_BirchPlank.description>Birch plank - strong, durable and easy to work with.</HSK_BirchPlank.description>
+
+    <HSK_TeakPlank.label>teak plank </HSK_TeakPlank.label>
+    <HSK_TeakPlank.description>Teak planks - extremely durable and beauty, but heavy.</HSK_TeakPlank.description>
+
+    <HSK_OakPlank.label>oak plank</HSK_OakPlank.label>
+    <HSK_OakPlank.description>If you are planning to build something for the ages, build it with these oak planks.</HSK_OakPlank.description>
+
+    <HSK_DragonwoodPlank.label>dragonwood plank</HSK_DragonwoodPlank.label>
+    <HSK_DragonwoodPlank.description>Incredibly hard and beautiful wood.</HSK_DragonwoodPlank.description>
+
+    <HSK_MangrovePlank.label>mangrove plank</HSK_MangrovePlank.label>
+    <HSK_MangrovePlank.description>Extra hard and fire-resistance wood.</HSK_MangrovePlank.description>
+
+    <HSK_TimbershroomPlank.label>timbershroom plank</HSK_TimbershroomPlank.label>
+    <HSK_TimbershroomPlank.description>Strange, but beautiful shroom-lumber.</HSK_TimbershroomPlank.description>
+
+    <HSK_BTWPlank.label>BTW plank</HSK_BTWPlank.label>
+    <HSK_BTWPlank.description>Totally common lumber.</HSK_BTWPlank.description>
+
+    <HSK_BambooPlank.label>bamboo plank</HSK_BambooPlank.label>
+    <HSK_BambooPlank.description>Soft and beatiful bamboo plank</HSK_BambooPlank.description>
+
+    <!-- Manufactured -->
+    <HSK_ComponentWood.label>wood component</HSK_ComponentWood.label>
+    <HSK_ComponentWood.description>Miscellaneous simple wood based components, such as: sticks, cogs, grips, wheels, hooks, locks, buckles and other hardware using in construction and crafting.</HSK_ComponentWood.description>
+
+    <HSK_Wooddust.label>wood dust</HSK_Wooddust.label>
+    <HSK_Wooddust.description>Wood dust (or saw dust) is a by-product or waste product of woodworking operations such as sawing, sanding, milling, planing, and routing. It is composed of small chippings of wood.</HSK_Wooddust.description>
+
+    <HSK_FuelBriquette.label>fuel briquette</HSK_FuelBriquette.label>
+    <HSK_FuelBriquette.description>The fuel briquette created from wood processing waste can be used instead of firewood or coal.</HSK_FuelBriquette.description>
+
+    <HSK_UniverseStoneTool.label>stone tool</HSK_UniverseStoneTool.label>
+    <HSK_UniverseStoneTool.description>If you need to do something, then this big sharp stone will help you. Believe me, it will be much easier with him than just working with your bare hands.</HSK_UniverseStoneTool.description>
+
+    <WoodLog.label>Firewood</WoodLog.label>
+    <WoodLog.description>Piece of wood log used as biofuel. It's burned in stoves, fireplaces, fireboxes or fires to obtain heat and light.</WoodLog.description>
+
+    <!-- Trees -->
+    <HSK_Plant_Mangrove.label>mangrove tree</HSK_Plant_Mangrove.label>
+    <HSK_Plant_Mangrove.description>Mangroves are trees or shrubs that grow in salty water in hot places like the tropics.</HSK_Plant_Mangrove.description>
+
+    <HSK_Plant_Sequoia.label>sequoia tree</HSK_Plant_Sequoia.label>
+    <HSK_Plant_Sequoia.description>Rare, huge and very slow growing tree. It is often referred to simply as mahogany because of the particular color of the wood. It is the tallest known tree and has a very long life. Individual sequoias reach incredible sizes. Due to the fact that this tree is rare - items made from it are especially valuable!</HSK_Plant_Sequoia.description>
+
+</LanguageData>

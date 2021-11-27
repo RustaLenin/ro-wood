@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Components-->
+    <HSK_MakeWoodComponent_Hand.label>make wood component (x4)</HSK_MakeWoodComponent_Hand.label>
+    <HSK_MakeWoodComponent_Hand.description>Hand carve a wooden component from a wood log</HSK_MakeWoodComponent_Hand.description>
+    <HSK_MakeWoodComponent_Hand.jobString>Carving wood components.</HSK_MakeWoodComponent_Hand.jobString>
+
+    <HSK_MakeWoodComponent_Electric.label>make wood component (x4)</HSK_MakeWoodComponent_Electric.label>
+    <HSK_MakeWoodComponent_Electric.description>Carve a wooden component out of a log using an electric machine.</HSK_MakeWoodComponent_Electric.description>
+    <HSK_MakeWoodComponent_Electric.jobString>Carving wood components.</HSK_MakeWoodComponent_Electric.jobString>
+
+    <!-- Fuel -->
+    <HSK_ChopLogsIntoFireWood_Hand.label>chop logs into firewood (x50)</HSK_ChopLogsIntoFireWood_Hand.label>
+    <HSK_ChopLogsIntoFireWood_Hand.description>Hand chop wood logs into firewood.</HSK_ChopLogsIntoFireWood_Hand.description>
+    <HSK_ChopLogsIntoFireWood_Hand.jobString>Chopping firewood.</HSK_ChopLogsIntoFireWood_Hand.jobString>
+
+    <HSK_ChopSlabsIntoFireWood_Hand.label>chop woodslabs into firewood (x8)</HSK_ChopSlabsIntoFireWood_Hand.label>
+    <HSK_ChopSlabsIntoFireWood_Hand.description>Hand chop woodslabs into firewood.</HSK_ChopSlabsIntoFireWood_Hand.description>
+    <HSK_ChopSlabsIntoFireWood_Hand.jobString>Chopping firewood.</HSK_ChopSlabsIntoFireWood_Hand.jobString>
+
+    <HSK_SawLogsIntoFireWood_Electric_Singly.label>saw logs into firewood (x50)</HSK_SawLogsIntoFireWood_Electric_Singly.label>
+    <HSK_SawLogsIntoFireWood_Electric_Singly.description>Sawing a wood log for firewood using an electric machine.</HSK_SawLogsIntoFireWood_Electric_Singly.description>
+    <HSK_SawLogsIntoFireWood_Electric_Singly.jobString>Sawing firewood.</HSK_SawLogsIntoFireWood_Electric_Singly.jobString>
+
+    <HSK_SawLogsIntoFireWood_Electric_Batch.label>saw logs into firewood (x250)</HSK_SawLogsIntoFireWood_Electric_Batch.label>
+    <HSK_SawLogsIntoFireWood_Electric_Batch.description>Batch sawing a wood logs for firewood using an electric machine.</HSK_SawLogsIntoFireWood_Electric_Batch.description>
+    <HSK_SawLogsIntoFireWood_Electric_Batch.jobString>Sawing firewood.</HSK_SawLogsIntoFireWood_Electric_Batch.jobString>
+
+    <HSK_SawSlabsIntoFireWood_Electric.label>saw woodslabs into firewood (x8)</HSK_SawSlabsIntoFireWood_Electric.label>
+    <HSK_SawSlabsIntoFireWood_Electric.description>Saw woodslabs into firewood using an electric machine.</HSK_SawSlabsIntoFireWood_Electric.description>
+    <HSK_SawSlabsIntoFireWood_Electric.jobString>Sawing firewood.</HSK_SawSlabsIntoFireWood_Electric.jobString>
+
+    <HSK_BatchSawSlabsIntoFireWood_Electric.label>saw woodslabs into firewood (x80)</HSK_BatchSawSlabsIntoFireWood_Electric.label>
+    <HSK_BatchSawSlabsIntoFireWood_Electric.description>Saw woodslabs into firewood using an electric machine.</HSK_BatchSawSlabsIntoFireWood_Electric.description>
+    <HSK_BatchSawSlabsIntoFireWood_Electric.jobString>Sawing firewood.</HSK_BatchSawSlabsIntoFireWood_Electric.jobString>
+
+    <HSK_MakeFuelBriquetteFromWooddust.label>make fuel briquette</HSK_MakeFuelBriquetteFromWooddust.label>
+    <HSK_MakeFuelBriquetteFromWooddust.description>Compress wood dust into briquette and heat it a beat.</HSK_MakeFuelBriquetteFromWooddust.description>
+    <HSK_MakeFuelBriquetteFromWooddust.jobString>making fuel briquette</HSK_MakeFuelBriquetteFromWooddust.jobString>
+
+    <!-- Primitive -->
+    <HSK_MakeStoneTool.label>make stone tool</HSK_MakeStoneTool.label>
+    <HSK_MakeStoneTool.description>Sharpen stone to make useful as primitive tool.</HSK_MakeStoneTool.description>
+    <HSK_MakeStoneTool.jobString>Sharpening stone</HSK_MakeStoneTool.jobString>
+
+    <!-- Timber 2 Lumber -->
+    <!-- Lumber Buthery -->
+    <HSK_ButcheryWoodLog.label>Saw any wood log</HSK_ButcheryWoodLog.label>
+    <HSK_ButcheryWoodLog.description>Hand saw nearest timber log into planks.</HSK_ButcheryWoodLog.description>
+    <HSK_ButcheryWoodLog.jobString>Sawing lumber</HSK_ButcheryWoodLog.jobString>
+
+    <HSK_ButcheryWoodLog_Electric.label>Saw any wood log</HSK_ButcheryWoodLog_Electric.label>
+    <HSK_ButcheryWoodLog_Electric.description>Saw nearest timber log into planks using an electric machine.</HSK_ButcheryWoodLog_Electric.description>
+    <HSK_ButcheryWoodLog_Electric.jobString>Sawing lumber</HSK_ButcheryWoodLog_Electric.jobString>
+
+    <!-- SoftWood Recipes -->
+    <!-- Cecropia -->
+    <HSK_SawCecropia.label>saw cecropia plank(x20)</HSK_SawCecropia.label>
+    <HSK_SawCecropia.description>Hand saw cecropia timber logs into planks.</HSK_SawCecropia.description>
+    <HSK_SawCecropia.jobString>Sawing cecropia lumber</HSK_SawCecropia.jobString>
+
+    <HSK_SawCecropia_Electric.label>saw cecropia plank(x20)</HSK_SawCecropia_Electric.label>
+    <HSK_SawCecropia_Electric.description>Saw cecropia timber logs into planks using an electric machine.</HSK_SawCecropia_Electric.description>
+    <HSK_SawCecropia_Electric.jobString>Sawing cecropia lumber</HSK_SawCecropia_Electric.jobString>
+
+    <HSK_BatchSawCecropia_Electric.label>saw cecropia plank(x100)</HSK_BatchSawCecropia_Electric.label>
+    <HSK_BatchSawCecropia_Electric.description>Saw cecropia timber logs into planks using an electric machine.</HSK_BatchSawCecropia_Electric.description>
+    <HSK_BatchSawCecropia_Electric.jobString>Sawing cecropia lumber</HSK_BatchSawCecropia_Electric.jobString>
+
+    <!-- Willow -->
+    <HSK_SawWillow.label>saw willow plank(x20)</HSK_SawWillow.label>
+    <HSK_SawWillow.description>Hand saw willow timber logs into planks.</HSK_SawWillow.description>
+    <HSK_SawWillow.jobString>Sawing willow lumber</HSK_SawWillow.jobString>
+
+    <HSK_SawWillow_Electric.label>saw willow plank(x20)</HSK_SawWillow_Electric.label>
+    <HSK_SawWillow_Electric.description>Saw willow timber logs into planks using an electric machine.</HSK_SawWillow_Electric.description>
+    <HSK_SawWillow_Electric.jobString>Sawing willow lumber</HSK_SawWillow_Electric.jobString>
+
+    <HSK_BatchSawWillow_Electric.label>saw willow plank(x100)</HSK_BatchSawWillow_Electric.label>
+    <HSK_BatchSawWillow_Electric.description>Saw willow timber logs into planks using an electric machine.</HSK_BatchSawWillow_Electric.description>
+    <HSK_BatchSawWillow_Electric.jobString>Sawing willow lumber</HSK_BatchSawWillow_Electric.jobString>
+
+    <!-- Pine -->
+    <HSK_SawPine.label>saw pine plank(x20)</HSK_SawPine.label>
+    <HSK_SawPine.description>Hand saw pine timber logs into planks.</HSK_SawPine.description>
+    <HSK_SawPine.jobString>Sawing pine lumber</HSK_SawPine.jobString>
+
+    <HSK_SawPine_Electric.label>saw pine plank(x20)</HSK_SawPine_Electric.label>
+    <HSK_SawPine_Electric.description>Saw pine timber logs into planks using an electric machine.</HSK_SawPine_Electric.description>
+    <HSK_SawPine_Electric.jobString>Sawing pine lumber</HSK_SawPine_Electric.jobString>
+
+    <HSK_BatchSawPine_Electric.label>saw pine plank(x100)</HSK_BatchSawPine_Electric.label>
+    <HSK_BatchSawPine_Electric.description>Saw pine timber logs into planks using an electric machine.</HSK_BatchSawPine_Electric.description>
+    <HSK_BatchSawPine_Electric.jobString>Sawing pine lumber</HSK_BatchSawPine_Electric.jobString>
+
+    <!-- Cypress -->
+    <HSK_SawCypress.label>saw cypress plank(x20)</HSK_SawCypress.label>
+    <HSK_SawCypress.description>Hand saw cypress timber logs into planks.</HSK_SawCypress.description>
+    <HSK_SawCypress.jobString>Sawing cypress lumber</HSK_SawCypress.jobString>
+
+    <HSK_SawCypress_Electric.label>saw cypress plank(x20)</HSK_SawCypress_Electric.label>
+    <HSK_SawCypress_Electric.description>Saw cypress timber logs into planks using an electric machine.</HSK_SawCypress_Electric.description>
+    <HSK_SawCypress_Electric.jobString>Sawing cypress lumber</HSK_SawCypress_Electric.jobString>
+
+    <HSK_BatchSawCypress_Electric.label>saw cypress plank(x100)</HSK_BatchSawCypress_Electric.label>
+    <HSK_BatchSawCypress_Electric.description>Saw cypress timber logs into planks using an electric machine.</HSK_BatchSawCypress_Electric.description>
+    <HSK_BatchSawCypress_Electric.jobString>Sawing cypress lumber</HSK_BatchSawCypress_Electric.jobString>
+
+    <!-- Poplar -->
+    <HSK_SawPoplar.label>saw poplar plank(x20)</HSK_SawPoplar.label>
+    <HSK_SawPoplar.description>Hand saw poplar timber logs into planks.</HSK_SawPoplar.description>
+    <HSK_SawPoplar.jobString>Sawing poplar lumber</HSK_SawPoplar.jobString>
+
+    <HSK_SawPoplar_Electric.label>saw poplar plank(x20)</HSK_SawPoplar_Electric.label>
+    <HSK_SawPoplar_Electric.description>Saw poplar timber logs into planks using an electric machine.</HSK_SawPoplar_Electric.description>
+    <HSK_SawPoplar_Electric.jobString>Sawing poplar lumber</HSK_SawPoplar_Electric.jobString>
+
+    <HSK_BatchSawPoplar_Electric.label>saw poplar plank(x100)</HSK_BatchSawPoplar_Electric.label>
+    <HSK_BatchSawPoplar_Electric.description>Saw poplar timber logs into planks using an electric machine.</HSK_BatchSawPoplar_Electric.description>
+    <HSK_BatchSawPoplar_Electric.jobString>Sawing poplar lumber</HSK_BatchSawPoplar_Electric.jobString>
+
+    <!-- HardWood Logs-->
+    <!-- Maple -->
+    <HSK_SawMaple.label>saw maple plank(x20)</HSK_SawMaple.label>
+    <HSK_SawMaple.description>Hand saw maple timber logs into planks.</HSK_SawMaple.description>
+    <HSK_SawMaple.jobString>Sawing maple lumber</HSK_SawMaple.jobString>
+
+    <HSK_SawMaple_Electric.label>saw maple plank(x20)</HSK_SawMaple_Electric.label>
+    <HSK_SawMaple_Electric.description>Saw maple timber logs into planks using an electric machine.</HSK_SawMaple_Electric.description>
+    <HSK_SawMaple_Electric.jobString>Sawing maple lumber</HSK_SawMaple_Electric.jobString>
+
+    <HSK_BatchSawMaple_Electric.label>saw maple plank(x100)</HSK_BatchSawMaple_Electric.label>
+    <HSK_BatchSawMaple_Electric.description>Saw maple timber logs into planks using an electric machine.</HSK_BatchSawMaple_Electric.description>
+    <HSK_BatchSawMaple_Electric.jobString>Sawing maple lumber</HSK_BatchSawMaple_Electric.jobString>
+
+    <!-- Sequoia -->
+    <HSK_SawSequoia.label>saw sequoia plank(x20)</HSK_SawSequoia.label>
+    <HSK_SawSequoia.description>Hand saw sequoia timber logs into planks.</HSK_SawSequoia.description>
+    <HSK_SawSequoia.jobString>Sawing sequoia lumber</HSK_SawSequoia.jobString>
+
+    <HSK_SawSequoia_Electric.label>saw sequoia plank(x20)</HSK_SawSequoia_Electric.label>
+    <HSK_SawSequoia_Electric.description>Saw sequoia timber logs into planks using an electric machine.</HSK_SawSequoia_Electric.description>
+    <HSK_SawSequoia_Electric.jobString>Sawing sequoia lumber</HSK_SawSequoia_Electric.jobString>
+
+    <HSK_BatchSawSequoia_Electric.label>saw sequoia plank(x100)</HSK_BatchSawSequoia_Electric.label>
+    <HSK_BatchSawSequoia_Electric.description>Saw sequoia timber logs into planks using an electric machine.</HSK_BatchSawSequoia_Electric.description>
+    <HSK_BatchSawSequoia_Electric.jobString>Sawing sequoia lumber</HSK_BatchSawSequoia_Electric.jobString>
+
+    <!-- Birch -->
+    <HSK_SawBirch.label>saw birch plank(x20)</HSK_SawBirch.label>
+    <HSK_SawBirch.description>Hand saw birch timber logs into planks.</HSK_SawBirch.description>
+    <HSK_SawBirch.jobString>Sawing birch lumber</HSK_SawBirch.jobString>
+
+    <HSK_SawBirch_Electric.label>saw birch plank(x20)</HSK_SawBirch_Electric.label>
+    <HSK_SawBirch_Electric.description>Saw birch timber logs into planks using an electric machine.</HSK_SawBirch_Electric.description>
+    <HSK_SawBirch_Electric.jobString>Sawing birch lumber</HSK_SawBirch_Electric.jobString>
+
+    <HSK_BatchSawBirch_Electric.label>saw birch plank(x100)</HSK_BatchSawBirch_Electric.label>
+    <HSK_BatchSawBirch_Electric.description>Saw birch timber logs into planks using an electric machine.</HSK_BatchSawBirch_Electric.description>
+    <HSK_BatchSawBirch_Electric.jobString>Sawing birch lumber</HSK_BatchSawBirch_Electric.jobString>
+
+    <!-- Teak -->
+    <HSK_SawTeak.label>saw teak plank(x20)</HSK_SawTeak.label>
+    <HSK_SawTeak.description>Hand saw teak timber logs into planks.</HSK_SawTeak.description>
+    <HSK_SawTeak.jobString>Sawing teak lumber</HSK_SawTeak.jobString>
+
+    <HSK_SawTeak_Electric.label>saw teak plank(x20)</HSK_SawTeak_Electric.label>
+    <HSK_SawTeak_Electric.description>Saw teak timber logs into planks using an electric machine.</HSK_SawTeak_Electric.description>
+    <HSK_SawTeak_Electric.jobString>Sawing teak lumber</HSK_SawTeak_Electric.jobString>
+
+    <HSK_BatchSawTeak_Electric.label>saw teak plank(x100)</HSK_BatchSawTeak_Electric.label>
+    <HSK_BatchSawTeak_Electric.description>Saw teak timber logs into planks using an electric machine.</HSK_BatchSawTeak_Electric.description>
+    <HSK_BatchSawTeak_Electric.jobString>Sawing teak lumber</HSK_BatchSawTeak_Electric.jobString>
+
+    <!-- Oak -->
+    <HSK_SawOak.label>saw oak plank(x20)</HSK_SawOak.label>
+    <HSK_SawOak.description>Hand saw oak timber logs into planks.</HSK_SawOak.description>
+    <HSK_SawOak.jobString>Sawing oak lumber</HSK_SawOak.jobString>
+
+    <HSK_SawOak_Electric.label>saw oak plank(x20)</HSK_SawOak_Electric.label>
+    <HSK_SawOak_Electric.description>Saw oak timber logs into planks using an electric machine.</HSK_SawOak_Electric.description>
+    <HSK_SawOak_Electric.jobString>Sawing oak lumber</HSK_SawOak_Electric.jobString>
+
+    <HSK_BatchSawOak_Electric.label>saw oak plank(x100)</HSK_BatchSawOak_Electric.label>
+    <HSK_BatchSawOak_Electric.description>Saw oak timber logs into planks using an electric machine.</HSK_BatchSawOak_Electric.description>
+    <HSK_BatchSawOak_Electric.jobString>Sawing oak lumber</HSK_BatchSawOak_Electric.jobString>
+
+    <!-- UltraHardWood-->
+    <!-- DragonWood -->
+    <HSK_SawDragonwood.label>saw dragonwood plank(x20)</HSK_SawDragonwood.label>
+    <HSK_SawDragonwood.description>Hand saw dragonwood timber logs into planks.</HSK_SawDragonwood.description>
+    <HSK_SawDragonwood.jobString>Sawing dragonwood lumber</HSK_SawDragonwood.jobString>
+
+    <HSK_SawDragonwood_Electric.label>saw dragonwood plank(x20)</HSK_SawDragonwood_Electric.label>
+    <HSK_SawDragonwood_Electric.description>Saw dragonwood timber logs into planks using an electric machine.</HSK_SawDragonwood_Electric.description>
+    <HSK_SawDragonwood_Electric.jobString>Sawing dragonwood lumber</HSK_SawDragonwood_Electric.jobString>
+
+    <HSK_BatchSawDragonwood_Electric.label>saw dragonwood plank(x100)</HSK_BatchSawDragonwood_Electric.label>
+    <HSK_BatchSawDragonwood_Electric.description>Saw dragonwood timber logs into planks using an electric machine.</HSK_BatchSawDragonwood_Electric.description>
+    <HSK_BatchSawDragonwood_Electric.jobString>Sawing dragonwood lumber</HSK_BatchSawDragonwood_Electric.jobString>
+
+    <!-- Mangrove -->
+    <HSK_SawMangrove.label>saw mangrove plank(x20)</HSK_SawMangrove.label>
+    <HSK_SawMangrove.description>Hand saw mangrove timber logs into planks.</HSK_SawMangrove.description>
+    <HSK_SawMangrove.jobString>Sawing mangrove lumber</HSK_SawMangrove.jobString>
+
+    <HSK_SawMangrove_Electric.label>saw mangrove plank(x20)</HSK_SawMangrove_Electric.label>
+    <HSK_SawMangrove_Electric.description>Saw mangrove timber logs into planks using an electric machine.</HSK_SawMangrove_Electric.description>
+    <HSK_SawMangrove_Electric.jobString>Sawing mangrove lumber</HSK_SawMangrove_Electric.jobString>
+
+    <HSK_BatchSawMangrove_Electric.label>saw mangrove plank(x100)</HSK_BatchSawMangrove_Electric.label>
+    <HSK_BatchSawMangrove_Electric.description>Saw mangrove timber logs into planks using an electric machine.</HSK_BatchSawMangrove_Electric.description>
+    <HSK_BatchSawMangrove_Electric.jobString>Sawing mangrove lumber</HSK_BatchSawMangrove_Electric.jobString>
+
+    <!-- Wood-like -->
+    <!-- Timbershroom -->
+    <HSK_SawTimbershroom.label>saw timbershroom plank(x20)</HSK_SawTimbershroom.label>
+    <HSK_SawTimbershroom.description>Hand saw timbershroom timber logs into planks.</HSK_SawTimbershroom.description>
+    <HSK_SawTimbershroom.jobString>Sawing timbershroom lumber</HSK_SawTimbershroom.jobString>
+
+    <HSK_SawTimbershroom_Electric.label>saw timbershroom plank(x20)</HSK_SawTimbershroom_Electric.label>
+    <HSK_SawTimbershroom_Electric.description>Saw timbershroom timber logs into planks using an electric machine.</HSK_SawTimbershroom_Electric.description>
+    <HSK_SawTimbershroom_Electric.jobString>Sawing timbershroom lumber</HSK_SawTimbershroom_Electric.jobString>
+
+    <HSK_BatchSawTimbershroom_Electric.label>saw timbershroom plank(x100)</HSK_BatchSawTimbershroom_Electric.label>
+    <HSK_BatchSawTimbershroom_Electric.description>Saw timbershroom timber logs into planks using an electric machine.</HSK_BatchSawTimbershroom_Electric.description>
+    <HSK_BatchSawTimbershroom_Electric.jobString>Sawing timbershroom lumber</HSK_BatchSawTimbershroom_Electric.jobString>
+
+    <!-- BioTechWood -->
+    <HSK_SawBTW.label>saw biotech plank(x20)</HSK_SawBTW.label>
+    <HSK_SawBTW.description>Hand saw biotech timber logs into planks.</HSK_SawBTW.description>
+    <HSK_SawBTW.jobString>Sawing biotech lumber</HSK_SawBTW.jobString>
+
+    <HSK_SawBTW_Electric.label>saw biotech plank(x20)</HSK_SawBTW_Electric.label>
+    <HSK_SawBTW_Electric.description>Saw biotech timber logs into planks using an electric machine.</HSK_SawBTW_Electric.description>
+    <HSK_SawBTW_Electric.jobString>Sawing biotech lumber</HSK_SawBTW_Electric.jobString>
+
+    <HSK_BatchSawTBTW_Electric.label>saw biotech plank(x100)</HSK_BatchSawTBTW_Electric.label>
+    <HSK_BatchSawTBTW_Electric.description>Saw biotech timber logs into planks using an electric machine.</HSK_BatchSawTBTW_Electric.description>
+    <HSK_BatchSawTBTW_Electric.jobString>Sawing biotech lumber</HSK_BatchSawTBTW_Electric.jobString>
+
+    <!-- Steak-Lumber -->
+    <!-- Bamboo -->
+    <HSK_SawBamboo.label>saw bamboo plank(x5)</HSK_SawBamboo.label>
+    <HSK_SawBamboo.description>Hand saw and compress bamboo stics into planks.</HSK_SawBamboo.description>
+    <HSK_SawBamboo.jobString>Sawing bamboo lumber</HSK_SawBamboo.jobString>
+
+    <HSK_SawBamboo_Electric.label>saw bamboo plank(x5)</HSK_SawBamboo_Electric.label>
+    <HSK_SawBamboo_Electric.description>Saw and compress bamboo stics into planks using an electric machine.</HSK_SawBamboo_Electric.description>
+    <HSK_SawBamboo_Electric.jobString>Sawing bamboo lumber</HSK_SawBamboo_Electric.jobString>
+
+    <HSK_BatchSawBamboo_Electric.label>saw bamboo plank(x20)</HSK_BatchSawBamboo_Electric.label>
+    <HSK_BatchSawBamboo_Electric.description>Saw and compress bamboo stics into planks using an electric machine.</HSK_BatchSawBamboo_Electric.description>
+    <HSK_BatchSawBamboo_Electric.jobString>Sawing bamboo lumber</HSK_BatchSawBamboo_Electric.jobString>
+
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Timber -->
+    <HSK_Timber.label>необработанный лесоматериал</HSK_Timber.label>
+    <HSK_Softwoods.label>мягкий лесоматериал</HSK_Softwoods.label>
+    <HSK_Hardwoods.label>жесткий лесоматериал</HSK_Hardwoods.label>
+    <HSK_Ultrahardwoods.label>ультражесткий лесоматериал</HSK_Ultrahardwoods.label>
+    <HSK_Bambooish.label>бамбуковый лесоматериал</HSK_Bambooish.label>
+    <HSK_Woodlike.label>древоподобный лесоматериал</HSK_Woodlike.label>
+
+    <!-- Lumber -->
+    <HSK_Lumber.label>Обработанная древесина</HSK_Lumber.label>
+    <HSK_SoftwoodLumber.label>Мягкая древесина</HSK_SoftwoodLumber.label>
+    <HSK_HardwoodLumber.label>Жесткая древесина</HSK_HardwoodLumber.label>
+    <HSK_UltrahardwoodLumber.label>Ультражесткая древесина</HSK_UltrahardwoodLumber.label>
+    <HSK_EngineeredLumber.label>Инженерная древесина</HSK_EngineeredLumber.label>
+    <HSK_WoodSlabs.label>Горбыль</HSK_WoodSlabs.label>
+    <HSK_WoodlikeLumber.label>дерево-подобное</HSK_WoodlikeLumber.label>
+
+    <!-- Fuel -->
+    <HSK_Primitive.label>Примитивное</HSK_Primitive.label>
+
+</LanguageData>

@@ -118,14 +118,14 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/harvestYield</xpath>
         <value>
-            <harvestYield>2</harvestYield>            <!-- was 20 -->
+            <harvestYield>3</harvestYield>            <!-- was 20 -->
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/harvestYield</xpath>
         <value>
-            <harvestYield>5</harvestYield>            <!-- was 50 -->
+            <harvestYield>8</harvestYield>            <!-- was 50 -->
         </value>
     </Operation>
 
@@ -184,14 +184,14 @@
     <Operation Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
         <xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant/harvestYield</xpath>
         <value>
-            <harvestYield>6</harvestYield>
+            <harvestYield>6</harvestYield>            <!-- was 25 -->
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
         <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]/plant/harvestYield</xpath>
         <value>
-            <harvestYield>1</harvestYield>            <!-- was 1 -->
+            <harvestYield>1</harvestYield>            <!-- was 2 -->
         </value>
     </Operation>
 
@@ -376,6 +376,7 @@
     </Operation>
 
     <!-- Other -->
+    <!-- Plant_TreePalm -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreePalm"]/graphicData/texPath</xpath>
         <value>
@@ -388,6 +389,23 @@
             <graphicClass>Graphic_Random</graphicClass>
         </value>
     </Operation>
+
+    <!-- Plant_TreeBamboo -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>HSK/Plants/BambooA</texPath>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
+        <value>
+            <visualSizeRange>2~7</visualSizeRange>
+        </value>
+    </Operation>
+
+
+
 
     <!--******************************************************-->
     <!--**************** Additional steps... *****************-->

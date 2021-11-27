@@ -4,8 +4,8 @@
     <RecipeDef>
         <defName>HSK_MakeWoodComponent_Hand</defName>
         <label>make wood component (x4)</label>
-        <description>Carve simple wood component out of timber log.</description>
-        <jobString>Carving wood components.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Hand</effectWorking>
         <soundWorking>HSK_WoodWorking</soundWorking>
         <ingredients>
@@ -42,8 +42,8 @@
     <RecipeDef>
         <defName>HSK_MakeWoodComponent_Electric</defName>
         <label>make wood component (x4)</label>
-        <description>Carve simple wood component out of timber log.</description>
-        <jobString>Carving wood components.</jobString>
+        <description>description</description>
+        <jobString>job description</jobString>
         <effectWorking>MakeWoodPlanks_Electric</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
         <ingredients>

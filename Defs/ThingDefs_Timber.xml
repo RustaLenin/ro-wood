@@ -72,7 +72,7 @@
     <ThingDef Name="HSK_CecropiaLog" ParentName="HSK_TimberBase">
         <defName>HSK_CecropiaLog</defName>
         <label>cecropia log</label>
-        <description>Cecropia is the lightest of the lightest and softest woods and is very easy to work with, but not very durable.</description>
+        <description>cecropia description</description>
         <graphicData>
             <color>(239,222,199)</color>
         </graphicData>
@@ -117,7 +117,7 @@
     <ThingDef Name="HSK_WillowLog" ParentName="HSK_TimberBase">
         <defName>HSK_WillowLog</defName>
         <label>willow log</label>
-        <description>Willow is a soft wood which is fairly unremarkable. It makes good tool handles, however.</description>
+        <description>willow log description</description>
         <graphicData>
             <color>(139,125,107)</color>
         </graphicData>
@@ -142,7 +142,7 @@
                 <WorkToBuild>0.35</WorkToBuild>
                 <MarketValue>0.78</MarketValue>
                 <BedRestEffectiveness>1.1</BedRestEffectiveness>
-                <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+                <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
                 <WorkTableWorkSpeedFactor>0.45</WorkTableWorkSpeedFactor>
                 <Mass>0.5</Mass>
             </statFactors>
@@ -160,7 +160,7 @@
     <ThingDef Name="HSK_PineLog" ParentName="HSK_TimberBase">
         <defName>HSK_PineLog</defName>
         <label>pine log</label>
-        <description>Pine is a common building material where durability isn't so important. It's lightweight, and attractive, and is easy to work with.</description>
+        <description>pine log description</description>
         <graphicData>
             <color>(244,183,79)</color>
         </graphicData>
@@ -180,13 +180,13 @@
             <statFactors>
                 <MaxHitPoints>0.7</MaxHitPoints>
                 <Flammability>0.7</Flammability>
-                <Beauty>1.45</Beauty>
+                <Beauty>1.7</Beauty>
                 <WorkToMake>0.4</WorkToMake>
                 <WorkToBuild>0.4</WorkToBuild>
-                <MarketValue>0.78</MarketValue>
+                <MarketValue>0.9</MarketValue>
                 <DoorOpenSpeed>1.3</DoorOpenSpeed>
-                <BedRestEffectiveness>1.05</BedRestEffectiveness>
-                <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+                <BedRestEffectiveness>1.10</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>1.10</ImmunityGainSpeedFactor>
                 <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
                 <Mass>0.6</Mass>
             </statFactors>
@@ -204,7 +204,7 @@
     <ThingDef Name="HSK_CypressLog" ParentName="HSK_TimberBase">
         <defName>HSK_CypressLog</defName>
         <label>cypress log</label>
-        <description>Cypress, which is known for its knotty wood grain, is fairly strong for being a light softwood.</description>
+        <description>cypress log description</description>
         <graphicData>
             <color>(182,123,77)</color>
         </graphicData>
@@ -229,8 +229,8 @@
                 <WorkToBuild>0.5</WorkToBuild>
                 <MarketValue>0.78</MarketValue>
                 <DoorOpenSpeed>1.3</DoorOpenSpeed>
-                <BedRestEffectiveness>1.05</BedRestEffectiveness>
-                <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+                <BedRestEffectiveness>1.00</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
                 <WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
                 <Mass>0.7</Mass>
             </statFactors>
@@ -248,7 +248,7 @@
     <ThingDef Name="HSK_PoplarLog" ParentName="HSK_TimberBase">
         <defName>HSK_PoplarLog</defName>
         <label>poplar log</label>
-        <description>Poplar is one of the most common woods and is very cheap and bland, but its moderate weight and strength makes it useful in all sorts of applications. It makes a half-decent shield, too.</description>
+        <description>poplar log description</description>
         <graphicData>
             <color>(222,225,153)</color>
         </graphicData>
@@ -293,7 +293,7 @@
     <ThingDef Name="HSK_MapleLog" ParentName="HSK_TimberBase">
         <defName>HSK_MapleLog</defName>
         <label>maple log</label>
-        <description>Maple is modestly durable and slightly heavy, and often has a beautiful wood grain pattern. It's commonly wood for construction, despite being difficult to work with.</description>
+        <description>maple log description</description>
         <graphicData>
             <color>(205,157,90)</color>
         </graphicData>
@@ -320,8 +320,8 @@
                 <Beauty>2.0</Beauty>
                 <WorkToMake>1.1</WorkToMake>
                 <WorkToBuild>1.1</WorkToBuild>
-                <MarketValue>1.02</MarketValue>
-                <DoorOpenSpeed>1.3</DoorOpenSpeed>
+                <MarketValue>1.05</MarketValue>
+                <DoorOpenSpeed>1.2</DoorOpenSpeed>
                 <BedRestEffectiveness>1</BedRestEffectiveness>
                 <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
                 <WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
@@ -341,7 +341,7 @@
     <ThingDef Name="HSK_SequoiaLog" ParentName="HSK_TimberBase">
         <defName>HSK_SequoiaLog</defName>
         <label>sequoia log</label>
-        <description>Red, rare, high-priced and beatiful tree log. Mostly using for furnutire and art.</description>
+        <description>sequoia log description</description>
         <graphicData>
             <color>(162,94,100)</color>
         </graphicData>
@@ -389,7 +389,7 @@
     <ThingDef Name="HSK_BirchLog" ParentName="HSK_TimberBase">
         <defName>HSK_BirchLog</defName>
         <label>birch log</label>
-        <description>Birch is a very bland hardwood, but is easy to work with despite being heavy and durable.</description>
+        <description>birch log description</description>
         <graphicData>
             <texPath>HSK/Timber/NewLogBirchStackedBig</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -438,19 +438,19 @@
     <ThingDef Name="HSK_TeakLog" ParentName="HSK_TimberBase">
         <defName>HSK_TeakLog</defName>
         <label>teak log</label>
-        <description>Teak is an often sought-after hardwood. It's very expensive because it only grows in rainforest regions, and its beauty and strenth is nearly unmatched. It's very heavy, however.</description>
+        <description>teak log description</description>
         <graphicData>
             <color>(116,92,63)</color>
         </graphicData>
         <statBases>
             <MaxHitPoints>230</MaxHitPoints>
             <DeteriorationRate>0.3</DeteriorationRate>
-            <MarketValue>15</MarketValue>
+            <MarketValue>20</MarketValue>
             <StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
             <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
             <StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>
             <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
-            <BluntDamageMultiplier>1</BluntDamageMultiplier>
+            <BluntDamageMultiplier>1.4</BluntDamageMultiplier>
             <Mass>12</Mass>
         </statBases>
         <stuffProps>
@@ -460,17 +460,17 @@
             <stuffAdjective>teak log</stuffAdjective>
             <color>(116,92,63)</color>
             <statFactors>
-                <MaxHitPoints>1.2</MaxHitPoints>
+                <MaxHitPoints>1.6</MaxHitPoints>
                 <Flammability>0.6</Flammability>
                 <Beauty>2.0</Beauty>
-                <WorkToMake>1</WorkToMake>
-                <WorkToBuild>1</WorkToBuild>
+                <WorkToMake>1.4</WorkToMake>
+                <WorkToBuild>1.4</WorkToBuild>
                 <MarketValue>1.5</MarketValue>
                 <DoorOpenSpeed>1.1</DoorOpenSpeed>
-                <BedRestEffectiveness>1</BedRestEffectiveness>
+                <BedRestEffectiveness>0.8</BedRestEffectiveness>
                 <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
                 <WorkTableWorkSpeedFactor>0.7</WorkTableWorkSpeedFactor>
-                <Mass>1.1</Mass>
+                <Mass>1.2</Mass>
             </statFactors>
         </stuffProps>
         <thingCategories>
@@ -486,7 +486,7 @@
     <ThingDef Name="HSK_OakLog" ParentName="HSK_TimberBase">
         <defName>HSK_OakLog</defName>
         <label>oak log</label>
-        <description>The saying "Strong as an oak" also pertains to the lumber. It's the strongest wood you can find in temperate regions. It's also the heaviest.</description>
+        <description>oak log description</description>
         <graphicData>
             <color>(169,107,7)</color>
         </graphicData>
@@ -508,17 +508,17 @@
             <stuffAdjective>oak log</stuffAdjective>
             <color>(169,107,7)</color>
             <statFactors>
-                <MaxHitPoints>1.3</MaxHitPoints>
+                <MaxHitPoints>1.7</MaxHitPoints>
                 <Flammability>1</Flammability>
-                <Beauty>1.65</Beauty>
+                <Beauty>1.5</Beauty>
                 <WorkToMake>1.2</WorkToMake>
                 <WorkToBuild>1.2</WorkToBuild>
                 <MarketValue>1.14</MarketValue>
                 <DoorOpenSpeed>1</DoorOpenSpeed>
-                <BedRestEffectiveness>1</BedRestEffectiveness>
+                <BedRestEffectiveness>0.8</BedRestEffectiveness>
                 <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
                 <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
-                <Mass>1.2</Mass>
+                <Mass>1.4</Mass>
             </statFactors>
         </stuffProps>
         <thingCategories>
@@ -536,7 +536,7 @@
     <ThingDef Name="HSK_DragonwoodLog" ParentName="HSK_TimberBase">
         <defName>HSK_DragonwoodLog</defName>
         <label>Dragonwood log</label>
-        <description>Dragonwood is a rare and incredibly hard, beautiful wood. It's sap is blood-red and has healing properties. It's very difficult to work with due to its extreme hardness.</description>
+        <description>Dragonwood log description</description>
         <graphicData>
             <texPath>HSK/Timber/NewLogDragonStackedBig</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -584,8 +584,8 @@
 
     <ThingDef Name="HSK_MangroveLog" ParentName="HSK_TimberBase">
         <defName>HSK_MangroveLog</defName>
-        <label>Mangrove log</label>
-        <description>Mangrove is an excellent building material due to its natural fire-resistance and incredible strength (only surpassed by dragonwood). It's often preferred to be used as firewood, however, being extremely heavy and difficult to work with.</description>
+        <label>mangrove log</label>
+        <description>mangrove log description</description>
         <graphicData>
             <texPath>HSK/Timber/NewLogMangroveStackedBig</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -634,8 +634,8 @@
     <!-- Wood-like Logs -->
     <ThingDef Name="HSK_TimbershroomLog" ParentName="HSK_TimberBase">
         <defName>HSK_TimbershroomLog</defName>
-        <label>Timbershroom log</label>
-        <description>Mushroom is a reproductive organ (fruiting body) of fungi. Timbershroom called so, cause his mushroom dense as hard like wood. And this is timbershroom wood log. It's too soft for making quality tools or melee weapons, but it beatiful and comfortable for making furnutire.</description>
+        <label>timbershroom log</label>
+        <description>timbershroom log description</description>
         <graphicData>
             <color>(0, 233, 181)</color>
         </graphicData>
@@ -683,7 +683,7 @@
     <ThingDef Name="HSK_BTWLog" ParentName="HSK_TimberBase">
         <defName>HSK_BTWLog</defName>
         <label>BTW log</label>
-        <description>BTW - is a abbreviation "Bio Tech Wood". Emperium BioTech corporation design Fibercorn plant to create cheap and quality wood-like material, which can be grow by colonist in new worlds extremly quick, without need to chop down local flora.\n This wood-like material is a pretty common at all possible characteristics. It's not soft and not hard, not weight light and not heavy, it's not ugly and not beatiful. This material is totally common.</description>
+        <description>BTW log description</description>
         <graphicData>
             <color>(128, 128, 128)</color>
         </graphicData>
@@ -734,7 +734,7 @@
     <ThingDef Name="HSK_BambooStick" ParentName="HSK_TimberBase">
         <defName>HSK_BambooStick</defName>
         <label>bamboo stick</label>
-        <description>Bamboo sticks is alternative for wood timber. It has mostly same properties like any softwood. Most difirrence is size. You need a about five bamboo sticks to make one bamboo plank.</description>
+        <description>bamboo stick description</description>
         <graphicData>
             <texPath>HSK/Timber/BambooStick</texPath>
         </graphicData>

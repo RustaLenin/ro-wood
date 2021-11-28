@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <HSK_WoodWorking.labelShort>Столяр</HSK_WoodWorking.labelShort>
+    <HSK_WoodWorking.pawnLabel>Столяр</HSK_WoodWorking.pawnLabel>
+    <HSK_WoodWorking.gerundLabel>обрабатывает древесину</HSK_WoodWorking.gerundLabel>
+    <HSK_WoodWorking.description>Обрабатывает древесину или создаёт из неё компоненты используемые в строительстве и производстве мебели</HSK_WoodWorking.description>
+    <HSK_WoodWorking.verb>Обрабатывает</HSK_WoodWorking.verb>
+
+</LanguageData>

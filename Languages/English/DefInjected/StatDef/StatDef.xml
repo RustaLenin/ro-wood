@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- <HSK_TreeChopWorkSpeed.label></HSK_TreeChopWorkSpeed.label>
+    <HSK_TreeChopWorkSpeed.description></HSK_TreeChopWorkSpeed.description> -->
+
+    <HSK_WoodWorkingSpeed.label>wood working speed</HSK_WoodWorkingSpeed.label>
+    <HSK_WoodWorkingSpeed.description>The speed at which pawn chop logs into firewood, saw timber into lumber and make other work with wood.</HSK_WoodWorkingSpeed.description>
+
+</LanguageData>

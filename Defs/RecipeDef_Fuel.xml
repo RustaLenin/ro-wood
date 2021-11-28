@@ -107,7 +107,7 @@
         <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
         <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
         <recipeUsers>
-            <li>HSK_ElectroSawmill</li>
+            <li>HSK_ElectricSawmill</li>
         </recipeUsers>
     </RecipeDef>
 
@@ -143,7 +143,7 @@
         <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
         <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
         <recipeUsers>
-            <li>HSK_ElectroSawmill</li>
+            <li>HSK_ElectricSawmill</li>
         </recipeUsers>
     </RecipeDef>
 
@@ -179,7 +179,7 @@
         <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
         <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
         <recipeUsers>
-            <li>HSK_ElectroSawmill</li>
+            <li>HSK_ElectricSawmill</li>
         </recipeUsers>
     </RecipeDef>
 
@@ -215,7 +215,7 @@
         <workSpeedStat>HSK_WoodWorkingSpeed</workSpeedStat>
         <unfinishedThingDef>HSK_UnfinishedWoodWork</unfinishedThingDef>
         <recipeUsers>
-            <li>HSK_ElectroSawmill</li>
+            <li>HSK_ElectricSawmill</li>
         </recipeUsers>
     </RecipeDef>
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <HSK_DoBill_HSK_WoodWorkin.label>Hand working at woodworking spot</HSK_DoBill_HSK_WoodWorkin.label>
+    <HSK_DoBill_HSK_WoodWorkin.verb>wood works</HSK_DoBill_HSK_WoodWorkin.verb>
+    <HSK_DoBill_HSK_WoodWorkin.gerund>woodworking</HSK_DoBill_HSK_WoodWorkin.gerund>
+
+    <HSK_DoBill_HSK_Sawmill.label>Hand working at sawmill</HSK_DoBill_HSK_Sawmill.label>
+    <HSK_DoBill_HSK_Sawmill.verb>wood works</HSK_DoBill_HSK_Sawmill.verb>
+    <HSK_DoBill_HSK_Sawmill.gerund>woodworking</HSK_DoBill_HSK_Sawmill.gerund>
+
+    <HSK_DoBill_HSK_ElectricSawmill.label>Working at Electric sawmill</HSK_DoBill_HSK_ElectricSawmill.label>
+    <HSK_DoBill_HSK_ElectricSawmill.verb>wood works</HSK_DoBill_HSK_ElectricSawmill.verb>
+    <HSK_DoBill_HSK_ElectricSawmill.gerund>woodworking</HSK_DoBill_HSK_ElectricSawmill.gerund>
+
+</LanguageData>

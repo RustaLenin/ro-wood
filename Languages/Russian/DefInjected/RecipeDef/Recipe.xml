@@ -195,7 +195,7 @@
     <!-- Ультра-жесткая древесина-->
     <!-- Драконово дерево -->
     <HSK_SawDragonwood.label>напилить доски драконова дерева(x20)</HSK_SawDragonwood.label>
-    <HSK_SawDragonwood.descriptionHand>Вручную распилить бревна драконова дерева на доски.</HSK_SawDragonwood.description>
+    <HSK_SawDragonwood.description>Вручную распилить бревна драконова дерева на доски.</HSK_SawDragonwood.description>
     <HSK_SawDragonwood.jobString>Напиливает доски драконова дерева</HSK_SawDragonwood.jobString>
 
     <HSK_SawDragonwood_Electric.label>напилить доски драконова дерева(x20)</HSK_SawDragonwood_Electric.label>

@@ -8,8 +8,8 @@
     <HSK_Sawmill.label>sawmill</HSK_Sawmill.label>
     <HSK_Sawmill.description>Table, saw, axe and two muscled hands can create truly magic. A bit slow, cause that is all you have, but functional.</HSK_Sawmill.description>
 
-    <HSK_ElectroSawmill.label>electro sawmill</HSK_ElectroSawmill.label>
-    <HSK_ElectroSawmill.description>That is a legendary SAWCRAFT-9000 — multifunctional woodworking bench. It makes "Whew, whew, whew", and here it is — all work is done. Need a lot of power and totaly dislikes rains, but works very fast!</HSK_ElectroSawmill.description>
+    <HSK_ElectricSawmill.label>electric sawmill</HSK_ElectricSawmill.label>
+    <HSK_ElectricSawmill.description>That is a legendary SAWCRAFT-9000 — multifunctional woodworking bench. It makes "Whew, whew, whew", and here it is — all work is done. Need a lot of power and totaly dislikes rains, but works very fast!</HSK_ElectricSawmill.description>
 
     <!-- Unfinished -->
     <HSK_UnfinishedWoodWork.label>unfinished woodwork</HSK_UnfinishedWoodWork.label>
@@ -20,7 +20,7 @@
     <HSK_RawCoconut.description>Consists of three parts. A sturdy shell that cannot be opened with bare hands. Delicate and delicious white pulp. And coconut milk. The real skill is to open the shell without staining the flesh or spilling a drop of milk.</HSK_RawCoconut.description>
 
     <!-- Timber -->
-    <HSK_CecropiaLog.label>cecropia log<</HSK_CecropiaLog.label>
+    <HSK_CecropiaLog.label>cecropia log</HSK_CecropiaLog.label>
     <HSK_CecropiaLog.description>Cecropia light and soft wood, what very easy to work with. Moderately beautiful, it will make comfortable and practical furniture, but you should not use this wood for construction, the production of tools and weapons.</HSK_CecropiaLog.description>
 
     <HSK_WillowLog.label>willow log</HSK_WillowLog.label>

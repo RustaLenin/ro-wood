@@ -2,7 +2,7 @@
 
 <Defs>
 
-    <StatDef>
+    <!-- <StatDef>
         <defName>HSK_TreeChopWorkSpeed</defName>
         <label>tree chopping speed</label>
         <description>The speed at which this person chops down trees.</description>
@@ -80,7 +80,7 @@
             </li>
         </capacityFactors>
         <displayPriorityInCategory>4550</displayPriorityInCategory>
-    </StatDef>
+    </StatDef> -->
 
     <StatDef>
         <defName>HSK_WoodWorkingSpeed</defName>

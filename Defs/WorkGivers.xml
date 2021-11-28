@@ -50,13 +50,13 @@
     </WorkGiverDef>
 
     <WorkGiverDef>
-        <defName>HSK_DoBill_HSK_ElectroSawmill</defName>
-        <label>Wood working at electro sawmill</label>
+        <defName>HSK_DoBill_HSK_ElectricSawmill</defName>
+        <label>Wood working at Electric sawmill</label>
         <giverClass>WorkGiver_DoBill</giverClass>
         <workType>HSK_WoodWorking</workType>
         <priorityInType>100</priorityInType>
         <fixedBillGiverDefs>
-            <li>HSK_ElectroSawmill</li>
+            <li>HSK_ElectricSawmill</li>
         </fixedBillGiverDefs>
         <verb>wood works</verb>
         <gerund>woodworking</gerund>

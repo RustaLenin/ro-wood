@@ -8,8 +8,8 @@
     <HSK_Sawmill.label>лесопилка</HSK_Sawmill.label>
     <HSK_Sawmill.description>Стол, пила, топор и две мускулистые руки способны творить настоящее волшебство. Не быстро, ведь это всё чем вы располагаете, но безотказно.</HSK_Sawmill.description>
 
-    <HSK_ElectroSawmill.label>электрическая лесопилка</HSK_ElectroSawmill.label>
-    <HSK_ElectroSawmill.description>Перед вами легендарный многофункциональный деревообрабатывающий станок SAWCRAFT-9000. Он делает «Виу, виу, виу», и всё - вся работа сделана! Жрет дофига энергии и терпеть не может дожди, но работает очень быстро!</HSK_ElectroSawmill.description>
+    <HSK_ElectricSawmill.label>электрическая лесопилка</HSK_ElectricSawmill.label>
+    <HSK_ElectricSawmill.description>Перед вами легендарный многофункциональный деревообрабатывающий станок SAWCRAFT-9000. Он делает «Виу, виу, виу», и всё - вся работа сделана! Жрет дофига энергии и терпеть не может дожди, но работает очень быстро!</HSK_ElectricSawmill.description>
 
     <!-- Незаконченная работа -->
     <HSK_UnfinishedWoodWork.label>Обрабатываемая древесина</HSK_UnfinishedWoodWork.label>

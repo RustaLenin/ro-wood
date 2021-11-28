@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <HSK_DoBill_HSK_WoodWorkin.label>Ручная работа на точке деревообработки</HSK_DoBill_HSK_WoodWorkin.label>
+    <HSK_DoBill_HSK_WoodWorkin.verb>деревообработка</HSK_DoBill_HSK_WoodWorkin.verb>
+    <HSK_DoBill_HSK_WoodWorkin.gerund>обрабатывать дерево на</HSK_DoBill_HSK_WoodWorkin.gerund>
+
+    <HSK_DoBill_HSK_Sawmill.label>Ручная работа на лесопилке</HSK_DoBill_HSK_Sawmill.label>
+    <HSK_DoBill_HSK_Sawmill.verb>деревообработка</HSK_DoBill_HSK_Sawmill.verb>
+    <HSK_DoBill_HSK_Sawmill.gerund>обрабатывать дерево на</HSK_DoBill_HSK_Sawmill.gerund>
+
+    <HSK_DoBill_HSK_ElectricSawmill.label>Работа на электро лесопилке</HSK_DoBill_HSK_ElectricSawmill.label>
+    <HSK_DoBill_HSK_ElectricSawmill.verb>деревообработка</HSK_DoBill_HSK_ElectricSawmill.verb>
+    <HSK_DoBill_HSK_ElectricSawmill.gerund>обрабатывать дерево на</HSK_DoBill_HSK_ElectricSawmill.gerund>
+
+</LanguageData>

@@ -15,7 +15,7 @@
     <HSK_SoftwoodLumber.label>Мягкая древесина</HSK_SoftwoodLumber.label>
     <HSK_HardwoodLumber.label>Жесткая древесина</HSK_HardwoodLumber.label>
     <HSK_UltrahardwoodLumber.label>Ультражесткая древесина</HSK_UltrahardwoodLumber.label>
-    <HSK_Engineered.label>Инженерная древесина</HSK_Engineered.label>
+    <HSK_EngineeredLumber.label>Инженерная древесина</HSK_EngineeredLumber.label>
     <HSK_WoodlikeLumber.label>дерево-подобное</HSK_WoodlikeLumber.label>
 
     <!-- Горючее -->

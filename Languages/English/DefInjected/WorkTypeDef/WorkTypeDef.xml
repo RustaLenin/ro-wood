@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <HSK_WoodWorking.labelShort>Wood work</HSK_WoodWorking.labelShort>
+    <HSK_WoodWorking.pawnLabel>Woodworker</HSK_WoodWorking.pawnLabel>
+    <HSK_WoodWorking.gerundLabel>Woodworking</HSK_WoodWorking.gerundLabel>
+    <HSK_WoodWorking.description>Woodworking or creating some wood components used in buding and furniture production</HSK_WoodWorking.description>
+    <HSK_WoodWorking.verb>Crafting</HSK_WoodWorking.verb>
+
+</LanguageData>

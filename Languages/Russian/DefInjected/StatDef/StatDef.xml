@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- <HSK_TreeChopWorkSpeed.label></HSK_TreeChopWorkSpeed.label>
+    <HSK_TreeChopWorkSpeed.description></HSK_TreeChopWorkSpeed.description> -->
+
+    <HSK_WoodWorkingSpeed.label>Скорость работы по дереву</HSK_WoodWorkingSpeed.label>
+    <HSK_WoodWorkingSpeed.description>Скорость с которой персонаж занимается обработкой дерева, такой как: рубит бревна на дрова, распиливает их на доски или вытачивает из них деревянные компоненты.</HSK_WoodWorkingSpeed.description>
+    
+</LanguageData>

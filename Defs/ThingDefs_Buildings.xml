@@ -170,8 +170,8 @@
 
     <ThingDef ParentName="BuildingBase">
         <!-- Name & Description -->
-        <defName>HSK_ElectroSawmill</defName>
-        <label>electro sawmill</label>
+        <defName>HSK_ElectricSawmill</defName>
+        <label>Electric sawmill</label>
         <description>descriptions</description>
         <thingClass>Building_WorkTable</thingClass>
 

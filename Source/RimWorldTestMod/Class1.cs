@@ -5,7 +5,12 @@ using System.Text;
 using RimWorld;
 using Verse;
 
-namespace RealisticOverhaul_Wood
+namespace ROWood
 {
+
+    public class ModExtension_ChoopTree: WorkGiver
+    {
+       
+    }
 
 }

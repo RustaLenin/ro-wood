@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- <TraitDef>
+        <defName>HSK_ExampleTrait</defName>
+        <commonality>0.2</commonality>
+        <commonalityFemale>1.7</commonalityFemale>
+
+        <disabledWorkTags>
+            <li></li>
+        </disabledWorkTags>
+        <disabledWorkTypes>
+            <li></li>
+        </disabledWorkTypes>
+
+        <degreeDatas>
+            <li>
+                <label>tree lover</label>
+                <description>description</description>
+
+                <statOffsets>
+                    <StatName>1.2</StatName>
+                </statOffsets>
+                <skillGains>
+                    <li>
+                        <key>SkillName</key>
+                        <value>4</value>
+                    </li>
+                </skillGains>
+
+                <socialFightChanceFactor>4</socialFightChanceFactor>
+
+                <allowedMeditationFocusTypes>
+                    <li>Morbid</li>
+                </allowedMeditationFocusTypes>
+                <disallowedMeditationFocusTypes>
+                    <li>Artistic</li>
+                </disallowedMeditationFocusTypes>
+
+                <disallowedInspirations>
+                    <li>Frenzy_Shoot</li>
+                </disallowedInspirations>
+
+                <disallowedThoughtsFromIngestion>
+                    <li>
+                        <meatSource>Humanlike</meatSource>
+                        <thoughts>
+                            <li>AteRawFood</li>
+                            <li>AteHumanlikeMeatDirect</li>
+                            <li>AteHumanlikeMeatAsIngredient</li>
+                        </thoughts>
+                    </li>
+                </disallowedThoughtsFromIngestion>
+                <extraThoughtsFromIngestion>
+                    <li>
+                        <meatSource>Humanlike</meatSource>
+                        <thoughtsDirect>
+                            <li>AteHumanlikeMeatDirectCannibal</li>
+                        </thoughtsDirect>
+                        <thoughtsAsIngredient>
+                            <li>AteHumanlikeMeatAsIngredientCannibal</li>
+                        </thoughtsAsIngredient>
+                    </li>
+                </extraThoughtsFromIngestion>
+
+                <theOnlyAllowedMentalBreaks>
+                    <li>FireStartingSpree</li>
+                </theOnlyAllowedMentalBreaks>
+                <randomMentalState>FireStartingSpree</randomMentalState>
+                <randomMentalStateMtbDaysMoodCurve>
+                    <points>
+                        <li>(0, 50)</li>
+                    </points>
+                </randomMentalStateMtbDaysMoodCurve>
+
+                <mentalBreakInspirationGainSet>
+                    <li>Inspired_Creativity</li>
+                </mentalBreakInspirationGainSet>
+                <mentalBreakInspirationGainReasonText>As a suffering tortured artist, [PAWN_nameIndef] has experienced an inspiration.</mentalBreakInspirationGainReasonText>
+                <mentalBreakInspirationGainChance>0.5</mentalBreakInspirationGainChance>
+                <disallowedMentalStates>
+                    <li></li>
+                </disallowedMentalStates>
+                <forcedMentalState>
+                    <li></li>
+                </forcedMentalState>
+
+                <marketValueFactorOffset>-0.15</marketValueFactorOffset>
+            </li>
+        </degreeDatas>
+
+        <forcedPassions>
+            <li>Artistic</li>
+        </forcedPassions>
+        <conflictingPassions>
+            <li>Artistic</li>
+        </conflictingPassions>
+
+        <conflictingTraits>
+            <li>HSK_Woodworker</li>
+        </conflictingTraits>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </TraitDef> -->
+
+    <!-- ToDo: 
+        Add New work type tree chopping and disable it for this trait.
+        Also, make some mood boost for being at the wild
+    -->
+    <TraitDef>
+        <defName>HSK_Wild</defName>
+        <disabledWorkTypes>
+            <li>HSK_WoodWorking</li>
+            <!--  -->
+        </disabledWorkTypes>
+        <commonality>0.2</commonality>
+        <degreeDatas>
+            <li>
+                <label>wild</label>
+                <description>description</description>
+                <statOffsets>
+                    <PlantWorkSpeed>0.2</PlantWorkSpeed>
+                    <PlantHarvestYield>0.2</PlantHarvestYield>
+                    <SocialImpact>-0.2</SocialImpact>
+                    <NegotiationAbility>-0.2</NegotiationAbility>
+                    <PruningSpeed MayRequire="ludeon.rimworld.ideology">0.2</PruningSpeed>
+                </statOffsets>
+                <skillGains>
+                    <li>
+                        <key>Plants</key>
+                        <value>4</value>
+                    </li>
+                    <li>
+                        <key>Social</key>
+                        <value>-4</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+        <conflictingTraits>
+            <li>HSK_Oakman</li>
+        </conflictingTraits>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>HSK_Oakman</defName>
+        <commonality>0.2</commonality>
+        <degreeDatas>
+            <li>
+                <label>oaky</label>
+                <description>description</description>
+                <statOffsets>
+                    <MoveSpeed>-0.1</MoveSpeed>
+                    <NegotiationAbility>-0.2</NegotiationAbility>
+                    <GlobalLearningFactor>-0.2</GlobalLearningFactor>
+                    <HungerRateMultiplier>0.2</HungerRateMultiplier>
+                    <SocialImpact>-0.2</SocialImpact>
+
+                    <RestRateMultiplier>0.2</RestRateMultiplier>
+                    <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+                    <CarryingCapacity>10</CarryingCapacity>
+                    <PainShockThreshold>0.2</PainShockThreshold>
+                    <HSK_WoodWorkingSpeed>0.2</HSK_WoodWorkingSpeed>
+                    <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+                </statOffsets>
+                <skillGains>
+                    <li>
+                        <key>Crafting</key>
+                        <value>4</value>
+                    </li>
+                    <li>
+                        <key>Plants</key>
+                        <value>2</value>
+                    </li>
+                    <li>
+                        <key>Intellectual</key>
+                        <value>-4</value>
+                    </li>
+                    <li>
+                        <key>Social</key>
+                        <value>-2</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+        <conflictingTraits>
+            <li>HSK_Wild</li>
+        </conflictingTraits>
+    </TraitDef>
+
+</Defs>

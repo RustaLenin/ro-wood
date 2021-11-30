@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- 
+        {PAWN_nameDef} -    ( Jhon ) ( Kate ) ( Jhon/Kate like ta talking a lot )
+        {PAWN_pronoun} -    ( He )   ( She )  ( HE/SHE never shut up )
+        {PAWN_objective} -  ( Him )  ( Her )  ( Others don't like HIM/HER due to excessive talkativeness )
+        {PAWN_possessive} - ( His)   ( Her)   ( You will never guess the topic of conversation that is on HIS/HER mind )
+    -->
+
+    <HSK_Wild.degreeDatas.0.label>wild</HSK_Wild.degreeDatas.0.label>
+    <HSK_Wild.degreeDatas.0.description>{PAWN_nameDef} has a special connection with nature. Somehow, {PAWN_pronoun} feels much better being in the wild, among the singing of birds and the rustle of trees. Perhaps because of that, {PAWN_nameDef} has a special talent for working with plants. Also, this feature is a reason {PAWN_pronoun} is bad in communication with others and will never deal with wood processing, considering it disgusting. </HSK_Wild.degreeDatas.0.description>
+
+    <HSK_Oakman.degreeDatas.0.label>oaky</HSK_Oakman.degreeDatas.0.label>
+    <HSK_Oakman.degreeDatas.0.description>{PAWN_nameDef} has received a special nickname for {PAWN_possessive} passion for woodworking and good-natured, calm character. The surrounding people condescendingly call {PAWN_objective} oaky, emphasizing such features as endurance, strength and studiousness. {PAWN_nameDef} sleeps quickly and tolerates pain easily. But when {PAWN_pronoun} make mistakes, surrounding people calling {PAWN_objective} clubhead for especially straightforward behavior, narrow-mindedness, sluggishness and difficulty in learning.</HSK_Oakman.degreeDatas.0.description>
+
+</LanguageData>

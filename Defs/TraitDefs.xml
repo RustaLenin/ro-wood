@@ -108,11 +108,11 @@
         Add New work type tree chopping and disable it for this trait.
         Also, make some mood boost for being at the wild
     -->
+
     <TraitDef>
         <defName>HSK_Wild</defName>
         <disabledWorkTypes>
             <li>HSK_WoodWorking</li>
-            <!--  -->
         </disabledWorkTypes>
         <commonality>0.2</commonality>
         <degreeDatas>

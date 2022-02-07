@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <!-- PegLeg -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="PegLeg"]/spawnThingOnRemoved</xpath>
+                <value>
+                    <spawnThingOnRemoved>HSK_ComponentWood</spawnThingOnRemoved>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallPegLeg"]</xpath>
+                <value>
+                    <ingredients Inherit="false">
+                        <li>
+                          <filter>
+                            <thingDefs>
+                              <li>HSK_ComponentWood</li>
+                            </thingDefs>
+                          </filter>
+                          <count>1</count>
+                        </li>
+                        <li>
+                            <filter><categories><li>Medicine</li></categories></filter>
+                            <count>2</count>
+                        </li>
+                      </ingredients>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallPegLeg"]</xpath>
+                <value>
+                    <fixedIngredientFilter Inherit="false">
+                        <thingDefs>
+                          <li>HSK_ComponentWood</li>
+                        </thingDefs>
+                        <categories>
+                            <li>Medicine</li>
+                        </categories>
+                      </fixedIngredientFilter>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallPegLeg"]/descriptionHyperlinks</xpath>
+                <value>
+                    <descriptionHyperlinks>
+                        <ThingDef>HSK_ComponentWood</ThingDef>
+                    </descriptionHyperlinks>
+                </value>
+            </li>
+
+            <!-- WoodenHand -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="WoodenHand"]/spawnThingOnRemoved</xpath>
+                <value>
+                    <spawnThingOnRemoved>HSK_ComponentWood</spawnThingOnRemoved>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallWoodenHand"]</xpath>
+                <value>
+                    <ingredients Inherit="false">
+                        <li>
+                          <filter>
+                            <thingDefs>
+                              <li>HSK_ComponentWood</li>
+                            </thingDefs>
+                          </filter>
+                          <count>1</count>
+                        </li>
+                        <li>
+                            <filter><categories><li>Medicine</li></categories></filter>
+                            <count>2</count>
+                        </li>
+                      </ingredients>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallWoodenHand"]</xpath>
+                <value>
+                    <fixedIngredientFilter Inherit="false">
+                        <thingDefs>
+                          <li>HSK_ComponentWood</li>
+                        </thingDefs>
+                        <categories>
+                            <li>Medicine</li>
+                        </categories>
+                      </fixedIngredientFilter>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallWoodenHand"]/descriptionHyperlinks</xpath>
+                <value>
+                    <descriptionHyperlinks>
+                        <ThingDef>HSK_ComponentWood</ThingDef>
+                    </descriptionHyperlinks>
+                </value>
+            </li>
+
+            <!-- WoodenHand -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="WoodenFoot"]/spawnThingOnRemoved</xpath>
+                <value>
+                    <spawnThingOnRemoved>HSK_ComponentWood</spawnThingOnRemoved>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallWoodenFoot"]</xpath>
+                <value>
+                    <ingredients Inherit="false">
+                        <li>
+                          <filter>
+                            <thingDefs>
+                              <li>HSK_ComponentWood</li>
+                            </thingDefs>
+                          </filter>
+                          <count>1</count>
+                        </li>
+                        <li>
+                            <filter><categories><li>Medicine</li></categories></filter>
+                            <count>2</count>
+                        </li>
+                      </ingredients>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallWoodenFoot"]</xpath>
+                <value>
+                    <fixedIngredientFilter Inherit="false">
+                        <thingDefs>
+                          <li>HSK_ComponentWood</li>
+                        </thingDefs>
+                        <categories>
+                            <li>Medicine</li>
+                        </categories>
+                      </fixedIngredientFilter>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallWoodenFoot"]/descriptionHyperlinks</xpath>
+                <value>
+                    <descriptionHyperlinks>
+                        <ThingDef>HSK_ComponentWood</ThingDef>
+                    </descriptionHyperlinks>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

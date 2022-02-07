@@ -187,24 +187,6 @@
                 </value>
             </li>
 
-            <!-- Bridge -->
-
-            <!-- !!! This operation drop the game, then you click on the bridge construction. dunnowhy. Don't use it. !!! -->
-
-            <!-- <li Class="PatchOperationReplace">
-                    <xpath>Defs/TerrainDef[defName="Bridge"]/costList</xpath>
-                    <value>
-                        <costStuffCount>40</costStuffCount>
-                        <stuffCategories>
-                            <liWoody</li>
-                        </stuffCategories>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/TerrainDef[defName="Bridge"]/constructEffect</xpath>
-                </li> -->
-
             <!-- Watermill Generatorr -->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="WatermillGenerator"]/costList</xpath>

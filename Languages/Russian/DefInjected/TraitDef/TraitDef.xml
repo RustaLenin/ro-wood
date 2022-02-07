@@ -9,7 +9,7 @@
     -->
 
     <HSK_Wild.degreeDatas.0.label>Дикий</HSK_Wild.degreeDatas.0.label>
-    <HSK_Wild.degreeDatas.0.description>{PAWN_nameDef} имеет особую связь с природой. Каким-то образом, {PAWN_pronoun} чувствует себя гораздо лучше в дикой местности, среди пенья птиц и шелеста деревьев. Возможно, из-за этого у {PAWN_nameDef} особенный талант к работе с растениями. По этой же причине {PAWN_pronoun} плох в общении с другими и никогда не будет заниматься обработкой древесины, считая это омерзительным.</HSK_Wild.degreeDatas.0.description>
+    <HSK_Wild.degreeDatas.0.description>{PAWN_nameDef} имеет особую связь с природой. Каким-то образом, {PAWN_pronoun} чувствует себя гораздо лучше в дикой местности, среди пенья птиц и шелеста деревьев. Возможно, из-за этого у {PAWN_nameDef} особенный талант к работе с растениями. По этой же причине {PAWN_pronoun} плох в общении с другими.</HSK_Wild.degreeDatas.0.description>
 
     <HSK_Oakman.degreeDatas.0.label>Дубинушка</HSK_Oakman.degreeDatas.0.label>
     <HSK_Oakman.degreeDatas.0.description>{PAWN_nameDef} получил(а) особое прозвище за своё увлечение деревообработкой и добродушный, спокойный характер. Окружающие снисходительно называют {PAWN_possessive} дубинушка, подчеркивая такие черты как выносливость, силу, трудолюбие. {PAWN_nameDef} быстро высыпается и легче переносит боль. Но когда {PAWN_pronoun} наломает дров, {PAWN_possessive} также оскорбительно кличат дубиной неотесанной, за особенно прямолинейное поведение, недалекий ум, неповоротливость и сложность обучения.</HSK_Oakman.degreeDatas.0.description>

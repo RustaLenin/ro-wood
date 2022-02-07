@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <!-- WoodPlankFloor -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]/costList</xpath>
+                <value>
+                    <costList>
+                        <HSK_ComponentWood>1</HSK_ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+             <!-- Bridge -->
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/TerrainDef[defName="Bridge"]/costList</xpath>
+                <value>
+                    <costList>
+                        <HSK_ComponentWood>3</HSK_ComponentWood>
+                    </costList>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

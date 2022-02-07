@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <!-- Crashlanded -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                        <def>ScatterThingsNearPlayerStart</def>
+                        <thingDef>HSK_ComponentWood</thingDef>
+                        <count>10</count>
+                      </li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                        <def>ScatterThingsNearPlayerStart</def>
+                        <thingDef>HSK_BTWPlank</thingDef>
+                        <count>100</count>
+                      </li>
+                </value>
+            </li>
+
+            <!-- LostTribe -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="LostTribe"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                        <def>ScatterThingsNearPlayerStart</def>
+                        <thingDef>HSK_ComponentWood</thingDef>
+                        <count>10</count>
+                      </li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="LostTribe"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                        <def>ScatterThingsNearPlayerStart</def>
+                        <thingDef>HSK_BTWPlank</thingDef>
+                        <count>100</count>
+                      </li>
+                </value>
+            </li>
+
+            <!-- TheRichExplorer -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="TheRichExplorer"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                        <def>ScatterThingsNearPlayerStart</def>
+                        <thingDef>HSK_ComponentWood</thingDef>
+                        <count>30</count>
+                      </li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="TheRichExplorer"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                        <def>ScatterThingsNearPlayerStart</def>
+                        <thingDef>HSK_SequoiaPlank</thingDef>
+                        <count>300</count>
+                      </li>
+                </value>
+            </li>
+            
+
+        </operations>
+    </Operation>
+
+</Patch>

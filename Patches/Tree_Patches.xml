@@ -391,7 +391,7 @@
     </Operation>
 
     <!-- Plant_TreeBamboo -->
-    <Operation Class="PatchOperationReplace">
+    <!-- <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/graphicData/texPath</xpath>
         <value>
             <texPath>HSK/Plants/BambooA</texPath>
@@ -402,10 +402,7 @@
         <value>
             <visualSizeRange>2~7</visualSizeRange>
         </value>
-    </Operation>
-
-
-
+    </Operation> -->
 
     <!--******************************************************-->
     <!--**************** Additional steps... *****************-->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+
+            <!-- Dryad_Woodmaker -->
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="Dryad_Woodmaker"]/comps</xpath>
+                <value>
+                    <comps>
+                        <li Class="CompProperties_Spawner">
+                            <thingToSpawn>HSK_DragonwoodLog</thingToSpawn>
+                            <spawnCount>8</spawnCount>
+                            <spawnIntervalRange>120000</spawnIntervalRange>
+                            <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+                            <showMessageIfOwned>true</showMessageIfOwned>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/ThingDef[defName="Dryad_Woodmaker"]/descriptionHyperlinks</xpath>
+                <value>
+                    <descriptionHyperlinks>
+                        <ThingDef>HSK_DragonwoodLog</ThingDef>
+                    </descriptionHyperlinks>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

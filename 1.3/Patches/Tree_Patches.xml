@@ -88,10 +88,18 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
-        <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]/plant/harvestedThingDef</xpath>
+    <Operation Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
+        <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]/plant</xpath>
         <value>
             <harvestedThingDef>HSK_BTWLog</harvestedThingDef>
+        </value>
+    </Operation>
+
+    <!-- Plant_TreeBamboo -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
+        <value>
+            <harvestedThingDef>HSK_BambooStick</harvestedThingDef>
         </value>
     </Operation>
 
@@ -391,10 +399,10 @@
     </Operation>
 
     <!-- Plant_TreeBamboo -->
-    <!-- <Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/graphicData/texPath</xpath>
         <value>
-            <texPath>HSK/Plants/BambooA</texPath>
+            <texPath>HSK/Plants/TreeBamboo</texPath>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
@@ -402,7 +410,7 @@
         <value>
             <visualSizeRange>2~7</visualSizeRange>
         </value>
-    </Operation> -->
+    </Operation>
 
     <!--******************************************************-->
     <!--**************** Additional steps... *****************-->

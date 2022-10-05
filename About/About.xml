@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- In Progress:
-
--->
-
-<!-- ToDo:
-        - Patchs for traits commonality
-        - BackStory
-        - Rework this file - about
-        - Wood vine
-        - Residuals
-        - Treeconnecting, dryads and so on
-        - Add industrial age research of woodworking
--->
-
-<!-- Patch ToDo:
-        - Axe
-        - Quests and Events
--->
-
-<!-- Mods compability ToDo:
-        - Combat Extended
-        - Vanilla Extended Mods
-        - Infusion
-        - Hygiene
-        - Deep Storage
--->
-
-<!-- Grafics ToDo:
-        - Redraw Wooden Component
-        - Bamboo
-        - SK.ExtendedPlantGraphic
--->
-
-<!-- Bugs to Fix:
-        - Unfinished wood work at electric sawmill
--->
-
-
 <ModMetaData>
-    <name>Realistick Overhaul - Wood</name>
+    <name>HSK - Wood you please</name>
     <author>RustaLenin</author>
     <!-- <url>http://xren.su</url> -->
-    <packageId>RustaLenin.RealisticOverhaul.Wood</packageId>
+    <packageId>HSK.Core.Wood</packageId>
     <supportedVersions>
         <li>1.3</li>
     </supportedVersions>
 
     <description>
-       Coming Soon.
+        Version: 1.0.0
+
+        &lt;size=24&gt;Features&lt;/size&gt;
+
+        This mod overhaul all about wood in the game:
+        - New models for each tree
+        - Special wood type for every tree
+        - Wood Processing: Tree -> Timber log -> Lumber Plank
+        - New woodworking benches with sounds
+        - New primitive wooden components
+        - Added woodworking waste production - sawdust what using for creating fuel brickets
+        - Added primitive stone tool for wood crafting spot
+        - Original WoodLog object replaced with firewoods
+        - New stat: Wood Working Speed
+        - New work type: Wood Working
+        - New fruit: Coconut
+        - New Traits: Wild, Oakman
+        - All vanilla recipes contain WoodLog patched for primitive component
+        - All buld goods caravans patched for contain timber, lumber and primitive components
+        - Scenario pathes to start with lumber and primitive components
+
+        Language support:
+        - English
+        - Russian
+
+        Known issues:
+        - Unfinished wood work overlays electric sawmill
+
+        &lt;size=24&gt;HSK idea&lt;/size&gt;
+        The idea to create this project, appeared after using other modpacks, in which I didn't like a game balance. Some of its mods greatly simplify the gameplay, making it soon not interesting. The main idea of the Rimworld to overcome difficulties that you'll encounter when landing on the planet... The more problems you will have, the more interesting it will be your story... You have a goal, a heavy goal - to survive. It make Rimworld worth replaying again and again... Main focus based on the growing complexity of the gameplay. Trying to achieve greater..Maximally immerse the player into gameplay and stay there for a long time. More than 100 research are waiting. When you start playing, you immediately understand everything... Campfire welcomes you.
+    
+        From version 0.16 to 1.3 HSK project works like one global overhaul mod, which have a short list of compability.
+        Now, with this mod, we are working on creating small seperate modules, which changing only they parts of the game.
+        We hope, that this new approach will grant us an ability to faster release new versions of mod and make it more compability for all other mods.
+
+        &lt;size=24&gt;Contributions&lt;/size&gt;
+        Original idea and leading - skyarkhangel - https://steamcommunity.com/id/skyarkhangel/ 
+        Original mod "Wood You Please" author - Vile Heathen - https://github.com/xenomacabre/vilesmods
+        Arts - cattleya
+    
     </description>
 
     <modDependencies>
@@ -72,10 +73,26 @@
     </modDependenciesByVersion>
 
     <loadAfter>
-        <!-- <li>UnlimitedHugs.HugsLib</li> -->
-    </loadAfter>
+		<li>brrainz.harmony</li>	
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
 
     <incompatibleWith>
-        <!-- <li>erdelf.HumanoidAlienRaces</li> -->
+        <!-- <li>Aant.OnlineCity</li>
+		<li>avius.prisonlabor</li>
+		<li>rwmt.Multiplayer</li>
+		<li>ZLevels1.1</li>
+		<li>jp.perfectpathing</li>
+		<li>nilchei.alternativeai</li>
+		<li>tammybee.selectablesculpturegraphic</li>
+		<li>Abraxas.MSERevived</li>
+		<li>Uuugggg.GearUpAndGo</li>
+		<li>VanillaExpanded.VEE</li>
+		<li>wit.expandedroofing</li> -->
     </incompatibleWith>
 </ModMetaData>

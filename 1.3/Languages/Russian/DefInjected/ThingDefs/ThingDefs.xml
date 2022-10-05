@@ -13,7 +13,7 @@
 
     <!-- Незаконченная работа -->
     <HSK_UnfinishedWoodWork.label>Обрабатываемая древесина</HSK_UnfinishedWoodWork.label>
-    <HSK_UnfinishedWoodWork.description>Частично обработанная древесина. Вам стоило бы завершить то, что вы начали делать.</HSK_UnfinishedWoodWork.description>
+    <HSK_UnfinishedWoodWork.description>Частично обработанная древесина. Наверное, стоит завершить то, что уже начато.</HSK_UnfinishedWoodWork.description>
 
     <!-- Фрукты -->
     <HSK_RawCoconut.label>Кокос</HSK_RawCoconut.label>
